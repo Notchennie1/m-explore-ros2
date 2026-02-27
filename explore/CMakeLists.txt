@@ -43,7 +43,7 @@ find_package(nav_msgs REQUIRED)
 find_package(map_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(nav2_costmap_2d REQUIRED)
-
+find_package(explore_lite_msgs REQUIRED)
 
 set(DEPENDENCIES
   rclcpp
@@ -88,6 +88,7 @@ target_include_directories(explore PUBLIC
   $<INSTALL_INTERFACE:include>)
 
 target_link_libraries(explore PUBLIC
+  ${explore_lite_msgs_TARGETS}
   ${geometry_msgs_TARGETS}
   ${map_msgs_TARGETS}
   ${nav2_msgs_TARGETS}
@@ -99,7 +100,6 @@ target_link_libraries(explore PUBLIC
   tf2::tf2
   tf2_ros::tf2_ros
 )
-
 
 install(TARGETS explore
   DESTINATION lib/${PROJECT_NAME})
@@ -127,6 +127,7 @@ if(BUILD_TESTING)
 endif()
 
 ament_export_dependencies(
+  explore_lite_msgs
   geometry_msgs
   map_msgs
   nav2_costmap_2d

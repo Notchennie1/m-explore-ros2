@@ -45,6 +45,7 @@
 
 #include <chrono>
 #include <cmath>
+#include <explore_lite_msgs/msg/explore_status.hpp>
 #include <geometry_msgs/msg/point.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/bool.hpp>
@@ -106,6 +107,12 @@ private:
 
   rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr
       marker_array_publisher_;
+
+  /**
+    * @brief Publisher for exploration status updates (see ExploreStatus.msg for status values)
+    */
+  rclcpp::Publisher<explore_lite_msgs::msg::ExploreStatus>::SharedPtr status_pub_;
+
   rclcpp::Logger logger_;
   tf2_ros::Buffer tf_buffer_;
   tf2_ros::TransformListener tf_listener_;
