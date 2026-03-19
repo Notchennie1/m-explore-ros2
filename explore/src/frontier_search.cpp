@@ -6,6 +6,8 @@
 
 #include "nav2_costmap_2d/cost_values.hpp"
 
+#include <tf2/utils.h>
+
 namespace frontier_exploration
 {
 using nav2_costmap_2d::FREE_SPACE;
@@ -18,14 +20,19 @@ FrontierSearch::FrontierSearch(nav2_costmap_2d::Costmap2D* costmap,
   : costmap_(costmap)
   , potential_scale_(potential_scale)
   , gain_scale_(gain_scale)
+  , orientation_scale_(orientation_scale)
   , min_frontier_size_(min_frontier_size)
   , logger_(logger)
 {
 }
 
 std::vector<Frontier>
-FrontierSearch::searchFrom(geometry_msgs::msg::Point position)
+FrontierSearch::searchFrom(geometry_msgs::msg::Pose pose)
 {
+  // Store the full pose internally so frontierCost can access the rotation
+  robot_pose_ = pose; 
+  geometry_msgs::msg::Point position = pose.position;
+
   std::vector<Frontier> frontier_list;
 
   // Sanity check that robot is inside costmap bounds before searching
@@ -191,8 +198,35 @@ bool FrontierSearch::isNewFrontierCell(unsigned int idx,
 
 double FrontierSearch::frontierCost(const Frontier& frontier)
 {
-  return (potential_scale_ * frontier.min_distance *
-          costmap_->getResolution()) -
-         (gain_scale_ * frontier.size * costmap_->getResolution());
+  // 1. Distance Cost (Cd): Inverse Euclidean distance to prioritize closer targets.
+  // We use a small epsilon (1e-3) to prevent division by zero.
+  double C_d = 1.0 / (frontier.min_distance + 1e-3);
+
+  // 2. Information Gain (Ci): Proportional to the pixel length of the frontier.
+  double C_i = frontier.size;
+
+  // 3. Hysteresis (Ch): Enforces forward momentum to prevent thrashing.
+  // Get robot's current yaw from the stored pose
+  double robot_yaw = tf2::getYaw(robot_pose_.orientation);
+  
+  // Calculate angle to the frontier centroid
+  double target_yaw = std::atan2(frontier.centroid.y - robot_pose_.position.y,
+                                 frontier.centroid.x - robot_pose_.position.x);
+  
+  // Find the difference and normalize it to [-PI, PI]
+  double angle_diff = target_yaw - robot_yaw;
+  while (angle_diff > M_PI) angle_diff -= 2.0 * M_PI;
+  while (angle_diff < -M_PI) angle_diff += 2.0 * M_PI;
+  
+  // Hysteresis score: 1.0 is straight ahead, 0.0 is directly behind
+  double C_h = 1.0 - (std::abs(angle_diff) / M_PI);
+
+  // Calculate total Utility J(f)
+  double utility = (potential_scale_ * C_d) + 
+                   (gain_scale_ * C_i) + 
+                   (orientation_scale_ * C_h);
+
+  // Return negative utility because the planner sorts by lowest cost
+  return -utility;
 }
 }  // namespace frontier_exploration
