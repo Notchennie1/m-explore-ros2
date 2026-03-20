@@ -36,7 +36,7 @@ def generate_launch_description():
         name="explore_node",
         namespace=namespace,
         executable="explore",
-        parameters=[config, {"use_sim_time": use_sim_time}],
+        parameters=[config, {"use_sim_time": True}],
         output="screen",
         remappings=remappings,
     )
@@ -44,3 +44,4 @@ def generate_launch_description():
     ld.add_action(declare_namespace_argument)
     ld.add_action(node)
     return ld
+

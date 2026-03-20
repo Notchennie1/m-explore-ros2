@@ -16,6 +16,7 @@ using nav2_costmap_2d::NO_INFORMATION;
 
 FrontierSearch::FrontierSearch(nav2_costmap_2d::Costmap2D* costmap,
                                double potential_scale, double gain_scale,
+                               double orientation_scale,
                                double min_frontier_size, rclcpp::Logger logger)
   : costmap_(costmap)
   , potential_scale_(potential_scale)
