@@ -37,7 +37,7 @@
  *********************************************************************/
 
 #include <explore/explore.h>
-
+#include <nav2_msgs/action/spin.hpp>
 #include <thread>
 
 inline static bool same_point(const geometry_msgs::msg::Point& one,
@@ -65,7 +65,7 @@ Explore::Explore()
   this->declare_parameter<float>("planner_frequency", 1.0);
   this->declare_parameter<float>("progress_timeout", 30.0);
   this->declare_parameter<bool>("visualize", false);
-  this->declare_parameter<float>("potential_scale", 1e-3);
+  this->declare_parameter<float>("potential_scale", 3.0);
   this->declare_parameter<float>("orientation_scale", 0.0);
   this->declare_parameter<float>("gain_scale", 1.0);
   this->declare_parameter<float>("min_frontier_size", 0.5);
@@ -85,6 +85,8 @@ Explore::Explore()
   move_base_client_ =
       rclcpp_action::create_client<nav2_msgs::action::NavigateToPose>(
           this, ACTION_NAME);
+
+  spin_client_ = rclcpp_action::create_client<nav2_msgs::action::Spin>(this, "spin");
 
   search_ = frontier_exploration::FrontierSearch(costmap_client_.getCostmap(),
                                                  potential_scale_, gain_scale_,
@@ -252,7 +254,7 @@ void Explore::makePlan()
   auto pose = costmap_client_.getRobotPose();
   // get frontiers sorted according to cost
   auto frontiers = search_.searchFrom(pose);
-  RCLCPP_DEBUG(logger_, "found %lu frontiers", frontiers.size());
+  RCLCPP_INFO(logger_, "found %lu frontiers", frontiers.size());
   for (size_t i = 0; i < frontiers.size(); ++i) {
     RCLCPP_DEBUG(logger_, "frontier %zd cost: %f", i, frontiers[i].cost);
   }
@@ -310,12 +312,7 @@ void Explore::makePlan()
     resuming_ = false;
   }
 
-  // we don't need to do anything if we still pursuing the same goal
-  if (same_goal) {
-    return;
-  }
-
-  RCLCPP_DEBUG(logger_, "Sending goal to move base nav2");
+  RCLCPP_INFO(logger_, "Sending goal to move base nav2");
 
   // send goal to move_base if we have something new to pursue
   auto goal = nav2_msgs::action::NavigateToPose::Goal();
@@ -324,18 +321,16 @@ void Explore::makePlan()
   goal.pose.header.frame_id = costmap_client_.getGlobalFrameID();
   goal.pose.header.stamp = this->now();
 
-  auto send_goal_options =
-      rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();
-  // send_goal_options.goal_response_callback =
-  // std::bind(&Explore::goal_response_callback, this, _1);
-  // send_goal_options.feedback_callback =
-  //   std::bind(&Explore::feedback_callback, this, _1, _2);
+  auto send_goal_options = rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();
   send_goal_options.result_callback =
       [this,
        target_position](const NavigationGoalHandle::WrappedResult& result) {
         reachedGoal(result, target_position);
       };
   move_base_client_->async_send_goal(goal, send_goal_options);
+
+  // LOCK THE STATE MACHINE: Pause timer so it doesn't re-evaluate while driving
+  exploring_timer_->cancel();
 }
 
 void Explore::returnToInitialPose()
@@ -386,35 +381,27 @@ void Explore::reachedGoal(const NavigationGoalHandle::WrappedResult& result,
 {
   switch (result.code) {
     case rclcpp_action::ResultCode::SUCCEEDED:
-      RCLCPP_DEBUG(logger_, "Goal was successful");
-      break;
+      RCLCPP_INFO(logger_, "Goal was successful. Initialising 360-degree scan");
+      executeSpin();
+      return; // Spin handles restarting the timer upon success
     case rclcpp_action::ResultCode::ABORTED:
       RCLCPP_DEBUG(logger_, "Goal was aborted");
       frontier_blacklist_.push_back(frontier_goal);
       RCLCPP_DEBUG(logger_, "Adding current goal to black list");
-      // If it was aborted probably because we've found another frontier goal,
-      // so just return and don't make plan again
-      return;
+      break; // Changed from 'return' to 'break'
     case rclcpp_action::ResultCode::CANCELED:
       RCLCPP_DEBUG(logger_, "Goal was canceled");
-      // If goal canceled might be because exploration stopped from topic. Don't make new plan.
-      return;
+      break; // Changed from 'return' to 'break'
     default:
       RCLCPP_WARN(logger_, "Unknown result code from move base nav2");
       break;
   }
-  // find new goal immediately regardless of planning frequency.
-  // execute via timer to prevent dead lock in move_base_client (this is
-  // callback for sendGoal, which is called in makePlan). the timer must live
-  // until callback is executed.
-  // oneshot_ = relative_nh_.createTimer(
-  //     ros::Duration(0, 0), [this](const ros::TimerEvent&) { makePlan(); },
-  //     true);
-
-  // Because of the 1-thread-executor nature of ros2 I think timer is not
-  // needed.
+  
+  // UNLOCK STATE MACHINE: If goal failed/canceled, restart timer to find new frontier
+  exploring_timer_->reset();
   makePlan();
 }
+
 
 void Explore::start()
 {
@@ -454,6 +441,43 @@ void Explore::resume()
   exploring_timer_->reset();
   // Resume immediately
   makePlan();
+}
+
+void Explore::executeSpin()
+{
+  // Make sure the spin server is actually running before we send a command
+  if (!spin_client_->wait_for_action_server(std::chrono::seconds(4))) {
+    RCLCPP_WARN(logger_, "Spin action server not available, skipping spin and finding next frontier.");
+    exploring_timer_->reset();
+    makePlan();
+    return;
+  }
+
+  exploring_timer_->cancel();
+
+  auto spin_goal = nav2_msgs::action::Spin::Goal();
+  // Spin 2 * PI radians (a full 360 degrees)
+  spin_goal.target_yaw = 6.28; 
+
+  auto send_goal_options =
+      rclcpp_action::Client<nav2_msgs::action::Spin>::SendGoalOptions();
+      
+  // This callback is triggered ONLY when the robot finishes its spin
+  send_goal_options.result_callback =
+      [this](const rclcpp_action::ClientGoalHandle<nav2_msgs::action::Spin>::WrappedResult& result) {
+        if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {
+          RCLCPP_INFO(logger_, "Spin complete. Finding next frontier.");
+        } else {
+          RCLCPP_WARN(logger_, "Spin failed or was canceled. Moving on.");
+        }
+
+        exploring_timer_->reset();
+        // Now that the spin is done, we finally look for the next frontier
+        makePlan(); 
+      };
+
+  RCLCPP_INFO(logger_, "Sending Spin command to Nav2...");
+  spin_client_->async_send_goal(spin_goal, send_goal_options);
 }
 
 }  // namespace explore

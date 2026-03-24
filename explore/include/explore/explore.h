@@ -52,7 +52,7 @@
 #include <std_msgs/msg/color_rgba.hpp>
 #include <string>
 #include <visualization_msgs/msg/marker_array.hpp>
-
+#include <nav2_msgs/action/spin.hpp>
 #include "nav2_msgs/action/navigate_to_pose.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 
@@ -83,6 +83,7 @@ public:
 
   using NavigationGoalHandle =
       rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>;
+      
 
 private:
   /**
@@ -107,7 +108,6 @@ private:
 
   rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr
       marker_array_publisher_;
-
   /**
     * @brief Publisher for exploration status updates (see ExploreStatus.msg for status values)
     */
@@ -120,6 +120,10 @@ private:
   Costmap2DClient costmap_client_;
   rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr
       move_base_client_;
+
+  rclcpp_action::Client<nav2_msgs::action::Spin>::SharedPtr spin_client_;
+  void executeSpin();
+
   frontier_exploration::FrontierSearch search_;
   rclcpp::TimerBase::SharedPtr exploring_timer_;
   // rclcpp::TimerBase::SharedPtr oneshot_;
