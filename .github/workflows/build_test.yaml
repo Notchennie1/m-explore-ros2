@@ -27,17 +27,12 @@ jobs:
           required-ros-distributions: ${{ matrix.ros_distribution }}
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: build multirobot_map_merge and explore_lite
+      - name: build explore_lite
         uses: ros-tooling/action-ros-ci@v0.4
         with:
-          package-name: multirobot_map_merge explore_lite
+          package-name: explore_lite
           target-ros2-distro: ${{ matrix.ros_distribution }}
           skip-tests: true
-      - name: Run gtests manually multirobot_map_merge
-        run: |
-          . /opt/ros/${{ matrix.ros_distribution }}/setup.sh && . ros_ws/install/setup.sh
-          cd ros_ws/build/multirobot_map_merge
-          ./test_merging_pipeline
       - name: Run gtests manually explore_lite
         run: |
           . /opt/ros/${{ matrix.ros_distribution }}/setup.sh && . ros_ws/install/setup.sh

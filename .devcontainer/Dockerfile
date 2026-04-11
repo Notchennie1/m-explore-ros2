@@ -119,9 +119,8 @@ RUN ROS_SOURCE="source /opt/ros/${ROS_DISTRO}/setup.sh" \
 WORKDIR /workspace/ros_ws/src
 # Give permission to non-root user to access the workspace
 RUN chown -R ${USERNAME} /workspace/ros_ws
-RUN git clone https://github.com/charlielito/slam_gmapping.git --branch feature/namespace_launch
 
-ENV TURTLEBOT3_MODEL=waffle
+ENV TURTLEBOT3_MODEL=burger
 ENV GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/${ROS_DISTRO}/share/turtlebot3_gazebo/models
 
 # Switch back to dialog for any ad-hoc use of apt-get

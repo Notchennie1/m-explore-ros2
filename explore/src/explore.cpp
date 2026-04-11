@@ -70,7 +70,6 @@ Explore::Explore()
   this->declare_parameter<float>("gain_scale", 1.0);
   this->declare_parameter<float>("min_frontier_size", 0.5);
   this->declare_parameter<bool>("return_to_init", false);
-  this->declare_parameter("use_sim_time", false);
 
   this->get_parameter("planner_frequency", planner_frequency_);
   this->get_parameter("progress_timeout", timeout);
