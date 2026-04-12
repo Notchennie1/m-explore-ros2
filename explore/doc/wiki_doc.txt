@@ -58,7 +58,7 @@ sub {
 
 param {
   0.name = ~robot_base_frame
-  0.default = `base_link`
+  0.default = `base_footprint`
   0.type = string
   0.desc = The name of the base frame of the robot. This is used for determining robot position on map. Mandatory.
 
@@ -116,7 +116,7 @@ param {
 req_tf {
   0.from = global_frame
   0.to = robot_base_frame
-  0.desc = This transformation is usually provided by mapping algorithm. Those frames are usually called `map` and `base_link`. For adjusting `robot_base_frame` name see respective parameter. You don't need to set `global_frame`. The name for `global_frame` will be sourced from `costmap_topic` automatically.
+  0.desc = This transformation is usually provided by mapping algorithm. Those frames are usually called `map` and `base_footprint`. For adjusting `robot_base_frame` name see respective parameter. You don't need to set `global_frame`. The name for `global_frame` will be sourced from `costmap_topic` automatically.
 }
 
 act_called {

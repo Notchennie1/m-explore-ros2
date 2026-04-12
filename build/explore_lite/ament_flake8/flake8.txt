@@ -1,0 +1,14 @@
+-- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml
+
+
+1 files checked
+No problems found
+
+Checked files:
+
+* ./launch/explore.launch.py
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml'

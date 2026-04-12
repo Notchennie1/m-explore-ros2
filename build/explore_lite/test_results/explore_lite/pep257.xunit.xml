@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="explore_lite.pep257"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.016"
+>
+  <testcase
+    name="./launch/explore.launch.py"
+    classname="explore_lite.pep257"/>
+  <system-out>Checked files:
+* ./launch/explore.launch.py</system-out>
+</testsuite>

@@ -1,0 +1,8 @@
+test_explore 4 0.0356005
+cppcheck 4 0.0699375
+flake8 2 0.191665
+lint_cmake 4 0.0639344
+pep257 4 0.0785586
+uncrustify 1 0.368566
+xmllint 3 0.384168
+---

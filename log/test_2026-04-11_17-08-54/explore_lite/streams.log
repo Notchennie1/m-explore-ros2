@@ -1,0 +1,1323 @@
+[0.056s] Invoking command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite': AMENT_PREFIX_PATH=/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite:/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite:/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs/lib:/home/notch/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/notch/turtlebot3_ws/install/ros_ign_interfaces/lib:/home/notch/turtlebot3_ws/install/ros_gz_sim/lib:/home/notch/turtlebot3_ws/install/ros_gz_bridge/lib:/home/notch/turtlebot3_ws/install/ros_gz_interfaces/lib:/home/notch/turtlebot3_ws/install/multirobot_map_merge/lib:/home/notch/turtlebot3_ws/install/explore_lite_msgs/lib:/home/notch/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/notch/turtlebot3_ws/install/dynamixel_sdk/lib:/home/notch/install/turtlebot3_msgs/lib:/home/notch/install/ros_ign_interfaces/lib:/home/notch/install/ros_gz_sim/lib:/home/notch/install/ros_gz_bridge/lib:/home/notch/install/ros_gz_interfaces/lib:/home/notch/install/dynamixel_sdk_custom_interfaces/lib:/home/notch/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.073s] UpdateCTestConfiguration  from :/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini
+[0.073s] Parse Config file:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini
+[0.073s]    Site: CX-Swift-SFG14-73
+[0.074s]    Build name: (empty)
+[0.074s]  Add coverage exclude regular expressions.
+[0.074s] Create new tag: 20260411-0908 - Experimental
+[0.074s] UpdateCTestConfiguration  from :/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini
+[0.074s] Parse Config file:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini
+[0.075s] Test project /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite
+[0.075s] Constructing a list of tests
+[0.075s] Done constructing a list of tests
+[0.075s] Updating test list for fixtures
+[0.075s] Added 0 tests to meet fixture requirements
+[0.075s] Checking test dependency graph...
+[0.076s] Checking test dependency graph end
+[0.076s] test 1
+[0.076s]     Start 1: test_explore
+[0.076s] 
+[0.076s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_cmake_gtest/test_explore.txt" "--command" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_explore" "--gtest_output=xml:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml"
+[0.076s] 1: Test timeout computed to be: 60
+[0.171s] 1: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite':
+[0.171s] 1:  - /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_explore --gtest_output=xml:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml
+[0.174s] 1: [==========] Running 1 test from 1 test suite.
+[0.174s] 1: [----------] Global test environment set-up.
+[0.174s] 1: [----------] 1 test from Explore
+[0.174s] 1: [ RUN      ] Explore.testSameGoal
+[0.174s] 1: [       OK ] Explore.testSameGoal (0 ms)
+[0.174s] 1: [----------] 1 test from Explore (0 ms total)
+[0.175s] 1: 
+[0.175s] 1: [----------] Global test environment tear-down
+[0.175s] 1: [==========] 1 test from 1 test suite ran. (0 ms total)
+[0.175s] 1: [  PASSED  ] 1 test.
+[0.175s] 1: -- run_test.py: return code 0
+[0.175s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml'
+[0.176s] 1: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml'
+[0.192s] 1/7 Test #1: test_explore .....................   Passed    0.12 sec
+[0.193s] test 2
+[0.193s]     Start 2: cppcheck
+[0.193s] 
+[0.193s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml" "--include_dirs" "/home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include" "/home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include"
+[0.193s] 2: Test timeout computed to be: 300
+[0.292s] 2: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+[0.293s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml --include_dirs /home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include /home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include
+[0.420s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.447s] 2: -- run_test.py: return code 0
+[0.447s] 2: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml'
+[0.462s] 2/7 Test #2: cppcheck .........................   Passed    0.27 sec
+[0.462s] test 3
+[0.462s]     Start 3: flake8
+[0.462s] 
+[0.463s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml"
+[0.463s] 3: Test timeout computed to be: 60
+[0.567s] 3: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+[0.567s] 3:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml
+[0.816s] 3: 
+[0.816s] 3: ^
+[0.816s] 3: 1     W391 blank line at end of file
+[0.816s] 3: 
+[0.817s] 3: ./launch/explore.launch.py:47:1: W391 blank line at end of file
+[0.817s] 3: 
+[0.817s] 3: 
+[0.817s] 3: 1 files checked
+[0.817s] 3: 1 errors
+[0.817s] 3: 
+[0.818s] 3: 'W'-type errors: 1
+[0.818s] 3: 
+[0.818s] 3: Checked files:
+[0.818s] 3: 
+[0.818s] 3: * ./launch/explore.launch.py
+[0.846s] 3: -- run_test.py: return code 1
+[0.846s] 3: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml'
+[0.865s] 3/7 Test #3: flake8 ...........................***Failed    0.40 sec
+[0.865s] test 4
+[0.865s]     Start 4: lint_cmake
+[0.865s] 
+[0.865s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml"
+[0.866s] 4: Test timeout computed to be: 60
+[0.961s] 4: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+[0.961s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml
+[1.104s] 4: 
+[1.105s] 4: No problems found
+[1.136s] 4: -- run_test.py: return code 0
+[1.136s] 4: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml'
+[1.152s] 4/7 Test #4: lint_cmake .......................   Passed    0.29 sec
+[1.152s] test 5
+[1.152s]     Start 5: pep257
+[1.152s] 
+[1.153s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml"
+[1.153s] 5: Test timeout computed to be: 60
+[1.259s] 5: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+[1.259s] 5:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml
+[1.431s] 5: checking ./launch/explore.launch.py
+[1.432s] 5: No problems found
+[1.460s] 5: -- run_test.py: return code 0
+[1.460s] 5: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml'
+[1.474s] 5/7 Test #5: pep257 ...........................   Passed    0.32 sec
+[1.475s] test 6
+[1.475s]     Start 6: uncrustify
+[1.475s] 
+[1.476s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml"
+[1.476s] 6: Test timeout computed to be: 60
+[1.579s] 6: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+[1.579s] 6:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml
+[1.802s] 6: Code style divergence in file 'include/explore/costmap_client.h':
+[1.806s] 6: 
+[1.807s] 6: --- include/explore/costmap_client.h
+[1.811s] 6: +++ include/explore/costmap_client.h.uncrustify
+[1.811s] 6: @@ -54,2 +54,2 @@
+[1.812s] 6: -class Costmap2DClient
+[1.812s] 6: -{
+[1.812s] 6: +  class Costmap2DClient
+[1.812s] 6: +  {
+[1.813s] 6: @@ -57,15 +57,15 @@
+[1.813s] 6: -  /**
+[1.814s] 6: -   * @brief Constructs client and start listening
+[1.814s] 6: -   * @details Constructor will block until first map update is received and
+[1.814s] 6: -   * map is ready to use, also will block before transformation
+[1.814s] 6: -   * robot_base_frame <-> global_frame is available.
+[1.815s] 6: -   *
+[1.815s] 6: -   * @param node node handle to retrieve parameters from
+[1.815s] 6: -   * @param tf_listener Will be used for transformation of robot pose.
+[1.815s] 6: -   */
+[1.815s] 6: -  Costmap2DClient(rclcpp::Node& node, const tf2_ros::Buffer* tf_listener);
+[1.815s] 6: -  /**
+[1.816s] 6: -   * @brief Get the pose of the robot in the global frame of the costmap
+[1.816s] 6: -   * @return pose of the robot in the global frame of the costmap
+[1.816s] 6: -   */
+[1.816s] 6: -  geometry_msgs::msg::Pose getRobotPose() const;
+[1.816s] 6: +    /**
+[1.817s] 6: +     * @brief Constructs client and start listening
+[1.817s] 6: +     * @details Constructor will block until first map update is received and
+[1.817s] 6: +     * map is ready to use, also will block before transformation
+[1.817s] 6: +     * robot_base_frame <-> global_frame is available.
+[1.817s] 6: +     *
+[1.818s] 6: +     * @param node node handle to retrieve parameters from
+[1.818s] 6: +     * @param tf_listener Will be used for transformation of robot pose.
+[1.818s] 6: +     */
+[1.818s] 6: +    Costmap2DClient(rclcpp::Node & node, const tf2_ros::Buffer * tf_listener);
+[1.818s] 6: +    /**
+[1.818s] 6: +     * @brief Get the pose of the robot in the global frame of the costmap
+[1.819s] 6: +     * @return pose of the robot in the global frame of the costmap
+[1.819s] 6: +     */
+[1.819s] 6: +    geometry_msgs::msg::Pose getRobotPose() const;
+[1.819s] 6: @@ -73,10 +73,10 @@
+[1.819s] 6: -  /**
+[1.820s] 6: -   * @brief Return a pointer to the "master" costmap which receives updates from
+[1.820s] 6: -   * all the layers.
+[1.820s] 6: -   *
+[1.820s] 6: -   * This pointer will stay the same for the lifetime of Costmap2DClient object.
+[1.820s] 6: -   */
+[1.820s] 6: -  nav2_costmap_2d::Costmap2D* getCostmap()
+[1.821s] 6: -  {
+[1.821s] 6: -    return &costmap_;
+[1.821s] 6: -  }
+[1.821s] 6: +    /**
+[1.821s] 6: +     * @brief Return a pointer to the "master" costmap which receives updates from
+[1.821s] 6: +     * all the layers.
+[1.822s] 6: +     *
+[1.822s] 6: +     * This pointer will stay the same for the lifetime of Costmap2DClient object.
+[1.822s] 6: +     */
+[1.822s] 6: +    nav2_costmap_2d::Costmap2D * getCostmap()
+[1.822s] 6: +    {
+[1.822s] 6: +      return &costmap_;
+[1.822s] 6: +    }
+[1.823s] 6: @@ -84,10 +84,10 @@
+[1.823s] 6: -  /**
+[1.823s] 6: -   * @brief Return a pointer to the "master" costmap which receives updates from
+[1.823s] 6: -   * all the layers.
+[1.823s] 6: -   *
+[1.823s] 6: -   * This pointer will stay the same for the lifetime of Costmap2DClient object.
+[1.824s] 6: -   */
+[1.824s] 6: -  const nav2_costmap_2d::Costmap2D* getCostmap() const
+[1.825s] 6: -  {
+[1.825s] 6: -    return &costmap_;
+[1.825s] 6: -  }
+[1.825s] 6: +    /**
+[1.825s] 6: +     * @brief Return a pointer to the "master" costmap which receives updates from
+[1.825s] 6: +     * all the layers.
+[1.826s] 6: +     *
+[1.826s] 6: +     * This pointer will stay the same for the lifetime of Costmap2DClient object.
+[1.826s] 6: +     */
+[1.826s] 6: +    const nav2_costmap_2d::Costmap2D * getCostmap() const
+[1.826s] 6: +    {
+[1.827s] 6: +      return &costmap_;
+[1.827s] 6: +    }
+[1.827s] 6: @@ -95,8 +95,8 @@
+[1.827s] 6: -  /**
+[1.827s] 6: -   * @brief  Returns the global frame of the costmap
+[1.827s] 6: -   * @return The global frame of the costmap
+[1.828s] 6: -   */
+[1.828s] 6: -  const std::string& getGlobalFrameID() const
+[1.828s] 6: -  {
+[1.828s] 6: -    return global_frame_;
+[1.828s] 6: -  }
+[1.828s] 6: +    /**
+[1.829s] 6: +     * @brief  Returns the global frame of the costmap
+[1.829s] 6: +     * @return The global frame of the costmap
+[1.829s] 6: +     */
+[1.829s] 6: +    const std::string & getGlobalFrameID() const
+[1.829s] 6: +    {
+[1.830s] 6: +      return global_frame_;
+[1.830s] 6: +    }
+[1.830s] 6: @@ -104,8 +104,8 @@
+[1.830s] 6: -  /**
+[1.830s] 6: -   * @brief  Returns the local frame of the costmap
+[1.830s] 6: -   * @return The local frame of the costmap
+[1.831s] 6: -   */
+[1.831s] 6: -  const std::string& getBaseFrameID() const
+[1.831s] 6: -  {
+[1.831s] 6: -    return robot_base_frame_;
+[1.831s] 6: -  }
+[1.831s] 6: +    /**
+[1.832s] 6: +     * @brief  Returns the local frame of the costmap
+[1.832s] 6: +     * @return The local frame of the costmap
+[1.832s] 6: +     */
+[1.832s] 6: +    const std::string & getBaseFrameID() const
+[1.832s] 6: +    {
+[1.833s] 6: +      return robot_base_frame_;
+[1.833s] 6: +    }
+[1.833s] 6: @@ -114,2 +114,2 @@
+[1.833s] 6: -  void updateFullMap(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);
+[1.833s] 6: -  void updatePartialMap(const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg);
+[1.833s] 6: +    void updateFullMap(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);
+[1.834s] 6: +    void updatePartialMap(const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg);
+[1.834s] 6: @@ -117,3 +117,3 @@
+[1.834s] 6: -  nav2_costmap_2d::Costmap2D costmap_;
+[1.834s] 6: -  bool costmap_received_ = false;  ///< @brief Flag indicating whether costmap
+[1.834s] 6: -                                   ///< callback has been called
+[1.834s] 6: +    nav2_costmap_2d::Costmap2D costmap_;
+[1.835s] 6: +    bool costmap_received_ = false; ///< @brief Flag indicating whether costmap
+[1.835s] 6: +                                    ///< callback has been called
+[1.835s] 6: @@ -121,6 +121,6 @@
+[1.835s] 6: -  const tf2_ros::Buffer* const tf_;  ///< @brief Used for transforming
+[1.835s] 6: -                                     /// point clouds
+[1.835s] 6: -  rclcpp::Node& node_;
+[1.836s] 6: -  std::string global_frame_;      ///< @brief The global frame for the costmap
+[1.836s] 6: -  std::string robot_base_frame_;  ///< @brief The frame_id of the robot base
+[1.836s] 6: -  double transform_tolerance_;    ///< timeout before transform errors
+[1.836s] 6: +    const tf2_ros::Buffer * const tf_; ///< @brief Used for transforming
+[1.836s] 6: +                                       /// point clouds
+[1.836s] 6: +    rclcpp::Node & node_;
+[1.837s] 6: +    std::string global_frame_;    ///< @brief The global frame for the costmap
+[1.837s] 6: +    std::string robot_base_frame_; ///< @brief The frame_id of the robot base
+[1.837s] 6: +    double transform_tolerance_;  ///< timeout before transform errors
+[1.837s] 6: @@ -129,5 +129,5 @@
+[1.837s] 6: -  // will be unsubscribed at destruction
+[1.837s] 6: -  rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>::SharedPtr costmap_sub_;
+[1.838s] 6: -  rclcpp::Subscription<map_msgs::msg::OccupancyGridUpdate>::SharedPtr
+[1.838s] 6: -      costmap_updates_sub_;
+[1.838s] 6: -};
+[1.838s] 6: +    // will be unsubscribed at destruction
+[1.838s] 6: +    rclcpp::Subscription < nav_msgs::msg::OccupancyGrid > ::SharedPtr costmap_sub_;
+[1.838s] 6: +    rclcpp::Subscription < map_msgs::msg::OccupancyGridUpdate > ::SharedPtr
+[1.838s] 6: +    costmap_updates_sub_;
+[1.839s] 6: +  };
+[1.839s] 6: 
+[1.839s] 6: Code style divergence in file 'include/explore/costmap_tools.h':
+[1.839s] 6: 
+[1.839s] 6: --- include/explore/costmap_tools.h
+[1.839s] 6: +++ include/explore/costmap_tools.h.uncrustify
+[1.840s] 6: @@ -19,5 +19,6 @@
+[1.840s] 6: -std::vector<unsigned int> nhood4(unsigned int idx,
+[1.840s] 6: -                                 const nav2_costmap_2d::Costmap2D& costmap)
+[1.840s] 6: -{
+[1.840s] 6: -  // get 4-connected neighbourhood indexes, check for edge of map
+[1.840s] 6: -  std::vector<unsigned int> out;
+[1.841s] 6: +  std::vector < unsigned int > nhood4(
+[1.841s] 6: +    unsigned int idx,
+[1.841s] 6: +    const nav2_costmap_2d::Costmap2D & costmap)
+[1.841s] 6: +  {
+[1.841s] 6: +    // get 4-connected neighbourhood indexes, check for edge of map
+[1.841s] 6: +    std::vector < unsigned int > out;
+[1.842s] 6: @@ -25,2 +26,2 @@
+[1.842s] 6: -  unsigned int size_x_ = costmap.getSizeInCellsX(),
+[1.842s] 6: -               size_y_ = costmap.getSizeInCellsY();
+[1.842s] 6: +    unsigned int size_x_ = costmap.getSizeInCellsX(),
+[1.842s] 6: +      size_y_ = costmap.getSizeInCellsY();
+[1.842s] 6: @@ -28,3 +29,19 @@
+[1.843s] 6: -  if (idx > size_x_ * size_y_ - 1) {
+[1.843s] 6: -    RCLCPP_WARN(rclcpp::get_logger("FrontierExploration"), "Evaluating nhood "
+[1.843s] 6: -                                                           "for offmap point");
+[1.843s] 6: +    if (idx > size_x_ * size_y_ - 1) {
+[1.843s] 6: +      RCLCPP_WARN(
+[1.843s] 6: +        rclcpp::get_logger("FrontierExploration"), "Evaluating nhood "
+[1.843s] 6: +        "for offmap point");
+[1.844s] 6: +      return out;
+[1.844s] 6: +    }
+[1.844s] 6: +
+[1.844s] 6: +    if (idx % size_x_ > 0) {
+[1.844s] 6: +      out.push_back(idx - 1);
+[1.844s] 6: +    }
+[1.845s] 6: +    if (idx % size_x_ < size_x_ - 1) {
+[1.845s] 6: +      out.push_back(idx + 1);
+[1.845s] 6: +    }
+[1.845s] 6: +    if (idx >= size_x_) {
+[1.845s] 6: +      out.push_back(idx - size_x_);
+[1.845s] 6: +    }
+[1.846s] 6: +    if (idx < size_x_ * (size_y_ - 1)) {
+[1.846s] 6: +      out.push_back(idx + size_x_);
+[1.846s] 6: +    }
+[1.846s] 6: @@ -33,15 +49,0 @@
+[1.846s] 6: -
+[1.846s] 6: -  if (idx % size_x_ > 0) {
+[1.847s] 6: -    out.push_back(idx - 1);
+[1.847s] 6: -  }
+[1.847s] 6: -  if (idx % size_x_ < size_x_ - 1) {
+[1.847s] 6: -    out.push_back(idx + 1);
+[1.847s] 6: -  }
+[1.847s] 6: -  if (idx >= size_x_) {
+[1.848s] 6: -    out.push_back(idx - size_x_);
+[1.848s] 6: -  }
+[1.848s] 6: -  if (idx < size_x_ * (size_y_ - 1)) {
+[1.848s] 6: -    out.push_back(idx + size_x_);
+[1.848s] 6: -  }
+[1.848s] 6: -  return out;
+[1.849s] 6: -}
+[1.849s] 6: @@ -56,5 +58,6 @@
+[1.849s] 6: -std::vector<unsigned int> nhood8(unsigned int idx,
+[1.849s] 6: -                                 const nav2_costmap_2d::Costmap2D& costmap)
+[1.849s] 6: -{
+[1.849s] 6: -  // get 8-connected neighbourhood indexes, check for edge of map
+[1.850s] 6: -  std::vector<unsigned int> out = nhood4(idx, costmap);
+[1.850s] 6: +  std::vector < unsigned int > nhood8(
+[1.850s] 6: +    unsigned int idx,
+[1.850s] 6: +    const nav2_costmap_2d::Costmap2D & costmap)
+[1.850s] 6: +  {
+[1.850s] 6: +    // get 8-connected neighbourhood indexes, check for edge of map
+[1.851s] 6: +    std::vector < unsigned int > out = nhood4(idx, costmap);
+[1.851s] 6: @@ -62,2 +65,2 @@
+[1.851s] 6: -  unsigned int size_x_ = costmap.getSizeInCellsX(),
+[1.851s] 6: -               size_y_ = costmap.getSizeInCellsY();
+[1.851s] 6: +    unsigned int size_x_ = costmap.getSizeInCellsX(),
+[1.851s] 6: +      size_y_ = costmap.getSizeInCellsY();
+[1.851s] 6: @@ -65 +68,17 @@
+[1.852s] 6: -  if (idx > size_x_ * size_y_ - 1) {
+[1.852s] 6: +    if (idx > size_x_ * size_y_ - 1) {
+[1.852s] 6: +      return out;
+[1.852s] 6: +    }
+[1.852s] 6: +
+[1.852s] 6: +    if (idx % size_x_ > 0 && idx >= size_x_) {
+[1.853s] 6: +      out.push_back(idx - 1 - size_x_);
+[1.853s] 6: +    }
+[1.853s] 6: +    if (idx % size_x_ > 0 && idx < size_x_ * (size_y_ - 1)) {
+[1.853s] 6: +      out.push_back(idx - 1 + size_x_);
+[1.853s] 6: +    }
+[1.853s] 6: +    if (idx % size_x_ < size_x_ - 1 && idx >= size_x_) {
+[1.854s] 6: +      out.push_back(idx + 1 - size_x_);
+[1.854s] 6: +    }
+[1.854s] 6: +    if (idx % size_x_ < size_x_ - 1 && idx < size_x_ * (size_y_ - 1)) {
+[1.854s] 6: +      out.push_back(idx + 1 + size_x_);
+[1.854s] 6: +    }
+[1.855s] 6: +
+[1.855s] 6: @@ -68,16 +86,0 @@
+[1.855s] 6: -
+[1.855s] 6: -  if (idx % size_x_ > 0 && idx >= size_x_) {
+[1.855s] 6: -    out.push_back(idx - 1 - size_x_);
+[1.855s] 6: -  }
+[1.856s] 6: -  if (idx % size_x_ > 0 && idx < size_x_ * (size_y_ - 1)) {
+[1.856s] 6: -    out.push_back(idx - 1 + size_x_);
+[1.856s] 6: -  }
+[1.856s] 6: -  if (idx % size_x_ < size_x_ - 1 && idx >= size_x_) {
+[1.856s] 6: -    out.push_back(idx + 1 - size_x_);
+[1.856s] 6: -  }
+[1.857s] 6: -  if (idx % size_x_ < size_x_ - 1 && idx < size_x_ * (size_y_ - 1)) {
+[1.857s] 6: -    out.push_back(idx + 1 + size_x_);
+[1.857s] 6: -  }
+[1.857s] 6: -
+[1.857s] 6: -  return out;
+[1.857s] 6: -}
+[1.857s] 6: @@ -93,6 +96,7 @@
+[1.858s] 6: -bool nearestCell(unsigned int& result, unsigned int start, unsigned char val,
+[1.858s] 6: -                 const nav2_costmap_2d::Costmap2D& costmap)
+[1.858s] 6: -{
+[1.858s] 6: -  const unsigned char* map = costmap.getCharMap();
+[1.858s] 6: -  const unsigned int size_x = costmap.getSizeInCellsX(),
+[1.858s] 6: -                     size_y = costmap.getSizeInCellsY();
+[1.859s] 6: +  bool nearestCell(
+[1.859s] 6: +    unsigned int & result, unsigned int start, unsigned char val,
+[1.859s] 6: +    const nav2_costmap_2d::Costmap2D & costmap)
+[1.859s] 6: +  {
+[1.859s] 6: +    const unsigned char * map = costmap.getCharMap();
+[1.859s] 6: +    const unsigned int size_x = costmap.getSizeInCellsX(),
+[1.860s] 6: +      size_y = costmap.getSizeInCellsY();
+[1.860s] 6: @@ -100 +104,32 @@
+[1.860s] 6: -  if (start >= size_x * size_y) {
+[1.860s] 6: +    if (start >= size_x * size_y) {
+[1.860s] 6: +      return false;
+[1.860s] 6: +    }
+[1.861s] 6: +
+[1.861s] 6: +    // initialize breadth first search
+[1.861s] 6: +    std::queue < unsigned int > bfs;
+[1.861s] 6: +    std::vector < bool > visited_flag(size_x * size_y, false);
+[1.861s] 6: +
+[1.861s] 6: +    // push initial cell
+[1.861s] 6: +    bfs.push(start);
+[1.862s] 6: +    visited_flag[start] = true;
+[1.862s] 6: +
+[1.862s] 6: +    // search for neighbouring cell matching value
+[1.862s] 6: +    while (!bfs.empty()) {
+[1.862s] 6: +      unsigned int idx = bfs.front();
+[1.862s] 6: +      bfs.pop();
+[1.863s] 6: +
+[1.863s] 6: +      // return if cell of correct value is found
+[1.863s] 6: +      if (map[idx] == val) {
+[1.863s] 6: +        result = idx;
+[1.863s] 6: +        return true;
+[1.863s] 6: +      }
+[1.863s] 6: +
+[1.864s] 6: +      // iterate over all adjacent unvisited cells
+[1.864s] 6: +      for (unsigned nbr : nhood8(idx, costmap)) {
+[1.864s] 6: +        if (!visited_flag[nbr]) {
+[1.864s] 6: +          bfs.push(nbr);
+[1.864s] 6: +          visited_flag[nbr] = true;
+[1.864s] 6: +        }
+[1.865s] 6: +      }
+[1.865s] 6: +    }
+[1.865s] 6: +
+[1.865s] 6: @@ -103,31 +137,0 @@
+[1.865s] 6: -
+[1.865s] 6: -  // initialize breadth first search
+[1.866s] 6: -  std::queue<unsigned int> bfs;
+[1.866s] 6: -  std::vector<bool> visited_flag(size_x * size_y, false);
+[1.866s] 6: -
+[1.866s] 6: -  // push initial cell
+[1.866s] 6: -  bfs.push(start);
+[1.866s] 6: -  visited_flag[start] = true;
+[1.867s] 6: -
+[1.867s] 6: -  // search for neighbouring cell matching value
+[1.867s] 6: -  while (!bfs.empty()) {
+[1.867s] 6: -    unsigned int idx = bfs.front();
+[1.867s] 6: -    bfs.pop();
+[1.867s] 6: -
+[1.868s] 6: -    // return if cell of correct value is found
+[1.868s] 6: -    if (map[idx] == val) {
+[1.868s] 6: -      result = idx;
+[1.868s] 6: -      return true;
+[1.868s] 6: -    }
+[1.868s] 6: -
+[1.869s] 6: -    // iterate over all adjacent unvisited cells
+[1.869s] 6: -    for (unsigned nbr : nhood8(idx, costmap)) {
+[1.869s] 6: -      if (!visited_flag[nbr]) {
+[1.869s] 6: -        bfs.push(nbr);
+[1.869s] 6: -        visited_flag[nbr] = true;
+[1.869s] 6: -      }
+[1.869s] 6: -    }
+[1.870s] 6: -  }
+[1.870s] 6: -
+[1.870s] 6: -  return false;
+[1.870s] 6: -}
+[1.870s] 6: 
+[1.870s] 6: Code style divergence in file 'include/explore/explore.h':
+[1.871s] 6: 
+[1.871s] 6: --- include/explore/explore.h
+[1.871s] 6: +++ include/explore/explore.h.uncrustify
+[1.871s] 6: @@ -74,2 +74,2 @@
+[1.871s] 6: -class Explore : public rclcpp::Node
+[1.871s] 6: -{
+[1.872s] 6: +  class Explore: public rclcpp::Node
+[1.872s] 6: +  {
+[1.872s] 6: @@ -77,2 +77,2 @@
+[1.872s] 6: -  Explore();
+[1.872s] 6: -  ~Explore();
+[1.872s] 6: +    Explore();
+[1.872s] 6: +    ~Explore();
+[1.873s] 6: @@ -80,3 +80,3 @@
+[1.873s] 6: -  void start();
+[1.873s] 6: -  void stop(bool finished_exploring = false);
+[1.873s] 6: -  void resume();
+[1.873s] 6: +    void start();
+[1.873s] 6: +    void stop(bool finished_exploring = false);
+[1.874s] 6: +    void resume();
+[1.874s] 6: @@ -84,3 +84,2 @@
+[1.874s] 6: -  using NavigationGoalHandle =
+[1.874s] 6: -      rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>;
+[1.874s] 6: -      
+[1.874s] 6: +    using NavigationGoalHandle =
+[1.875s] 6: +      rclcpp_action::ClientGoalHandle < nav2_msgs::action::NavigateToPose >;
+[1.875s] 6: @@ -89,4 +88,4 @@
+[1.875s] 6: -  /**
+[1.875s] 6: -   * @brief  Make a global plan
+[1.875s] 6: -   */
+[1.875s] 6: -  void makePlan();
+[1.875s] 6: +    /**
+[1.876s] 6: +     * @brief  Make a global plan
+[1.876s] 6: +     */
+[1.876s] 6: +    void makePlan();
+[1.876s] 6: @@ -94,5 +93,5 @@
+[1.876s] 6: -  // /**
+[1.876s] 6: -  //  * @brief  Publish a frontiers as markers
+[1.877s] 6: -  //  */
+[1.877s] 6: -  void visualizeFrontiers(
+[1.877s] 6: -      const std::vector<frontier_exploration::Frontier>& frontiers);
+[1.877s] 6: +    // /**
+[1.877s] 6: +    //  * @brief  Publish a frontiers as markers
+[1.877s] 6: +    //  */
+[1.878s] 6: +    void visualizeFrontiers(
+[1.878s] 6: +      const std::vector < frontier_exploration::Frontier > & frontiers);
+[1.878s] 6: @@ -100 +99 @@
+[1.878s] 6: -  bool goalOnBlacklist(const geometry_msgs::msg::Point& goal);
+[1.878s] 6: +    bool goalOnBlacklist(const geometry_msgs::msg::Point & goal);
+[1.878s] 6: @@ -102,6 +101,7 @@
+[1.879s] 6: -  NavigationGoalHandle::SharedPtr navigation_goal_handle_;
+[1.879s] 6: -  // void
+[1.879s] 6: -  // goal_response_callback(std::shared_future<NavigationGoalHandle::SharedPtr>
+[1.879s] 6: -  // future);
+[1.879s] 6: -  void reachedGoal(const NavigationGoalHandle::WrappedResult& result,
+[1.879s] 6: -                   const geometry_msgs::msg::Point& frontier_goal);
+[1.879s] 6: +    NavigationGoalHandle::SharedPtr navigation_goal_handle_;
+[1.880s] 6: +    // void
+[1.880s] 6: +    // goal_response_callback(std::shared_future<NavigationGoalHandle::SharedPtr>
+[1.880s] 6: +    // future);
+[1.880s] 6: +    void reachedGoal(
+[1.880s] 6: +      const NavigationGoalHandle::WrappedResult & result,
+[1.880s] 6: +      const geometry_msgs::msg::Point & frontier_goal);
+[1.881s] 6: @@ -109,6 +109,6 @@
+[1.881s] 6: -  rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr
+[1.881s] 6: -      marker_array_publisher_;
+[1.881s] 6: -  /**
+[1.881s] 6: -    * @brief Publisher for exploration status updates (see ExploreStatus.msg for status values)
+[1.881s] 6: -    */
+[1.882s] 6: -  rclcpp::Publisher<explore_lite_msgs::msg::ExploreStatus>::SharedPtr status_pub_;
+[1.882s] 6: +    rclcpp::Publisher < visualization_msgs::msg::MarkerArray > ::SharedPtr
+[1.882s] 6: +    marker_array_publisher_;
+[1.882s] 6: +    /**
+[1.882s] 6: +      * @brief Publisher for exploration status updates (see ExploreStatus.msg for status values)
+[1.883s] 6: +      */
+[1.883s] 6: +    rclcpp::Publisher < explore_lite_msgs::msg::ExploreStatus > ::SharedPtr status_pub_;
+[1.883s] 6: @@ -116,3 +116,3 @@
+[1.883s] 6: -  rclcpp::Logger logger_;
+[1.883s] 6: -  tf2_ros::Buffer tf_buffer_;
+[1.883s] 6: -  tf2_ros::TransformListener tf_listener_;
+[1.883s] 6: +    rclcpp::Logger logger_;
+[1.883s] 6: +    tf2_ros::Buffer tf_buffer_;
+[1.883s] 6: +    tf2_ros::TransformListener tf_listener_;
+[1.883s] 6: @@ -120,3 +120,3 @@
+[1.884s] 6: -  Costmap2DClient costmap_client_;
+[1.884s] 6: -  rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr
+[1.884s] 6: -      move_base_client_;
+[1.884s] 6: +    Costmap2DClient costmap_client_;
+[1.884s] 6: +    rclcpp_action::Client < nav2_msgs::action::NavigateToPose > ::SharedPtr
+[1.884s] 6: +    move_base_client_;
+[1.884s] 6: @@ -124,2 +124,2 @@
+[1.884s] 6: -  rclcpp_action::Client<nav2_msgs::action::Spin>::SharedPtr spin_client_;
+[1.884s] 6: -  void executeSpin();
+[1.884s] 6: +    rclcpp_action::Client < nav2_msgs::action::Spin > ::SharedPtr spin_client_;
+[1.884s] 6: +    void executeSpin();
+[1.884s] 6: @@ -127,3 +127,3 @@
+[1.884s] 6: -  frontier_exploration::FrontierSearch search_;
+[1.885s] 6: -  rclcpp::TimerBase::SharedPtr exploring_timer_;
+[1.885s] 6: -  // rclcpp::TimerBase::SharedPtr oneshot_;
+[1.885s] 6: +    frontier_exploration::FrontierSearch search_;
+[1.885s] 6: +    rclcpp::TimerBase::SharedPtr exploring_timer_;
+[1.885s] 6: +    // rclcpp::TimerBase::SharedPtr oneshot_;
+[1.885s] 6: @@ -131,2 +131,2 @@
+[1.885s] 6: -  rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr resume_subscription_;
+[1.885s] 6: -  void resumeCallback(const std_msgs::msg::Bool::SharedPtr msg);
+[1.885s] 6: +    rclcpp::Subscription < std_msgs::msg::Bool > ::SharedPtr resume_subscription_;
+[1.885s] 6: +    void resumeCallback(const std_msgs::msg::Bool::SharedPtr msg);
+[1.885s] 6: @@ -134,5 +134,5 @@
+[1.885s] 6: -  std::vector<geometry_msgs::msg::Point> frontier_blacklist_;
+[1.885s] 6: -  geometry_msgs::msg::Point prev_goal_;
+[1.885s] 6: -  double prev_distance_;
+[1.885s] 6: -  rclcpp::Time last_progress_;
+[1.886s] 6: -  size_t last_markers_count_;
+[1.886s] 6: +    std::vector < geometry_msgs::msg::Point > frontier_blacklist_;
+[1.886s] 6: +    geometry_msgs::msg::Point prev_goal_;
+[1.886s] 6: +    double prev_distance_;
+[1.886s] 6: +    rclcpp::Time last_progress_;
+[1.886s] 6: +    size_t last_markers_count_;
+[1.886s] 6: @@ -140,2 +140,2 @@
+[1.886s] 6: -  geometry_msgs::msg::Pose initial_pose_;
+[1.886s] 6: -  void returnToInitialPose(void);
+[1.886s] 6: +    geometry_msgs::msg::Pose initial_pose_;
+[1.886s] 6: +    void returnToInitialPose(void);
+[1.886s] 6: @@ -143,9 +143,9 @@
+[1.886s] 6: -  // parameters
+[1.886s] 6: -  double planner_frequency_;
+[1.886s] 6: -  double potential_scale_, orientation_scale_, gain_scale_;
+[1.887s] 6: -  double progress_timeout_;
+[1.887s] 6: -  bool visualize_;
+[1.887s] 6: -  bool return_to_init_;
+[1.887s] 6: -  std::string robot_base_frame_;
+[1.887s] 6: -  bool resuming_ = false;
+[1.887s] 6: -};
+[1.887s] 6: +    // parameters
+[1.887s] 6: +    double planner_frequency_;
+[1.887s] 6: +    double potential_scale_, orientation_scale_, gain_scale_;
+[1.887s] 6: +    double progress_timeout_;
+[1.887s] 6: +    bool visualize_;
+[1.887s] 6: +    bool return_to_init_;
+[1.887s] 6: +    std::string robot_base_frame_;
+[1.887s] 6: +    bool resuming_ = false;
+[1.887s] 6: +  };
+[1.887s] 6: 
+[1.888s] 6: Code style divergence in file 'include/explore/frontier_search.h':
+[1.888s] 6: 
+[1.888s] 6: --- include/explore/frontier_search.h
+[1.888s] 6: +++ include/explore/frontier_search.h.uncrustify
+[1.888s] 6: @@ -6 +6 @@
+[1.888s] 6: -#include <geometry_msgs/msg/pose.hpp> 
+[1.888s] 6: +#include <geometry_msgs/msg/pose.hpp>
+[1.888s] 6: @@ -14,9 +14,10 @@
+[1.888s] 6: -struct Frontier {
+[1.888s] 6: -  std::uint32_t size;
+[1.888s] 6: -  double min_distance;
+[1.888s] 6: -  double cost;
+[1.888s] 6: -  geometry_msgs::msg::Point initial;
+[1.888s] 6: -  geometry_msgs::msg::Point centroid;
+[1.888s] 6: -  geometry_msgs::msg::Point middle;
+[1.889s] 6: -  std::vector<geometry_msgs::msg::Point> points;
+[1.889s] 6: -};
+[1.889s] 6: +  struct Frontier
+[1.889s] 6: +  {
+[1.889s] 6: +    std::uint32_t size;
+[1.889s] 6: +    double min_distance;
+[1.889s] 6: +    double cost;
+[1.889s] 6: +    geometry_msgs::msg::Point initial;
+[1.889s] 6: +    geometry_msgs::msg::Point centroid;
+[1.889s] 6: +    geometry_msgs::msg::Point middle;
+[1.890s] 6: +    std::vector < geometry_msgs::msg::Point > points;
+[1.890s] 6: +  };
+[1.890s] 6: @@ -28,2 +29,2 @@
+[1.890s] 6: -class FrontierSearch
+[1.890s] 6: -{
+[1.890s] 6: +  class FrontierSearch
+[1.890s] 6: +  {
+[1.890s] 6: @@ -31 +32,2 @@
+[1.890s] 6: -  FrontierSearch() : logger_(rclcpp::get_logger("frontier_search")) {} 
+[1.891s] 6: +    FrontierSearch() : logger_(rclcpp::get_logger("frontier_search")) {
+[1.891s] 6: +    }
+[1.891s] 6: @@ -33,7 +35,8 @@
+[1.891s] 6: -  /**
+[1.891s] 6: -   * @brief Constructor for search task
+[1.891s] 6: -   * @param costmap Reference to costmap data to search.
+[1.891s] 6: -   */
+[1.891s] 6: -  FrontierSearch(nav2_costmap_2d::Costmap2D* costmap, double potential_scale,
+[1.891s] 6: -                 double gain_scale, double orientation_scale, // <-- ADDED: Pass the hysteresis weight
+[1.891s] 6: -                 double min_frontier_size, rclcpp::Logger logger);
+[1.892s] 6: +    /**
+[1.892s] 6: +     * @brief Constructor for search task
+[1.892s] 6: +     * @param costmap Reference to costmap data to search.
+[1.892s] 6: +     */
+[1.892s] 6: +    FrontierSearch(
+[1.892s] 6: +      nav2_costmap_2d::Costmap2D * costmap, double potential_scale,
+[1.892s] 6: +      double gain_scale, double orientation_scale,            // <-- ADDED: Pass the hysteresis weight
+[1.892s] 6: +      double min_frontier_size, rclcpp::Logger logger);
+[1.892s] 6: @@ -41,6 +44,6 @@
+[1.892s] 6: -  /**
+[1.892s] 6: -   * @brief Runs search implementation, outward from the start position
+[1.893s] 6: -   * @param pose Initial pose to search from
+[1.893s] 6: -   * @return List of frontiers, if any
+[1.893s] 6: -   */
+[1.893s] 6: -  std::vector<Frontier> searchFrom(geometry_msgs::msg::Pose pose); // <-- CHANGED: Accept full Pose instead of just Point
+[1.893s] 6: +    /**
+[1.893s] 6: +     * @brief Runs search implementation, outward from the start position
+[1.893s] 6: +     * @param pose Initial pose to search from
+[1.893s] 6: +     * @return List of frontiers, if any
+[1.893s] 6: +     */
+[1.893s] 6: +    std::vector < Frontier > searchFrom(geometry_msgs::msg::Pose pose); // <-- CHANGED: Accept full Pose instead of just Point
+[1.894s] 6: @@ -49,11 +52,12 @@
+[1.894s] 6: -  /**
+[1.894s] 6: -   * @brief Starting from an initial cell, build a frontier from valid adjacent
+[1.894s] 6: -   * cells
+[1.894s] 6: -   * @param initial_cell Index of cell to start frontier building
+[1.894s] 6: -   * @param reference Reference index to calculate position from
+[1.894s] 6: -   * @param frontier_flag Flag vector indicating which cells are already marked
+[1.894s] 6: -   * as frontiers
+[1.894s] 6: -   * @return new frontier
+[1.894s] 6: -   */
+[1.895s] 6: -  Frontier buildNewFrontier(unsigned int initial_cell, unsigned int reference,
+[1.895s] 6: -                            std::vector<bool>& frontier_flag);
+[1.895s] 6: +    /**
+[1.895s] 6: +     * @brief Starting from an initial cell, build a frontier from valid adjacent
+[1.895s] 6: +     * cells
+[1.895s] 6: +     * @param initial_cell Index of cell to start frontier building
+[1.895s] 6: +     * @param reference Reference index to calculate position from
+[1.895s] 6: +     * @param frontier_flag Flag vector indicating which cells are already marked
+[1.895s] 6: +     * as frontiers
+[1.895s] 6: +     * @return new frontier
+[1.896s] 6: +     */
+[1.896s] 6: +    Frontier buildNewFrontier(
+[1.896s] 6: +      unsigned int initial_cell, unsigned int reference,
+[1.897s] 6: +      std::vector < bool > & frontier_flag);
+[1.897s] 6: @@ -61,10 +65,11 @@
+[1.897s] 6: -  /**
+[1.897s] 6: -   * @brief isNewFrontierCell Evaluate if candidate cell is a valid candidate
+[1.897s] 6: -   * for a new frontier.
+[1.898s] 6: -   * @param idx Index of candidate cell
+[1.898s] 6: -   * @param frontier_flag Flag vector indicating which cells are already marked
+[1.898s] 6: -   * as frontiers
+[1.898s] 6: -   * @return true if the cell is frontier cell
+[1.898s] 6: -   */
+[1.898s] 6: -  bool isNewFrontierCell(unsigned int idx,
+[1.899s] 6: -                         const std::vector<bool>& frontier_flag);
+[1.899s] 6: +    /**
+[1.900s] 6: +     * @brief isNewFrontierCell Evaluate if candidate cell is a valid candidate
+[1.900s] 6: +     * for a new frontier.
+[1.900s] 6: +     * @param idx Index of candidate cell
+[1.900s] 6: +     * @param frontier_flag Flag vector indicating which cells are already marked
+[1.901s] 6: +     * as frontiers
+[1.901s] 6: +     * @return true if the cell is frontier cell
+[1.901s] 6: +     */
+[1.901s] 6: +    bool isNewFrontierCell(
+[1.901s] 6: +      unsigned int idx,
+[1.902s] 6: +      const std::vector < bool > & frontier_flag);
+[1.902s] 6: @@ -72,8 +77,8 @@
+[1.902s] 6: -  /**
+[1.902s] 6: -   * @brief computes frontier cost
+[1.902s] 6: -   * @details cost function is defined by potential_scale and gain_scale
+[1.902s] 6: -   *
+[1.903s] 6: -   * @param frontier frontier for which compute the cost
+[1.903s] 6: -   * @return cost of the frontier
+[1.903s] 6: -   */
+[1.903s] 6: -  double frontierCost(const Frontier& frontier);
+[1.903s] 6: +    /**
+[1.903s] 6: +     * @brief computes frontier cost
+[1.904s] 6: +     * @details cost function is defined by potential_scale and gain_scale
+[1.904s] 6: +     *
+[1.904s] 6: +     * @param frontier frontier for which compute the cost
+[1.904s] 6: +     * @return cost of the frontier
+[1.905s] 6: +     */
+[1.905s] 6: +    double frontierCost(const Frontier & frontier);
+[1.905s] 6: @@ -82,12 +87,12 @@
+[1.905s] 6: -  nav2_costmap_2d::Costmap2D* costmap_;
+[1.905s] 6: -  unsigned char* map_;
+[1.905s] 6: -  unsigned int size_x_, size_y_;
+[1.906s] 6: -  
+[1.906s] 6: -  // <-- CHANGED: Added orientation_scale_ to the existing scales
+[1.906s] 6: -  double potential_scale_, gain_scale_, orientation_scale_; 
+[1.906s] 6: -  
+[1.906s] 6: -  double min_frontier_size_;
+[1.906s] 6: -  rclcpp::Logger logger_;
+[1.907s] 6: -  
+[1.907s] 6: -  geometry_msgs::msg::Pose robot_pose_; // <-- ADDED: Stores the robot's pose so frontierCost() can calculate Hysteresis (Yaw)
+[1.907s] 6: -};
+[1.907s] 6: +    nav2_costmap_2d::Costmap2D * costmap_;
+[1.907s] 6: +    unsigned char * map_;
+[1.907s] 6: +    unsigned int size_x_, size_y_;
+[1.907s] 6: +
+[1.908s] 6: +    // <-- CHANGED: Added orientation_scale_ to the existing scales
+[1.908s] 6: +    double potential_scale_, gain_scale_, orientation_scale_;
+[1.908s] 6: +
+[1.908s] 6: +    double min_frontier_size_;
+[1.908s] 6: +    rclcpp::Logger logger_;
+[1.908s] 6: +
+[1.909s] 6: +    geometry_msgs::msg::Pose robot_pose_; // <-- ADDED: Stores the robot's pose so frontierCost() can calculate Hysteresis (Yaw)
+[1.909s] 6: +  };
+[1.909s] 6: @@ -95 +100 @@
+[1.909s] 6: -#endif
+[1.909s] 6: +#endif
+[1.909s] 6: 
+[1.910s] 6: Code style divergence in file 'src/costmap_client.cpp':
+[1.910s] 6: 
+[1.910s] 6: --- src/costmap_client.cpp
+[1.910s] 6: +++ src/costmap_client.cpp.uncrustify
+[1.910s] 6: @@ -50,4 +50,4 @@
+[1.910s] 6: -    init_translation_table();
+[1.911s] 6: -
+[1.911s] 6: -Costmap2DClient::Costmap2DClient(rclcpp::Node& node, const tf2_ros::Buffer* tf)
+[1.911s] 6: -  : tf_(tf), node_(node)
+[1.911s] 6: +  init_translation_table();
+[1.911s] 6: +
+[1.911s] 6: +Costmap2DClient::Costmap2DClient(rclcpp::Node & node, const tf2_ros::Buffer * tf)
+[1.912s] 6: +: tf_(tf), node_(node)
+[1.912s] 6: @@ -59,4 +59,7 @@
+[1.912s] 6: -  node_.declare_parameter<std::string>("costmap_updates_topic",
+[1.912s] 6: -                                       std::string("costmap_updates"));
+[1.912s] 6: -  node_.declare_parameter<std::string>("robot_base_frame", std::string("base_"
+[1.912s] 6: -                                                                       "link"));
+[1.913s] 6: +  node_.declare_parameter<std::string>(
+[1.913s] 6: +    "costmap_updates_topic",
+[1.913s] 6: +    std::string("costmap_updates"));
+[1.913s] 6: +  node_.declare_parameter<std::string>(
+[1.913s] 6: +    "robot_base_frame", std::string(
+[1.913s] 6: +      "base_"
+[1.914s] 6: +      "link"));
+[1.914s] 6: @@ -73,5 +76,5 @@
+[1.914s] 6: -      costmap_topic, 1000,
+[1.914s] 6: -      [this](const nav_msgs::msg::OccupancyGrid::SharedPtr msg) {
+[1.914s] 6: -        costmap_received_ = true;
+[1.914s] 6: -        updateFullMap(msg);
+[1.915s] 6: -      });
+[1.915s] 6: +    costmap_topic, 1000,
+[1.915s] 6: +    [this](const nav_msgs::msg::OccupancyGrid::SharedPtr msg) {
+[1.915s] 6: +      costmap_received_ = true;
+[1.915s] 6: +      updateFullMap(msg);
+[1.915s] 6: +    });
+[1.915s] 6: @@ -86,3 +89,4 @@
+[1.916s] 6: -  RCLCPP_INFO(node_.get_logger(),
+[1.916s] 6: -              "Waiting for costmap to become available, topic: %s",
+[1.916s] 6: -              costmap_topic.c_str());
+[1.916s] 6: +  RCLCPP_INFO(
+[1.916s] 6: +    node_.get_logger(),
+[1.916s] 6: +    "Waiting for costmap to become available, topic: %s",
+[1.917s] 6: +    costmap_topic.c_str());
+[1.917s] 6: @@ -99,5 +103,5 @@
+[1.917s] 6: -      node_.create_subscription<map_msgs::msg::OccupancyGridUpdate>(
+[1.917s] 6: -          costmap_updates_topic, 1000,
+[1.917s] 6: -          [this](const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg) {
+[1.917s] 6: -            updatePartialMap(msg);
+[1.918s] 6: -          });
+[1.918s] 6: +    node_.create_subscription<map_msgs::msg::OccupancyGridUpdate>(
+[1.918s] 6: +    costmap_updates_topic, 1000,
+[1.918s] 6: +    [this](const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg) {
+[1.918s] 6: +      updatePartialMap(msg);
+[1.918s] 6: +    });
+[1.919s] 6: @@ -121,3 +125,5 @@
+[1.919s] 6: -         !tf_->canTransform(global_frame_, robot_base_frame_,
+[1.919s] 6: -                            tf2::TimePointZero, tf2::durationFromSec(0.1),
+[1.919s] 6: -                            &tf_error)) {
+[1.919s] 6: +    !tf_->canTransform(
+[1.919s] 6: +      global_frame_, robot_base_frame_,
+[1.920s] 6: +      tf2::TimePointZero, tf2::durationFromSec(0.1),
+[1.920s] 6: +      &tf_error))
+[1.920s] 6: +  {
+[1.920s] 6: @@ -126,6 +132,7 @@
+[1.920s] 6: -      RCLCPP_WARN(node_.get_logger(),
+[1.920s] 6: -                  "Timed out waiting for transform from %s to %s to become "
+[1.921s] 6: -                  "available "
+[1.921s] 6: -                  "before subscribing to costmap, tf error: %s",
+[1.921s] 6: -                  robot_base_frame_.c_str(), global_frame_.c_str(),
+[1.921s] 6: -                  tf_error.c_str());
+[1.921s] 6: +      RCLCPP_WARN(
+[1.921s] 6: +        node_.get_logger(),
+[1.922s] 6: +        "Timed out waiting for transform from %s to %s to become "
+[1.922s] 6: +        "available "
+[1.922s] 6: +        "before subscribing to costmap, tf error: %s",
+[1.922s] 6: +        robot_base_frame_.c_str(), global_frame_.c_str(),
+[1.922s] 6: +        tf_error.c_str());
+[1.922s] 6: @@ -133 +139,0 @@
+[1.923s] 6: -      ;
+[1.923s] 6: @@ -144 +150 @@
+[1.923s] 6: -    const nav_msgs::msg::OccupancyGrid::SharedPtr msg)
+[1.923s] 6: +  const nav_msgs::msg::OccupancyGrid::SharedPtr msg)
+[1.923s] 6: @@ -154,4 +160,6 @@
+[1.923s] 6: -  RCLCPP_DEBUG(node_.get_logger(), "received full new map, resizing to: %d, %d",
+[1.924s] 6: -               size_in_cells_x, size_in_cells_y);
+[1.924s] 6: -  costmap_.resizeMap(size_in_cells_x, size_in_cells_y, resolution, origin_x,
+[1.924s] 6: -                     origin_y);
+[1.924s] 6: +  RCLCPP_DEBUG(
+[1.924s] 6: +    node_.get_logger(), "received full new map, resizing to: %d, %d",
+[1.924s] 6: +    size_in_cells_x, size_in_cells_y);
+[1.924s] 6: +  costmap_.resizeMap(
+[1.925s] 6: +    size_in_cells_x, size_in_cells_y, resolution, origin_x,
+[1.925s] 6: +    origin_y);
+[1.925s] 6: @@ -160 +168 @@
+[1.925s] 6: -  auto* mutex = costmap_.getMutex();
+[1.925s] 6: +  auto * mutex = costmap_.getMutex();
+[1.925s] 6: @@ -164 +172 @@
+[1.926s] 6: -  unsigned char* costmap_data = costmap_.getCharMap();
+[1.926s] 6: +  unsigned char * costmap_data = costmap_.getCharMap();
+[1.926s] 6: @@ -171,2 +179,3 @@
+[1.926s] 6: -  RCLCPP_DEBUG(node_.get_logger(), "map updated, written %lu values",
+[1.926s] 6: -               costmap_size);
+[1.926s] 6: +  RCLCPP_DEBUG(
+[1.927s] 6: +    node_.get_logger(), "map updated, written %lu values",
+[1.927s] 6: +    costmap_size);
+[1.927s] 6: @@ -176 +185 @@
+[1.927s] 6: -    const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg)
+[1.927s] 6: +  const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg)
+[1.927s] 6: @@ -182,3 +191,4 @@
+[1.927s] 6: -    RCLCPP_DEBUG(node_.get_logger(),
+[1.928s] 6: -                 "negative coordinates, invalid update. x: %d, y: %d", msg->x,
+[1.928s] 6: -                 msg->y);
+[1.928s] 6: +    RCLCPP_DEBUG(
+[1.928s] 6: +      node_.get_logger(),
+[1.928s] 6: +      "negative coordinates, invalid update. x: %d, y: %d", msg->x,
+[1.928s] 6: +      msg->y);
+[1.929s] 6: @@ -194 +204 @@
+[1.929s] 6: -  auto* mutex = costmap_.getMutex();
+[1.929s] 6: +  auto * mutex = costmap_.getMutex();
+[1.929s] 6: @@ -201,6 +211,8 @@
+[1.929s] 6: -      y0 > costmap_yn) {
+[1.929s] 6: -    RCLCPP_WARN(node_.get_logger(),
+[1.929s] 6: -                "received update doesn't fully fit into existing map, "
+[1.930s] 6: -                "only part will be copied. received: [%lu, %lu], [%lu, %lu] "
+[1.930s] 6: -                "map is: [0, %lu], [0, %lu]",
+[1.930s] 6: -                x0, xn, y0, yn, costmap_xn, costmap_yn);
+[1.930s] 6: +    y0 > costmap_yn)
+[1.930s] 6: +  {
+[1.930s] 6: +    RCLCPP_WARN(
+[1.931s] 6: +      node_.get_logger(),
+[1.931s] 6: +      "received update doesn't fully fit into existing map, "
+[1.931s] 6: +      "only part will be copied. received: [%lu, %lu], [%lu, %lu] "
+[1.931s] 6: +      "map is: [0, %lu], [0, %lu]",
+[1.931s] 6: +      x0, xn, y0, yn, costmap_xn, costmap_yn);
+[1.931s] 6: @@ -210 +222 @@
+[1.932s] 6: -  unsigned char* costmap_data = costmap_.getCharMap();
+[1.932s] 6: +  unsigned char * costmap_data = costmap_.getCharMap();
+[1.932s] 6: @@ -229 +241 @@
+[1.932s] 6: -  auto& clk = *node_.get_clock();
+[1.932s] 6: +  auto & clk = *node_.get_clock();
+[1.932s] 6: @@ -233,21 +245,26 @@
+[1.933s] 6: -    robot_pose = tf_->transform(robot_pose, global_frame_,
+[1.933s] 6: -                                tf2::durationFromSec(transform_tolerance_));
+[1.933s] 6: -  } catch (tf2::LookupException& ex) {
+[1.933s] 6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000,
+[1.933s] 6: -                          "No Transform available Error looking up robot pose: "
+[1.933s] 6: -                          "%s\n",
+[1.934s] 6: -                          ex.what());
+[1.934s] 6: -    return empty_pose;
+[1.934s] 6: -  } catch (tf2::ConnectivityException& ex) {
+[1.934s] 6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000,
+[1.934s] 6: -                          "Connectivity Error looking up robot pose: %s\n",
+[1.934s] 6: -                          ex.what());
+[1.935s] 6: -    return empty_pose;
+[1.935s] 6: -  } catch (tf2::ExtrapolationException& ex) {
+[1.935s] 6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000,
+[1.935s] 6: -                          "Extrapolation Error looking up robot pose: %s\n",
+[1.935s] 6: -                          ex.what());
+[1.935s] 6: -    return empty_pose;
+[1.935s] 6: -  } catch (tf2::TransformException& ex) {
+[1.936s] 6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000, "Other error: %s\n",
+[1.936s] 6: -                          ex.what());
+[1.936s] 6: +    robot_pose = tf_->transform(
+[1.936s] 6: +      robot_pose, global_frame_,
+[1.936s] 6: +      tf2::durationFromSec(transform_tolerance_));
+[1.936s] 6: +  } catch (tf2::LookupException & ex) {
+[1.937s] 6: +    RCLCPP_ERROR_THROTTLE(
+[1.937s] 6: +      node_.get_logger(), clk, 1000,
+[1.937s] 6: +      "No Transform available Error looking up robot pose: "
+[1.937s] 6: +      "%s\n",
+[1.937s] 6: +      ex.what());
+[1.937s] 6: +    return empty_pose;
+[1.938s] 6: +  } catch (tf2::ConnectivityException & ex) {
+[1.938s] 6: +    RCLCPP_ERROR_THROTTLE(
+[1.938s] 6: +      node_.get_logger(), clk, 1000,
+[1.938s] 6: +      "Connectivity Error looking up robot pose: %s\n",
+[1.938s] 6: +      ex.what());
+[1.939s] 6: +    return empty_pose;
+[1.939s] 6: +  } catch (tf2::ExtrapolationException & ex) {
+[1.939s] 6: +    RCLCPP_ERROR_THROTTLE(
+[1.939s] 6: +      node_.get_logger(), clk, 1000,
+[1.939s] 6: +      "Extrapolation Error looking up robot pose: %s\n",
+[1.939s] 6: +      ex.what());
+[1.940s] 6: +    return empty_pose;
+[1.940s] 6: +  } catch (tf2::TransformException & ex) {
+[1.940s] 6: +    RCLCPP_ERROR_THROTTLE(
+[1.940s] 6: +      node_.get_logger(), clk, 1000, "Other error: %s\n",
+[1.940s] 6: +      ex.what());
+[1.940s] 6: @@ -267 +284 @@
+[1.940s] 6: -        static_cast<unsigned char>(1 + (251 * (i - 1)) / 97);
+[1.941s] 6: +      static_cast<unsigned char>(1 + (251 * (i - 1)) / 97);
+[1.941s] 6: 
+[1.941s] 6: Code style divergence in file 'src/explore.cpp':
+[1.941s] 6: 
+[1.941s] 6: --- src/explore.cpp
+[1.941s] 6: +++ src/explore.cpp.uncrustify
+[1.942s] 6: @@ -43,2 +43,3 @@
+[1.942s] 6: -inline static bool same_point(const geometry_msgs::msg::Point& one,
+[1.942s] 6: -                              const geometry_msgs::msg::Point& two)
+[1.942s] 6: +inline static bool same_point(
+[1.942s] 6: +  const geometry_msgs::msg::Point & one,
+[1.942s] 6: +  const geometry_msgs::msg::Point & two)
+[1.943s] 6: @@ -55 +56 @@
+[1.943s] 6: -  : Node("explore_node")
+[1.943s] 6: +: Node("explore_node")
+[1.943s] 6: @@ -86,2 +87,2 @@
+[1.943s] 6: -      rclcpp_action::create_client<nav2_msgs::action::NavigateToPose>(
+[1.943s] 6: -          this, ACTION_NAME);
+[1.944s] 6: +    rclcpp_action::create_client<nav2_msgs::action::NavigateToPose>(
+[1.944s] 6: +    this, ACTION_NAME);
+[1.944s] 6: @@ -91,4 +92,5 @@
+[1.944s] 6: -  search_ = frontier_exploration::FrontierSearch(costmap_client_.getCostmap(),
+[1.944s] 6: -                                                 potential_scale_, gain_scale_,
+[1.944s] 6: -                                                 orientation_scale_,
+[1.945s] 6: -                                                 min_frontier_size, logger_);
+[1.945s] 6: +  search_ = frontier_exploration::FrontierSearch(
+[1.945s] 6: +    costmap_client_.getCostmap(),
+[1.945s] 6: +    potential_scale_, gain_scale_,
+[1.945s] 6: +    orientation_scale_,
+[1.945s] 6: +    min_frontier_size, logger_);
+[1.945s] 6: @@ -98,4 +100,5 @@
+[1.946s] 6: -        this->create_publisher<visualization_msgs::msg::MarkerArray>("explore/"
+[1.946s] 6: -                                                                     "frontier"
+[1.946s] 6: -                                                                     "s",
+[1.946s] 6: -                                                                     10);
+[1.946s] 6: +      this->create_publisher<visualization_msgs::msg::MarkerArray>(
+[1.946s] 6: +      "explore/"
+[1.947s] 6: +      "frontier"
+[1.947s] 6: +      "s",
+[1.947s] 6: +      10);
+[1.947s] 6: @@ -107 +110,3 @@
+[1.947s] 6: -  status_pub_ = this->create_publisher<explore_lite_msgs::msg::ExploreStatus>("explore/status", status_qos);
+[1.947s] 6: +  status_pub_ = this->create_publisher<explore_lite_msgs::msg::ExploreStatus>(
+[1.948s] 6: +    "explore/status",
+[1.948s] 6: +    status_qos);
+[1.948s] 6: @@ -111,2 +116,2 @@
+[1.948s] 6: -      "explore/resume", 10,
+[1.948s] 6: -      std::bind(&Explore::resumeCallback, this, std::placeholders::_1));
+[1.948s] 6: +    "explore/resume", 10,
+[1.949s] 6: +    std::bind(&Explore::resumeCallback, this, std::placeholders::_1));
+[1.949s] 6: @@ -124 +129 @@
+[1.949s] 6: -          map_frame, robot_base_frame_, tf2::TimePointZero);
+[1.949s] 6: +        map_frame, robot_base_frame_, tf2::TimePointZero);
+[1.949s] 6: @@ -128,3 +133,4 @@
+[1.949s] 6: -    } catch (tf2::TransformException& ex) {
+[1.950s] 6: -      RCLCPP_ERROR(logger_, "Couldn't find transform from %s to %s: %s",
+[1.950s] 6: -                   map_frame.c_str(), robot_base_frame_.c_str(), ex.what());
+[1.950s] 6: +    } catch (tf2::TransformException & ex) {
+[1.950s] 6: +      RCLCPP_ERROR(
+[1.950s] 6: +        logger_, "Couldn't find transform from %s to %s: %s",
+[1.951s] 6: +        map_frame.c_str(), robot_base_frame_.c_str(), ex.what());
+[1.951s] 6: @@ -136,2 +142,2 @@
+[1.951s] 6: -      std::chrono::milliseconds((uint16_t)(1000.0 / planner_frequency_)),
+[1.951s] 6: -      [this]() { makePlan(); });
+[1.951s] 6: +    std::chrono::milliseconds((uint16_t)(1000.0 / planner_frequency_)),
+[1.951s] 6: +    [this]() {makePlan();});
+[1.951s] 6: @@ -139 +145 @@
+[1.952s] 6: -  auto status_msg = explore_lite_msgs::msg::ExploreStatus(); 
+[1.952s] 6: +  auto status_msg = explore_lite_msgs::msg::ExploreStatus();
+[1.952s] 6: @@ -141 +147 @@
+[1.952s] 6: -  status_pub_->publish(status_msg);   
+[1.952s] 6: +  status_pub_->publish(status_msg);
+[1.952s] 6: @@ -160 +166 @@
+[1.953s] 6: -    const std::vector<frontier_exploration::Frontier>& frontiers)
+[1.953s] 6: +  const std::vector<frontier_exploration::Frontier> & frontiers)
+[1.953s] 6: @@ -180 +186 @@
+[1.953s] 6: -  std::vector<visualization_msgs::msg::Marker>& markers = markers_msg.markers;
+[1.953s] 6: +  std::vector<visualization_msgs::msg::Marker> & markers = markers_msg.markers;
+[1.954s] 6: @@ -210 +216 @@
+[1.954s] 6: -  for (auto& frontier : frontiers) {
+[1.954s] 6: +  for (auto & frontier : frontiers) {
+[1.954s] 6: @@ -278,4 +284,5 @@
+[1.954s] 6: -      std::find_if_not(frontiers.begin(), frontiers.end(),
+[1.954s] 6: -                       [this](const frontier_exploration::Frontier& f) {
+[1.955s] 6: -                         return goalOnBlacklist(f.centroid);
+[1.955s] 6: -                       });
+[1.955s] 6: +    std::find_if_not(
+[1.955s] 6: +    frontiers.begin(), frontiers.end(),
+[1.955s] 6: +    [this](const frontier_exploration::Frontier & f) {
+[1.955s] 6: +      return goalOnBlacklist(f.centroid);
+[1.955s] 6: +    });
+[1.956s] 6: @@ -303 +310,2 @@
+[1.956s] 6: -      tf2::durationFromSec(progress_timeout_)) && !resuming_) {
+[1.956s] 6: +    tf2::durationFromSec(progress_timeout_)) && !resuming_)
+[1.956s] 6: +  {
+[1.956s] 6: @@ -324 +332,2 @@
+[1.956s] 6: -  auto send_goal_options = rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();
+[1.957s] 6: +  auto send_goal_options =
+[1.957s] 6: +    rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();
+[1.957s] 6: @@ -326,4 +335,4 @@
+[1.957s] 6: -      [this,
+[1.957s] 6: -       target_position](const NavigationGoalHandle::WrappedResult& result) {
+[1.957s] 6: -        reachedGoal(result, target_position);
+[1.958s] 6: -      };
+[1.958s] 6: +    [this,
+[1.958s] 6: +      target_position](const NavigationGoalHandle::WrappedResult & result) {
+[1.958s] 6: +      reachedGoal(result, target_position);
+[1.958s] 6: +    };
+[1.958s] 6: @@ -342 +351 @@
+[1.958s] 6: -  
+[1.959s] 6: +
+[1.959s] 6: @@ -350,10 +359,10 @@
+[1.959s] 6: -      rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();
+[1.959s] 6: -  send_goal_options.result_callback = 
+[1.959s] 6: -      [this](const NavigationGoalHandle::WrappedResult& result) {
+[1.959s] 6: -        if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {
+[1.960s] 6: -          auto status_msg = explore_lite_msgs::msg::ExploreStatus();
+[1.960s] 6: -          status_msg.status = explore_lite_msgs::msg::ExploreStatus::RETURNED_TO_ORIGIN;
+[1.960s] 6: -          status_pub_->publish(status_msg);
+[1.960s] 6: -          RCLCPP_INFO(logger_, "Successfully returned to initial pose.");
+[1.960s] 6: -        }
+[1.960s] 6: -      };
+[1.961s] 6: +    rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();
+[1.961s] 6: +  send_goal_options.result_callback =
+[1.961s] 6: +    [this](const NavigationGoalHandle::WrappedResult & result) {
+[1.961s] 6: +      if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {
+[1.961s] 6: +        auto status_msg = explore_lite_msgs::msg::ExploreStatus();
+[1.961s] 6: +        status_msg.status = explore_lite_msgs::msg::ExploreStatus::RETURNED_TO_ORIGIN;
+[1.962s] 6: +        status_pub_->publish(status_msg);
+[1.962s] 6: +        RCLCPP_INFO(logger_, "Successfully returned to initial pose.");
+[1.962s] 6: +      }
+[1.962s] 6: +    };
+[1.962s] 6: @@ -362 +371 @@
+[1.962s] 6: -bool Explore::goalOnBlacklist(const geometry_msgs::msg::Point& goal)
+[1.962s] 6: +bool Explore::goalOnBlacklist(const geometry_msgs::msg::Point & goal)
+[1.963s] 6: @@ -365 +374 @@
+[1.963s] 6: -  nav2_costmap_2d::Costmap2D* costmap2d = costmap_client_.getCostmap();
+[1.963s] 6: +  nav2_costmap_2d::Costmap2D * costmap2d = costmap_client_.getCostmap();
+[1.963s] 6: @@ -368 +377 @@
+[1.963s] 6: -  for (auto& frontier_goal : frontier_blacklist_) {
+[1.963s] 6: +  for (auto & frontier_goal : frontier_blacklist_) {
+[1.964s] 6: @@ -373 +382,2 @@
+[1.964s] 6: -        y_diff < tolerace * costmap2d->getResolution())
+[1.964s] 6: +      y_diff < tolerace * costmap2d->getResolution())
+[1.964s] 6: +    {
+[1.964s] 6: @@ -374,0 +385 @@
+[1.964s] 6: +    }
+[1.964s] 6: @@ -379,2 +390,3 @@
+[1.965s] 6: -void Explore::reachedGoal(const NavigationGoalHandle::WrappedResult& result,
+[1.965s] 6: -                          const geometry_msgs::msg::Point& frontier_goal)
+[1.965s] 6: +void Explore::reachedGoal(
+[1.965s] 6: +  const NavigationGoalHandle::WrappedResult & result,
+[1.965s] 6: +  const geometry_msgs::msg::Point & frontier_goal)
+[1.965s] 6: @@ -399 +411 @@
+[1.966s] 6: -  
+[1.966s] 6: +
+[1.966s] 6: @@ -417 +429 @@
+[1.966s] 6: -  
+[1.966s] 6: +
+[1.966s] 6: @@ -424 +436 @@
+[1.967s] 6: -  
+[1.967s] 6: +
+[1.967s] 6: @@ -450 +462,3 @@
+[1.967s] 6: -    RCLCPP_WARN(logger_, "Spin action server not available, skipping spin and finding next frontier.");
+[1.967s] 6: +    RCLCPP_WARN(
+[1.967s] 6: +      logger_,
+[1.968s] 6: +      "Spin action server not available, skipping spin and finding next frontier.");
+[1.968s] 6: @@ -460 +474 @@
+[1.968s] 6: -  spin_goal.target_yaw = 6.28; 
+[1.968s] 6: +  spin_goal.target_yaw = 6.28;
+[1.968s] 6: @@ -463,2 +477,2 @@
+[1.968s] 6: -      rclcpp_action::Client<nav2_msgs::action::Spin>::SendGoalOptions();
+[1.969s] 6: -      
+[1.969s] 6: +    rclcpp_action::Client<nav2_msgs::action::Spin>::SendGoalOptions();
+[1.969s] 6: +
+[1.969s] 6: @@ -467,11 +481,11 @@
+[1.969s] 6: -      [this](const rclcpp_action::ClientGoalHandle<nav2_msgs::action::Spin>::WrappedResult& result) {
+[1.969s] 6: -        if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {
+[1.970s] 6: -          RCLCPP_INFO(logger_, "Spin complete. Finding next frontier.");
+[1.970s] 6: -        } else {
+[1.970s] 6: -          RCLCPP_WARN(logger_, "Spin failed or was canceled. Moving on.");
+[1.970s] 6: -        }
+[1.970s] 6: -
+[1.970s] 6: -        exploring_timer_->reset();
+[1.970s] 6: -        // Now that the spin is done, we finally look for the next frontier
+[1.971s] 6: -        makePlan(); 
+[1.971s] 6: -      };
+[1.971s] 6: +    [this](const rclcpp_action::ClientGoalHandle<nav2_msgs::action::Spin>::WrappedResult & result) {
+[1.971s] 6: +      if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {
+[1.971s] 6: +        RCLCPP_INFO(logger_, "Spin complete. Finding next frontier.");
+[1.971s] 6: +      } else {
+[1.972s] 6: +        RCLCPP_WARN(logger_, "Spin failed or was canceled. Moving on.");
+[1.972s] 6: +      }
+[1.972s] 6: +
+[1.972s] 6: +      exploring_timer_->reset();
+[1.972s] 6: +      // Now that the spin is done, we finally look for the next frontier
+[1.972s] 6: +      makePlan();
+[1.972s] 6: +    };
+[1.973s] 6: @@ -485 +499 @@
+[1.973s] 6: -int main(int argc, char** argv)
+[1.973s] 6: +int main(int argc, char ** argv)
+[1.973s] 6: @@ -495 +509 @@
+[1.973s] 6: -      std::make_shared<explore::Explore>());  // std::move(std::make_unique)?
+[1.973s] 6: +    std::make_shared<explore::Explore>());    // std::move(std::make_unique)?
+[1.973s] 6: 
+[1.974s] 6: Code style divergence in file 'src/frontier_search.cpp':
+[1.974s] 6: 
+[1.974s] 6: --- src/frontier_search.cpp
+[1.974s] 6: +++ src/frontier_search.cpp.uncrustify
+[1.974s] 6: @@ -17,5 +17,6 @@
+[1.974s] 6: -FrontierSearch::FrontierSearch(nav2_costmap_2d::Costmap2D* costmap,
+[1.975s] 6: -                               double potential_scale, double gain_scale,
+[1.975s] 6: -                               double orientation_scale,
+[1.975s] 6: -                               double min_frontier_size, rclcpp::Logger logger)
+[1.975s] 6: -  : costmap_(costmap)
+[1.975s] 6: +FrontierSearch::FrontierSearch(
+[1.975s] 6: +  nav2_costmap_2d::Costmap2D * costmap,
+[1.975s] 6: +  double potential_scale, double gain_scale,
+[1.976s] 6: +  double orientation_scale,
+[1.976s] 6: +  double min_frontier_size, rclcpp::Logger logger)
+[1.976s] 6: +: costmap_(costmap)
+[1.976s] 6: @@ -34 +35 @@
+[1.976s] 6: -  robot_pose_ = pose; 
+[1.976s] 6: +  robot_pose_ = pose;
+[1.977s] 6: @@ -42 +43,3 @@
+[1.977s] 6: -    RCLCPP_ERROR(logger_, "[FrontierSearch] Robot out of costmap bounds, cannot search for frontiers");
+[1.977s] 6: +    RCLCPP_ERROR(
+[1.977s] 6: +      logger_,
+[1.977s] 6: +      "[FrontierSearch] Robot out of costmap bounds, cannot search for frontiers");
+[1.977s] 6: @@ -48 +51 @@
+[1.977s] 6: -      *(costmap_->getMutex()));
+[1.978s] 6: +    *(costmap_->getMutex()));
+[1.978s] 6: @@ -88 +91,2 @@
+[1.978s] 6: -            min_frontier_size_) {
+[1.978s] 6: +          min_frontier_size_)
+[1.978s] 6: +        {
+[1.978s] 6: @@ -96 +100 @@
+[1.978s] 6: -  for (auto& frontier : frontier_list) {
+[1.979s] 6: +  for (auto & frontier : frontier_list) {
+[1.979s] 6: @@ -100,2 +104,2 @@
+[1.979s] 6: -      frontier_list.begin(), frontier_list.end(),
+[1.979s] 6: -      [](const Frontier& f1, const Frontier& f2) { return f1.cost < f2.cost; });
+[1.979s] 6: +    frontier_list.begin(), frontier_list.end(),
+[1.979s] 6: +    [](const Frontier & f1, const Frontier & f2) {return f1.cost < f2.cost;});
+[1.980s] 6: @@ -106,3 +110,4 @@
+[1.980s] 6: -Frontier FrontierSearch::buildNewFrontier(unsigned int initial_cell,
+[1.980s] 6: -                                          unsigned int reference,
+[1.980s] 6: -                                          std::vector<bool>& frontier_flag)
+[1.980s] 6: +Frontier FrontierSearch::buildNewFrontier(
+[1.980s] 6: +  unsigned int initial_cell,
+[1.980s] 6: +  unsigned int reference,
+[1.981s] 6: +  std::vector<bool> & frontier_flag)
+[1.981s] 6: @@ -161,2 +166,3 @@
+[1.981s] 6: -        double distance = sqrt(pow((double(reference_x) - double(wx)), 2.0) +
+[1.981s] 6: -                               pow((double(reference_y) - double(wy)), 2.0));
+[1.981s] 6: +        double distance = sqrt(
+[1.981s] 6: +          pow((double(reference_x) - double(wx)), 2.0) +
+[1.982s] 6: +          pow((double(reference_y) - double(wy)), 2.0));
+[1.982s] 6: @@ -181,2 +187,3 @@
+[1.982s] 6: -bool FrontierSearch::isNewFrontierCell(unsigned int idx,
+[1.982s] 6: -                                       const std::vector<bool>& frontier_flag)
+[1.982s] 6: +bool FrontierSearch::isNewFrontierCell(
+[1.982s] 6: +  unsigned int idx,
+[1.982s] 6: +  const std::vector<bool> & frontier_flag)
+[1.983s] 6: @@ -200 +207 @@
+[1.983s] 6: -double FrontierSearch::frontierCost(const Frontier& frontier)
+[1.983s] 6: +double FrontierSearch::frontierCost(const Frontier & frontier)
+[1.983s] 6: @@ -212 +219 @@
+[1.983s] 6: -  
+[1.983s] 6: +
+[1.984s] 6: @@ -214,3 +221,4 @@
+[1.984s] 6: -  double target_yaw = std::atan2(frontier.centroid.y - robot_pose_.position.y,
+[1.984s] 6: -                                 frontier.centroid.x - robot_pose_.position.x);
+[1.984s] 6: -  
+[1.984s] 6: +  double target_yaw = std::atan2(
+[1.984s] 6: +    frontier.centroid.y - robot_pose_.position.y,
+[1.984s] 6: +    frontier.centroid.x - robot_pose_.position.x);
+[1.985s] 6: +
+[1.985s] 6: @@ -219,3 +227,3 @@
+[1.985s] 6: -  while (angle_diff > M_PI) angle_diff -= 2.0 * M_PI;
+[1.985s] 6: -  while (angle_diff < -M_PI) angle_diff += 2.0 * M_PI;
+[1.985s] 6: -  
+[1.985s] 6: +  while (angle_diff > M_PI) {angle_diff -= 2.0 * M_PI;}
+[1.986s] 6: +  while (angle_diff < -M_PI) {angle_diff += 2.0 * M_PI;}
+[1.986s] 6: +
+[1.986s] 6: @@ -226,3 +234,3 @@
+[1.986s] 6: -  double utility = (potential_scale_ * C_d) + 
+[1.986s] 6: -                   (gain_scale_ * C_i) + 
+[1.986s] 6: -                   (orientation_scale_ * C_h);
+[1.987s] 6: +  double utility = (potential_scale_ * C_d) +
+[1.987s] 6: +    (gain_scale_ * C_i) +
+[1.987s] 6: +    (orientation_scale_ * C_h);
+[1.987s] 6: 
+[1.987s] 6: Code style divergence in file 'test/test_explore.cpp':
+[1.987s] 6: 
+[1.987s] 6: --- test/test_explore.cpp
+[1.988s] 6: +++ test/test_explore.cpp.uncrustify
+[1.988s] 6: @@ -43,2 +43,3 @@
+[1.988s] 6: -inline static bool same_point(const geometry_msgs::msg::Point& one,
+[1.988s] 6: -                              const geometry_msgs::msg::Point& two)
+[1.988s] 6: +inline static bool same_point(
+[1.988s] 6: +  const geometry_msgs::msg::Point & one,
+[1.989s] 6: +  const geometry_msgs::msg::Point & two)
+[1.989s] 6: @@ -54,6 +55,6 @@
+[1.989s] 6: -    geometry_msgs::msg::Point goal1;
+[1.989s] 6: -    geometry_msgs::msg::Point goal2;
+[1.989s] 6: -    // Populate the goal with known values
+[1.989s] 6: -    goal1.x = 1.0;
+[1.989s] 6: -    goal1.y = 2.0;
+[1.990s] 6: -    goal1.z = 3.0;
+[1.990s] 6: +  geometry_msgs::msg::Point goal1;
+[1.990s] 6: +  geometry_msgs::msg::Point goal2;
+[1.990s] 6: +  // Populate the goal with known values
+[1.990s] 6: +  goal1.x = 1.0;
+[1.990s] 6: +  goal1.y = 2.0;
+[1.991s] 6: +  goal1.z = 3.0;
+[1.991s] 6: @@ -61,10 +62,10 @@
+[1.991s] 6: -    goal2.x = 0.0;
+[1.991s] 6: -    goal2.y = 0.0;
+[1.991s] 6: -    goal2.z = 0.0;
+[1.991s] 6: -    auto same_goal = same_point(goal1, goal2);
+[1.992s] 6: -    EXPECT_FALSE(same_goal);
+[1.992s] 6: -    goal2.x = goal1.x;
+[1.992s] 6: -    goal2.y = goal1.y;
+[1.992s] 6: -    goal2.z = goal1.z;
+[1.992s] 6: -    same_goal = same_point(goal1, goal2);
+[1.993s] 6: -    EXPECT_TRUE(same_goal);
+[1.993s] 6: +  goal2.x = 0.0;
+[1.993s] 6: +  goal2.y = 0.0;
+[1.993s] 6: +  goal2.z = 0.0;
+[1.993s] 6: +  auto same_goal = same_point(goal1, goal2);
+[1.994s] 6: +  EXPECT_FALSE(same_goal);
+[1.994s] 6: +  goal2.x = goal1.x;
+[1.994s] 6: +  goal2.y = goal1.y;
+[1.994s] 6: +  goal2.z = goal1.z;
+[1.994s] 6: +  same_goal = same_point(goal1, goal2);
+[1.994s] 6: +  EXPECT_TRUE(same_goal);
+[1.995s] 6: @@ -73 +74 @@
+[1.995s] 6: -int main(int argc, char** argv)
+[1.995s] 6: +int main(int argc, char ** argv)
+[1.995s] 6: 
+[1.995s] 6: 8 files with code style divergence
+[1.995s] 6: -- run_test.py: return code 1
+[1.996s] 6: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml'
+[1.996s] 6/7 Test #6: uncrustify .......................***Failed    0.38 sec
+[1.996s] test 7
+[1.996s]     Start 7: xmllint
+[1.996s] 
+[1.996s] 7: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml"
+[1.997s] 7: Test timeout computed to be: 60
+[1.997s] 7: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+[1.997s] 7:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml
+[2.686s] 7: File 'package.xml' is valid
+[2.686s] 7: 
+[2.686s] 7: No problems found
+[2.703s] 7: -- run_test.py: return code 0
+[2.704s] 7: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml'
+[2.718s] 7/7 Test #7: xmllint ..........................   Passed    0.86 sec
+[2.719s] 
+[2.719s] 71% tests passed[0;0m, [0;31m2 tests failed[0;0m out of 7
+[2.719s] 
+[2.719s] Label Time Summary:
+[2.719s] cppcheck      =   0.27 sec*proc (1 test)
+[2.720s] flake8        =   0.40 sec*proc (1 test)
+[2.720s] gtest         =   0.12 sec*proc (1 test)
+[2.720s] lint_cmake    =   0.29 sec*proc (1 test)
+[2.720s] linter        =   2.52 sec*proc (6 tests)
+[2.720s] pep257        =   0.32 sec*proc (1 test)
+[2.720s] uncrustify    =   0.38 sec*proc (1 test)
+[2.720s] xmllint       =   0.86 sec*proc (1 test)
+[2.721s] 
+[2.721s] Total Test time (real) =   2.65 sec
+[2.721s] 
+[2.721s] The following tests FAILED:
+[2.721s] 	[0;31m  3 - flake8 (Failed)[0;0m
+[2.721s] 	[0;31m  6 - uncrustify (Failed)[0;0m
+[2.725s] Errors while running CTest
+[2.725s] Output from these tests are in: /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/Testing/Temporary/LastTest.log
+[2.725s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[2.729s] Invoked command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite' returned '8': AMENT_PREFIX_PATH=/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite:/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite:/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs/lib:/home/notch/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/notch/turtlebot3_ws/install/ros_ign_interfaces/lib:/home/notch/turtlebot3_ws/install/ros_gz_sim/lib:/home/notch/turtlebot3_ws/install/ros_gz_bridge/lib:/home/notch/turtlebot3_ws/install/ros_gz_interfaces/lib:/home/notch/turtlebot3_ws/install/multirobot_map_merge/lib:/home/notch/turtlebot3_ws/install/explore_lite_msgs/lib:/home/notch/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/notch/turtlebot3_ws/install/dynamixel_sdk/lib:/home/notch/install/turtlebot3_msgs/lib:/home/notch/install/ros_ign_interfaces/lib:/home/notch/install/ros_gz_sim/lib:/home/notch/install/ros_gz_bridge/lib:/home/notch/install/ros_gz_interfaces/lib:/home/notch/install/dynamixel_sdk_custom_interfaces/lib:/home/notch/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

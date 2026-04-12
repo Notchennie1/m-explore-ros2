@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="explore_lite.uncrustify"
+  tests="8"
+  failures="0"
+  errors="0"
+  time="0.055"
+>
+  <testcase
+    name="include/explore/costmap_client.h"
+    classname="explore_lite.uncrustify"/>
+  <testcase
+    name="include/explore/costmap_tools.h"
+    classname="explore_lite.uncrustify"/>
+  <testcase
+    name="include/explore/explore.h"
+    classname="explore_lite.uncrustify"/>
+  <testcase
+    name="include/explore/frontier_search.h"
+    classname="explore_lite.uncrustify"/>
+  <testcase
+    name="src/costmap_client.cpp"
+    classname="explore_lite.uncrustify"/>
+  <testcase
+    name="src/explore.cpp"
+    classname="explore_lite.uncrustify"/>
+  <testcase
+    name="src/frontier_search.cpp"
+    classname="explore_lite.uncrustify"/>
+  <testcase
+    name="test/test_explore.cpp"
+    classname="explore_lite.uncrustify"/>
+  <system-out>Checked files:
+* include/explore/costmap_client.h
+* include/explore/costmap_tools.h
+* include/explore/explore.h
+* include/explore/frontier_search.h
+* src/costmap_client.cpp
+* src/explore.cpp
+* src/frontier_search.cpp
+* test/test_explore.cpp</system-out>
+</testsuite>

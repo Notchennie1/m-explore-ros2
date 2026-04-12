@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml
+
+File 'package.xml' is valid
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml'

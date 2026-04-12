@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e43fcd1125d3387ac724.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "explore_lite_msgs__py",
+					"jsonFile" : "directory-explore_lite_msgs__py-83baacd201353fa934b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite_msgs/explore_lite_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "explore_lite_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_explore_lite_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_explore_lite_msgs_egg-a75e312925e232d03e78.json",
+					"name" : "ament_cmake_python_build_explore_lite_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_explore_lite_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_explore_lite_msgs-17320289fb35df74a4bd.json",
+					"name" : "ament_cmake_python_symlink_explore_lite_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs-004cf0ace7b0c71ed942.json",
+					"name" : "explore_lite_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__cpp-73675e4b1ce33d903c00.json",
+					"name" : "explore_lite_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "explore_lite_msgs__py::@7319cfe889aae899943c",
+					"jsonFile" : "target-explore_lite_msgs__py-7c7218ae94d3be0435f4.json",
+					"name" : "explore_lite_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_generator_c-a64d3aacedfacb119e1f.json",
+					"name" : "explore_lite_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_generator_py-6c1761e3a78a4829f363.json",
+					"name" : "explore_lite_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_typesupport_c-205e2b98de63061fecd4.json",
+					"name" : "explore_lite_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_typesupport_c__pyext-3aa3a004fb46cc25dbd7.json",
+					"name" : "explore_lite_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_typesupport_cpp-041e1c6dee2304914f21.json",
+					"name" : "explore_lite_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_typesupport_fastrtps_c-166024fe8bf22f30f58c.json",
+					"name" : "explore_lite_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_typesupport_fastrtps_c__pyext-e30c9eaabaae738b3414.json",
+					"name" : "explore_lite_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_typesupport_fastrtps_cpp-7e058b941cfe50303025.json",
+					"name" : "explore_lite_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_typesupport_introspection_c-250d9855188e9ac63f85.json",
+					"name" : "explore_lite_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_typesupport_introspection_c__pyext-2b492b74222384c56b9d.json",
+					"name" : "explore_lite_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs__rosidl_typesupport_introspection_cpp-9f37817708e10df24a15.json",
+					"name" : "explore_lite_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explore_lite_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explore_lite_msgs_uninstall-714e06bf7354b3886ab7.json",
+					"name" : "explore_lite_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-728ddcbc96031d6a6cf2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite_msgs",
+		"source" : "/home/notch/turtlebot3_ws/src/m-explore-ros2/explore_lite_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

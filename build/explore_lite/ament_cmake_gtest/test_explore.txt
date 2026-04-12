@@ -1,0 +1,18 @@
+-- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite':
+ - /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_explore --gtest_output=xml:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml
+
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Explore
+[ RUN      ] Explore.testSameGoal
+[       OK ] Explore.testSameGoal (0 ms)
+[----------] 1 test from Explore (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml'
+-- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml'

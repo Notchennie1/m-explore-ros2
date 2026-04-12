@@ -1,0 +1,1 @@
+/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite_msgs/rosidl_generator_py/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_fastrtps_c.c

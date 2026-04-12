@@ -1,0 +1,1356 @@
+[0.000000] (-) TimerEvent: {}
+[0.000689] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict([('explore_lite_msgs', '/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs'), ('explore_lite', '/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite')])}
+[0.001508] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.051949] (explore_lite) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'notch'), ('GIT_EDITOR', ':'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs/lib:/home/notch/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/notch/turtlebot3_ws/install/ros_ign_interfaces/lib:/home/notch/turtlebot3_ws/install/ros_gz_sim/lib:/home/notch/turtlebot3_ws/install/ros_gz_bridge/lib:/home/notch/turtlebot3_ws/install/ros_gz_interfaces/lib:/home/notch/turtlebot3_ws/install/multirobot_map_merge/lib:/home/notch/turtlebot3_ws/install/explore_lite_msgs/lib:/home/notch/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/notch/turtlebot3_ws/install/dynamixel_sdk/lib:/home/notch/install/turtlebot3_msgs/lib:/home/notch/install/ros_ign_interfaces/lib:/home/notch/install/ros_gz_sim/lib:/home/notch/install/ros_gz_bridge/lib:/home/notch/install/ros_gz_interfaces/lib:/home/notch/install/dynamixel_sdk_custom_interfaces/lib:/home/notch/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/notch'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/notch/turtlebot3_ws'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1148'), ('SYSTEMD_EXEC_PID', '1332'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/notch/enter'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2602'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/notch/turtlebot3_ws/install:/home/notch/turtlebot3_ws/src/install:/home/notch/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'notch'), ('JOURNAL_STREAM', '8:20762'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '61910'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'notch'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/notch/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/notch/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/notch/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/notch/enter/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/CX-Swift-SFG14-73:@/tmp/.ICE-unix/1296,unix/CX-Swift-SFG14-73:/tmp/.ICE-unix/1296'), ('INVOCATION_ID', '8f527aaaf98d49eab87a2db6f5705a3d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q6ZJN3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f938718afc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '40'), ('AMENT_PREFIX_PATH', '/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite:/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs:/home/notch/turtlebot3_ws/install/turtlebot3:/home/notch/turtlebot3_ws/install/turtlebot3_teleop:/home/notch/turtlebot3_ws/install/turtlebot3_simulations:/home/notch/turtlebot3_ws/install/turtlebot3_bringup:/home/notch/turtlebot3_ws/install/turtlebot3_node:/home/notch/turtlebot3_ws/install/turtlebot3_navigation2:/home/notch/turtlebot3_ws/install/turtlebot3_fake_node:/home/notch/turtlebot3_ws/install/turtlebot3_example:/home/notch/turtlebot3_ws/install/turtlebot3_msgs:/home/notch/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/notch/turtlebot3_ws/install/turtlebot3_gazebo:/home/notch/turtlebot3_ws/install/turtlebot3_description:/home/notch/turtlebot3_ws/install/turtlebot3_cartographer:/home/notch/turtlebot3_ws/install/test_ros_gz_bridge:/home/notch/turtlebot3_ws/install/ros_ign_interfaces:/home/notch/turtlebot3_ws/install/ros_ign:/home/notch/turtlebot3_ws/install/ros_ign_image:/home/notch/turtlebot3_ws/install/ros_ign_gazebo_demos:/home/notch/turtlebot3_ws/install/ros_ign_gazebo:/home/notch/turtlebot3_ws/install/ros_ign_bridge:/home/notch/turtlebot3_ws/install/ros_gz:/home/notch/turtlebot3_ws/install/ros_gz_sim_demos:/home/notch/turtlebot3_ws/install/ros_gz_sim:/home/notch/turtlebot3_ws/install/ros_gz_image:/home/notch/turtlebot3_ws/install/ros_gz_bridge:/home/notch/turtlebot3_ws/install/ros_gz_interfaces:/home/notch/turtlebot3_ws/install/py_pubsub:/home/notch/turtlebot3_ws/install/my_explorer:/home/notch/turtlebot3_ws/install/multirobot_map_merge:/home/notch/turtlebot3_ws/install/explore_lite:/home/notch/turtlebot3_ws/install/explore_lite_msgs:/home/notch/turtlebot3_ws/install/dynamixel_sdk_examples:/home/notch/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/notch/turtlebot3_ws/install/dynamixel_sdk:/home/notch/turtlebot3_ws/install/auto_nav:/home/notch/turtlebot3_ws/src/install/explore_lite:/home/notch/install/turtlebot3:/home/notch/install/turtlebot3_teleop:/home/notch/install/turtlebot3_bringup:/home/notch/install/turtlebot3_node:/home/notch/install/turtlebot3_navigation2:/home/notch/install/turtlebot3_example:/home/notch/install/turtlebot3_msgs:/home/notch/install/turtlebot3_description:/home/notch/install/turtlebot3_cartographer:/home/notch/install/test_ros_gz_bridge:/home/notch/install/ros_ign_interfaces:/home/notch/install/ros_ign:/home/notch/install/ros_ign_image:/home/notch/install/ros_ign_gazebo_demos:/home/notch/install/ros_ign_gazebo:/home/notch/install/ros_ign_bridge:/home/notch/install/ros_gz:/home/notch/install/ros_gz_sim_demos:/home/notch/install/ros_gz_sim:/home/notch/install/ros_gz_image:/home/notch/install/ros_gz_bridge:/home/notch/install/ros_gz_interfaces:/home/notch/install/my_explorer:/home/notch/install/explore_lite:/home/notch/install/dynamixel_sdk_examples:/home/notch/install/dynamixel_sdk_custom_interfaces:/home/notch/install/dynamixel_sdk:/home/notch/install/auto_nav:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/notch/enter/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/notch/turtlebot3_ws/install/ros_gz_sim_demos/share:/home/notch/install/ros_gz_sim_demos/share'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/notch/enter/bin/conda'), ('GZ_VERSION', 'fortress'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite'), ('GIT_MERGE_AUTOEDIT', 'no'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/notch/enter/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs/local/lib/python3.10/dist-packages:/home/notch/turtlebot3_ws/build/turtlebot3_teleop:/home/notch/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/notch/turtlebot3_ws/build/turtlebot3_example:/home/notch/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/notch/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/notch/turtlebot3_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/notch/turtlebot3_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/notch/turtlebot3_ws/build/py_pubsub:/home/notch/turtlebot3_ws/install/py_pubsub/lib/python3.10/site-packages:/home/notch/turtlebot3_ws/install/my_explorer/lib/python3.10/site-packages:/home/notch/turtlebot3_ws/install/explore_lite_msgs/local/lib/python3.10/dist-packages:/home/notch/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/notch/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/notch/turtlebot3_ws/build/auto_nav:/home/notch/turtlebot3_ws/install/auto_nav/lib/python3.10/site-packages:/home/notch/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/notch/install/turtlebot3_example/lib/python3.10/site-packages:/home/notch/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/notch/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/notch/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/notch/install/my_explorer/lib/python3.10/site-packages:/home/notch/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/notch/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/notch/install/auto_nav/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite:/home/notch/turtlebot3_ws/src/m-explore-ros2/install/explore_lite_msgs:/home/notch/turtlebot3_ws/install/turtlebot3:/home/notch/turtlebot3_ws/install/turtlebot3_simulations:/home/notch/turtlebot3_ws/install/turtlebot3_bringup:/home/notch/turtlebot3_ws/install/turtlebot3_node:/home/notch/turtlebot3_ws/install/turtlebot3_navigation2:/home/notch/turtlebot3_ws/install/turtlebot3_fake_node:/home/notch/turtlebot3_ws/install/turtlebot3_msgs:/home/notch/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/notch/turtlebot3_ws/install/turtlebot3_gazebo:/home/notch/turtlebot3_ws/install/turtlebot3_description:/home/notch/turtlebot3_ws/install/turtlebot3_cartographer:/home/notch/turtlebot3_ws/install/test_ros_gz_bridge:/home/notch/turtlebot3_ws/install/ros_ign_interfaces:/home/notch/turtlebot3_ws/install/ros_ign:/home/notch/turtlebot3_ws/install/ros_ign_image:/home/notch/turtlebot3_ws/install/ros_ign_gazebo_demos:/home/notch/turtlebot3_ws/install/ros_ign_gazebo:/home/notch/turtlebot3_ws/install/ros_ign_bridge:/home/notch/turtlebot3_ws/install/ros_gz:/home/notch/turtlebot3_ws/install/ros_gz_sim_demos:/home/notch/turtlebot3_ws/install/ros_gz_sim:/home/notch/turtlebot3_ws/install/ros_gz_image:/home/notch/turtlebot3_ws/install/ros_gz_bridge:/home/notch/turtlebot3_ws/install/ros_gz_interfaces:/home/notch/turtlebot3_ws/install/multirobot_map_merge:/home/notch/turtlebot3_ws/install/explore_lite:/home/notch/turtlebot3_ws/install/explore_lite_msgs:/home/notch/turtlebot3_ws/install/dynamixel_sdk_examples:/home/notch/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/notch/turtlebot3_ws/install/dynamixel_sdk:/home/notch/turtlebot3_ws/src/install/explore_lite:/home/notch/install/turtlebot3:/home/notch/install/turtlebot3_bringup:/home/notch/install/turtlebot3_node:/home/notch/install/turtlebot3_navigation2:/home/notch/install/turtlebot3_msgs:/home/notch/install/turtlebot3_description:/home/notch/install/turtlebot3_cartographer:/home/notch/install/test_ros_gz_bridge:/home/notch/install/ros_ign_interfaces:/home/notch/install/ros_ign:/home/notch/install/ros_ign_image:/home/notch/install/ros_ign_gazebo_demos:/home/notch/install/ros_ign_gazebo:/home/notch/install/ros_ign_bridge:/home/notch/install/ros_gz:/home/notch/install/ros_gz_sim_demos:/home/notch/install/ros_gz_sim:/home/notch/install/ros_gz_image:/home/notch/install/ros_gz_bridge:/home/notch/install/ros_gz_interfaces:/home/notch/install/explore_lite:/home/notch/install/dynamixel_sdk_examples:/home/notch/install/dynamixel_sdk_custom_interfaces:/home/notch/install/dynamixel_sdk')]), 'shell': False}
+[0.074021] (explore_lite) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini\n'}
+[0.074719] (explore_lite) StdoutLine: {'line': b'Parse Config file:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini\n'}
+[0.074977] (explore_lite) StdoutLine: {'line': b'   Site: CX-Swift-SFG14-73\n'}
+[0.075159] (explore_lite) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.075337] (explore_lite) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.075696] (explore_lite) StdoutLine: {'line': b'Create new tag: 20260411-0908 - Experimental\n'}
+[0.075875] (explore_lite) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini\n'}
+[0.076050] (explore_lite) StdoutLine: {'line': b'Parse Config file:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini\n'}
+[0.076226] (explore_lite) StdoutLine: {'line': b'Test project /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite\n'}
+[0.076389] (explore_lite) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.076578] (explore_lite) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.076740] (explore_lite) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.076916] (explore_lite) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.077075] (explore_lite) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.077235] (explore_lite) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.077402] (explore_lite) StdoutLine: {'line': b'test 1\n'}
+[0.077579] (explore_lite) StdoutLine: {'line': b'    Start 1: test_explore\n'}
+[0.077740] (explore_lite) StdoutLine: {'line': b'\n'}
+[0.077903] (explore_lite) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_cmake_gtest/test_explore.txt" "--command" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_explore" "--gtest_output=xml:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml"\n'}
+[0.078088] (explore_lite) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.099426] (-) TimerEvent: {}
+[0.172026] (explore_lite) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite':\n"}
+[0.172384] (explore_lite) StdoutLine: {'line': b'1:  - /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_explore --gtest_output=xml:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml\n'}
+[0.175553] (explore_lite) StdoutLine: {'line': b'1: [==========] Running 1 test from 1 test suite.\n'}
+[0.175681] (explore_lite) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.175780] (explore_lite) StdoutLine: {'line': b'1: [----------] 1 test from Explore\n'}
+[0.175950] (explore_lite) StdoutLine: {'line': b'1: [ RUN      ] Explore.testSameGoal\n'}
+[0.176039] (explore_lite) StdoutLine: {'line': b'1: [       OK ] Explore.testSameGoal (0 ms)\n'}
+[0.176132] (explore_lite) StdoutLine: {'line': b'1: [----------] 1 test from Explore (0 ms total)\n'}
+[0.176214] (explore_lite) StdoutLine: {'line': b'1: \n'}
+[0.176292] (explore_lite) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.176456] (explore_lite) StdoutLine: {'line': b'1: [==========] 1 test from 1 test suite ran. (0 ms total)\n'}
+[0.176547] (explore_lite) StdoutLine: {'line': b'1: [  PASSED  ] 1 test.\n'}
+[0.176642] (explore_lite) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.176799] (explore_lite) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml'\n"}
+[0.177775] (explore_lite) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml'\n"}
+[0.193895] (explore_lite) StdoutLine: {'line': b'1/7 Test #1: test_explore .....................   Passed    0.12 sec\n'}
+[0.194523] (explore_lite) StdoutLine: {'line': b'test 2\n'}
+[0.194671] (explore_lite) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.194771] (explore_lite) StdoutLine: {'line': b'\n'}
+[0.194875] (explore_lite) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml" "--include_dirs" "/home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include" "/home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include"\n'}
+[0.195013] (explore_lite) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.199494] (-) TimerEvent: {}
+[0.293569] (explore_lite) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':\n"}
+[0.294145] (explore_lite) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml --include_dirs /home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include /home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include\n'}
+[0.299654] (-) TimerEvent: {}
+[0.400249] (-) TimerEvent: {}
+[0.421736] (explore_lite) StdoutLine: {'line': b'2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.448128] (explore_lite) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.448768] (explore_lite) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml'\n"}
+[0.463600] (explore_lite) StdoutLine: {'line': b'2/7 Test #2: cppcheck .........................   Passed    0.27 sec\n'}
+[0.463817] (explore_lite) StdoutLine: {'line': b'test 3\n'}
+[0.463963] (explore_lite) StdoutLine: {'line': b'    Start 3: flake8\n'}
+[0.464116] (explore_lite) StdoutLine: {'line': b'\n'}
+[0.464191] (explore_lite) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml"\n'}
+[0.464270] (explore_lite) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.500360] (-) TimerEvent: {}
+[0.568477] (explore_lite) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':\n"}
+[0.568858] (explore_lite) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml\n'}
+[0.600517] (-) TimerEvent: {}
+[0.701000] (-) TimerEvent: {}
+[0.801446] (-) TimerEvent: {}
+[0.817119] (explore_lite) StdoutLine: {'line': b'3: \n'}
+[0.817633] (explore_lite) StdoutLine: {'line': b'3: ^\n'}
+[0.817879] (explore_lite) StdoutLine: {'line': b'3: 1     W391 blank line at end of file\n'}
+[0.818063] (explore_lite) StdoutLine: {'line': b'3: \n'}
+[0.818230] (explore_lite) StdoutLine: {'line': b'3: ./launch/explore.launch.py:47:1: W391 blank line at end of file\n'}
+[0.818408] (explore_lite) StdoutLine: {'line': b'3: \n'}
+[0.818586] (explore_lite) StdoutLine: {'line': b'3: \n'}
+[0.818746] (explore_lite) StdoutLine: {'line': b'3: 1 files checked\n'}
+[0.818907] (explore_lite) StdoutLine: {'line': b'3: 1 errors\n'}
+[0.819069] (explore_lite) StdoutLine: {'line': b'3: \n'}
+[0.819231] (explore_lite) StdoutLine: {'line': b"3: 'W'-type errors: 1\n"}
+[0.819394] (explore_lite) StdoutLine: {'line': b'3: \n'}
+[0.819586] (explore_lite) StdoutLine: {'line': b'3: Checked files:\n'}
+[0.819758] (explore_lite) StdoutLine: {'line': b'3: \n'}
+[0.819919] (explore_lite) StdoutLine: {'line': b'3: * ./launch/explore.launch.py\n'}
+[0.847310] (explore_lite) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[0.847802] (explore_lite) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml'\n"}
+[0.865902] (explore_lite) StdoutLine: {'line': b'3/7 Test #3: flake8 ...........................***Failed    0.40 sec\n'}
+[0.866352] (explore_lite) StdoutLine: {'line': b'test 4\n'}
+[0.866512] (explore_lite) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[0.866636] (explore_lite) StdoutLine: {'line': b'\n'}
+[0.866765] (explore_lite) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml"\n'}
+[0.867188] (explore_lite) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.901673] (-) TimerEvent: {}
+[0.962665] (explore_lite) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':\n"}
+[0.962990] (explore_lite) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml\n'}
+[1.001792] (-) TimerEvent: {}
+[1.102261] (-) TimerEvent: {}
+[1.105629] (explore_lite) StdoutLine: {'line': b'4: \n'}
+[1.106135] (explore_lite) StdoutLine: {'line': b'4: No problems found\n'}
+[1.137148] (explore_lite) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.137776] (explore_lite) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml'\n"}
+[1.152910] (explore_lite) StdoutLine: {'line': b'4/7 Test #4: lint_cmake .......................   Passed    0.29 sec\n'}
+[1.153518] (explore_lite) StdoutLine: {'line': b'test 5\n'}
+[1.153751] (explore_lite) StdoutLine: {'line': b'    Start 5: pep257\n'}
+[1.153943] (explore_lite) StdoutLine: {'line': b'\n'}
+[1.154130] (explore_lite) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml"\n'}
+[1.154332] (explore_lite) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.202460] (-) TimerEvent: {}
+[1.260188] (explore_lite) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':\n"}
+[1.260524] (explore_lite) StdoutLine: {'line': b'5:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml\n'}
+[1.302585] (-) TimerEvent: {}
+[1.403156] (-) TimerEvent: {}
+[1.432648] (explore_lite) StdoutLine: {'line': b'5: checking ./launch/explore.launch.py\n'}
+[1.433242] (explore_lite) StdoutLine: {'line': b'5: No problems found\n'}
+[1.460997] (explore_lite) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[1.461648] (explore_lite) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml'\n"}
+[1.475751] (explore_lite) StdoutLine: {'line': b'5/7 Test #5: pep257 ...........................   Passed    0.32 sec\n'}
+[1.476216] (explore_lite) StdoutLine: {'line': b'test 6\n'}
+[1.476606] (explore_lite) StdoutLine: {'line': b'    Start 6: uncrustify\n'}
+[1.476845] (explore_lite) StdoutLine: {'line': b'\n'}
+[1.477049] (explore_lite) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml"\n'}
+[1.477295] (explore_lite) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[1.503357] (-) TimerEvent: {}
+[1.580796] (explore_lite) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':\n"}
+[1.581137] (explore_lite) StdoutLine: {'line': b'6:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml\n'}
+[1.603477] (-) TimerEvent: {}
+[1.703902] (-) TimerEvent: {}
+[1.802851] (explore_lite) StdoutLine: {'line': b"6: Code style divergence in file 'include/explore/costmap_client.h':\n"}
+[1.805475] (-) TimerEvent: {}
+[1.807116] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.808377] (explore_lite) StdoutLine: {'line': b'6: --- include/explore/costmap_client.h\n'}
+[1.812463] (explore_lite) StdoutLine: {'line': b'6: +++ include/explore/costmap_client.h.uncrustify\n'}
+[1.813035] (explore_lite) StdoutLine: {'line': b'6: @@ -54,2 +54,2 @@\n'}
+[1.813257] (explore_lite) StdoutLine: {'line': b'6: -class Costmap2DClient\n'}
+[1.813500] (explore_lite) StdoutLine: {'line': b'6: -{\n'}
+[1.813732] (explore_lite) StdoutLine: {'line': b'6: +  class Costmap2DClient\n'}
+[1.813943] (explore_lite) StdoutLine: {'line': b'6: +  {\n'}
+[1.814149] (explore_lite) StdoutLine: {'line': b'6: @@ -57,15 +57,15 @@\n'}
+[1.814350] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.815066] (explore_lite) StdoutLine: {'line': b'6: -   * @brief Constructs client and start listening\n'}
+[1.815553] (explore_lite) StdoutLine: {'line': b'6: -   * @details Constructor will block until first map update is received and\n'}
+[1.815781] (explore_lite) StdoutLine: {'line': b'6: -   * map is ready to use, also will block before transformation\n'}
+[1.815970] (explore_lite) StdoutLine: {'line': b'6: -   * robot_base_frame <-> global_frame is available.\n'}
+[1.816141] (explore_lite) StdoutLine: {'line': b'6: -   *\n'}
+[1.816314] (explore_lite) StdoutLine: {'line': b'6: -   * @param node node handle to retrieve parameters from\n'}
+[1.816524] (explore_lite) StdoutLine: {'line': b'6: -   * @param tf_listener Will be used for transformation of robot pose.\n'}
+[1.816745] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.816919] (explore_lite) StdoutLine: {'line': b'6: -  Costmap2DClient(rclcpp::Node& node, const tf2_ros::Buffer* tf_listener);\n'}
+[1.817097] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.817265] (explore_lite) StdoutLine: {'line': b'6: -   * @brief Get the pose of the robot in the global frame of the costmap\n'}
+[1.817460] (explore_lite) StdoutLine: {'line': b'6: -   * @return pose of the robot in the global frame of the costmap\n'}
+[1.817664] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.817846] (explore_lite) StdoutLine: {'line': b'6: -  geometry_msgs::msg::Pose getRobotPose() const;\n'}
+[1.818032] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.818218] (explore_lite) StdoutLine: {'line': b'6: +     * @brief Constructs client and start listening\n'}
+[1.818393] (explore_lite) StdoutLine: {'line': b'6: +     * @details Constructor will block until first map update is received and\n'}
+[1.818603] (explore_lite) StdoutLine: {'line': b'6: +     * map is ready to use, also will block before transformation\n'}
+[1.818777] (explore_lite) StdoutLine: {'line': b'6: +     * robot_base_frame <-> global_frame is available.\n'}
+[1.818938] (explore_lite) StdoutLine: {'line': b'6: +     *\n'}
+[1.819103] (explore_lite) StdoutLine: {'line': b'6: +     * @param node node handle to retrieve parameters from\n'}
+[1.819297] (explore_lite) StdoutLine: {'line': b'6: +     * @param tf_listener Will be used for transformation of robot pose.\n'}
+[1.819499] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.819688] (explore_lite) StdoutLine: {'line': b'6: +    Costmap2DClient(rclcpp::Node & node, const tf2_ros::Buffer * tf_listener);\n'}
+[1.819861] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.820036] (explore_lite) StdoutLine: {'line': b'6: +     * @brief Get the pose of the robot in the global frame of the costmap\n'}
+[1.820208] (explore_lite) StdoutLine: {'line': b'6: +     * @return pose of the robot in the global frame of the costmap\n'}
+[1.820382] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.820582] (explore_lite) StdoutLine: {'line': b'6: +    geometry_msgs::msg::Pose getRobotPose() const;\n'}
+[1.820759] (explore_lite) StdoutLine: {'line': b'6: @@ -73,10 +73,10 @@\n'}
+[1.820931] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.821103] (explore_lite) StdoutLine: {'line': b'6: -   * @brief Return a pointer to the "master" costmap which receives updates from\n'}
+[1.821285] (explore_lite) StdoutLine: {'line': b'6: -   * all the layers.\n'}
+[1.821470] (explore_lite) StdoutLine: {'line': b'6: -   *\n'}
+[1.821643] (explore_lite) StdoutLine: {'line': b'6: -   * This pointer will stay the same for the lifetime of Costmap2DClient object.\n'}
+[1.821804] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.821968] (explore_lite) StdoutLine: {'line': b'6: -  nav2_costmap_2d::Costmap2D* getCostmap()\n'}
+[1.822134] (explore_lite) StdoutLine: {'line': b'6: -  {\n'}
+[1.822299] (explore_lite) StdoutLine: {'line': b'6: -    return &costmap_;\n'}
+[1.822474] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.822644] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.822800] (explore_lite) StdoutLine: {'line': b'6: +     * @brief Return a pointer to the "master" costmap which receives updates from\n'}
+[1.822959] (explore_lite) StdoutLine: {'line': b'6: +     * all the layers.\n'}
+[1.823122] (explore_lite) StdoutLine: {'line': b'6: +     *\n'}
+[1.823283] (explore_lite) StdoutLine: {'line': b'6: +     * This pointer will stay the same for the lifetime of Costmap2DClient object.\n'}
+[1.823458] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.823629] (explore_lite) StdoutLine: {'line': b'6: +    nav2_costmap_2d::Costmap2D * getCostmap()\n'}
+[1.823786] (explore_lite) StdoutLine: {'line': b'6: +    {\n'}
+[1.823945] (explore_lite) StdoutLine: {'line': b'6: +      return &costmap_;\n'}
+[1.824099] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.824254] (explore_lite) StdoutLine: {'line': b'6: @@ -84,10 +84,10 @@\n'}
+[1.824422] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.824592] (explore_lite) StdoutLine: {'line': b'6: -   * @brief Return a pointer to the "master" costmap which receives updates from\n'}
+[1.824751] (explore_lite) StdoutLine: {'line': b'6: -   * all the layers.\n'}
+[1.824910] (explore_lite) StdoutLine: {'line': b'6: -   *\n'}
+[1.825067] (explore_lite) StdoutLine: {'line': b'6: -   * This pointer will stay the same for the lifetime of Costmap2DClient object.\n'}
+[1.825232] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.825724] (explore_lite) StdoutLine: {'line': b'6: -  const nav2_costmap_2d::Costmap2D* getCostmap() const\n'}
+[1.826137] (explore_lite) StdoutLine: {'line': b'6: -  {\n'}
+[1.826334] (explore_lite) StdoutLine: {'line': b'6: -    return &costmap_;\n'}
+[1.826543] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.826718] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.826882] (explore_lite) StdoutLine: {'line': b'6: +     * @brief Return a pointer to the "master" costmap which receives updates from\n'}
+[1.827055] (explore_lite) StdoutLine: {'line': b'6: +     * all the layers.\n'}
+[1.827217] (explore_lite) StdoutLine: {'line': b'6: +     *\n'}
+[1.827384] (explore_lite) StdoutLine: {'line': b'6: +     * This pointer will stay the same for the lifetime of Costmap2DClient object.\n'}
+[1.827609] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.827774] (explore_lite) StdoutLine: {'line': b'6: +    const nav2_costmap_2d::Costmap2D * getCostmap() const\n'}
+[1.827940] (explore_lite) StdoutLine: {'line': b'6: +    {\n'}
+[1.828106] (explore_lite) StdoutLine: {'line': b'6: +      return &costmap_;\n'}
+[1.828271] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.828450] (explore_lite) StdoutLine: {'line': b'6: @@ -95,8 +95,8 @@\n'}
+[1.828629] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.828790] (explore_lite) StdoutLine: {'line': b'6: -   * @brief  Returns the global frame of the costmap\n'}
+[1.828959] (explore_lite) StdoutLine: {'line': b'6: -   * @return The global frame of the costmap\n'}
+[1.829134] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.829313] (explore_lite) StdoutLine: {'line': b'6: -  const std::string& getGlobalFrameID() const\n'}
+[1.829505] (explore_lite) StdoutLine: {'line': b'6: -  {\n'}
+[1.829681] (explore_lite) StdoutLine: {'line': b'6: -    return global_frame_;\n'}
+[1.829857] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.830030] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.830201] (explore_lite) StdoutLine: {'line': b'6: +     * @brief  Returns the global frame of the costmap\n'}
+[1.830373] (explore_lite) StdoutLine: {'line': b'6: +     * @return The global frame of the costmap\n'}
+[1.830575] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.830747] (explore_lite) StdoutLine: {'line': b'6: +    const std::string & getGlobalFrameID() const\n'}
+[1.830959] (explore_lite) StdoutLine: {'line': b'6: +    {\n'}
+[1.831136] (explore_lite) StdoutLine: {'line': b'6: +      return global_frame_;\n'}
+[1.831308] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.831495] (explore_lite) StdoutLine: {'line': b'6: @@ -104,8 +104,8 @@\n'}
+[1.831683] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.831854] (explore_lite) StdoutLine: {'line': b'6: -   * @brief  Returns the local frame of the costmap\n'}
+[1.832025] (explore_lite) StdoutLine: {'line': b'6: -   * @return The local frame of the costmap\n'}
+[1.832196] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.832367] (explore_lite) StdoutLine: {'line': b'6: -  const std::string& getBaseFrameID() const\n'}
+[1.832581] (explore_lite) StdoutLine: {'line': b'6: -  {\n'}
+[1.832756] (explore_lite) StdoutLine: {'line': b'6: -    return robot_base_frame_;\n'}
+[1.832929] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.833098] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.833266] (explore_lite) StdoutLine: {'line': b'6: +     * @brief  Returns the local frame of the costmap\n'}
+[1.833444] (explore_lite) StdoutLine: {'line': b'6: +     * @return The local frame of the costmap\n'}
+[1.833649] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.833821] (explore_lite) StdoutLine: {'line': b'6: +    const std::string & getBaseFrameID() const\n'}
+[1.833998] (explore_lite) StdoutLine: {'line': b'6: +    {\n'}
+[1.834172] (explore_lite) StdoutLine: {'line': b'6: +      return robot_base_frame_;\n'}
+[1.834338] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.834531] (explore_lite) StdoutLine: {'line': b'6: @@ -114,2 +114,2 @@\n'}
+[1.834700] (explore_lite) StdoutLine: {'line': b'6: -  void updateFullMap(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);\n'}
+[1.834871] (explore_lite) StdoutLine: {'line': b'6: -  void updatePartialMap(const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg);\n'}
+[1.835037] (explore_lite) StdoutLine: {'line': b'6: +    void updateFullMap(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);\n'}
+[1.835197] (explore_lite) StdoutLine: {'line': b'6: +    void updatePartialMap(const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg);\n'}
+[1.835356] (explore_lite) StdoutLine: {'line': b'6: @@ -117,3 +117,3 @@\n'}
+[1.835541] (explore_lite) StdoutLine: {'line': b'6: -  nav2_costmap_2d::Costmap2D costmap_;\n'}
+[1.835707] (explore_lite) StdoutLine: {'line': b'6: -  bool costmap_received_ = false;  ///< @brief Flag indicating whether costmap\n'}
+[1.835866] (explore_lite) StdoutLine: {'line': b'6: -                                   ///< callback has been called\n'}
+[1.836052] (explore_lite) StdoutLine: {'line': b'6: +    nav2_costmap_2d::Costmap2D costmap_;\n'}
+[1.836212] (explore_lite) StdoutLine: {'line': b'6: +    bool costmap_received_ = false; ///< @brief Flag indicating whether costmap\n'}
+[1.836372] (explore_lite) StdoutLine: {'line': b'6: +                                    ///< callback has been called\n'}
+[1.836558] (explore_lite) StdoutLine: {'line': b'6: @@ -121,6 +121,6 @@\n'}
+[1.836728] (explore_lite) StdoutLine: {'line': b'6: -  const tf2_ros::Buffer* const tf_;  ///< @brief Used for transforming\n'}
+[1.836891] (explore_lite) StdoutLine: {'line': b'6: -                                     /// point clouds\n'}
+[1.837051] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp::Node& node_;\n'}
+[1.837209] (explore_lite) StdoutLine: {'line': b'6: -  std::string global_frame_;      ///< @brief The global frame for the costmap\n'}
+[1.837371] (explore_lite) StdoutLine: {'line': b'6: -  std::string robot_base_frame_;  ///< @brief The frame_id of the robot base\n'}
+[1.837556] (explore_lite) StdoutLine: {'line': b'6: -  double transform_tolerance_;    ///< timeout before transform errors\n'}
+[1.837715] (explore_lite) StdoutLine: {'line': b'6: +    const tf2_ros::Buffer * const tf_; ///< @brief Used for transforming\n'}
+[1.837869] (explore_lite) StdoutLine: {'line': b'6: +                                       /// point clouds\n'}
+[1.838023] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp::Node & node_;\n'}
+[1.838176] (explore_lite) StdoutLine: {'line': b'6: +    std::string global_frame_;    ///< @brief The global frame for the costmap\n'}
+[1.838330] (explore_lite) StdoutLine: {'line': b'6: +    std::string robot_base_frame_; ///< @brief The frame_id of the robot base\n'}
+[1.838506] (explore_lite) StdoutLine: {'line': b'6: +    double transform_tolerance_;  ///< timeout before transform errors\n'}
+[1.838667] (explore_lite) StdoutLine: {'line': b'6: @@ -129,5 +129,5 @@\n'}
+[1.838822] (explore_lite) StdoutLine: {'line': b'6: -  // will be unsubscribed at destruction\n'}
+[1.838975] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>::SharedPtr costmap_sub_;\n'}
+[1.839132] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp::Subscription<map_msgs::msg::OccupancyGridUpdate>::SharedPtr\n'}
+[1.839285] (explore_lite) StdoutLine: {'line': b'6: -      costmap_updates_sub_;\n'}
+[1.839450] (explore_lite) StdoutLine: {'line': b'6: -};\n'}
+[1.839621] (explore_lite) StdoutLine: {'line': b'6: +    // will be unsubscribed at destruction\n'}
+[1.839776] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp::Subscription < nav_msgs::msg::OccupancyGrid > ::SharedPtr costmap_sub_;\n'}
+[1.839931] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp::Subscription < map_msgs::msg::OccupancyGridUpdate > ::SharedPtr\n'}
+[1.840087] (explore_lite) StdoutLine: {'line': b'6: +    costmap_updates_sub_;\n'}
+[1.840242] (explore_lite) StdoutLine: {'line': b'6: +  };\n'}
+[1.840394] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.840568] (explore_lite) StdoutLine: {'line': b"6: Code style divergence in file 'include/explore/costmap_tools.h':\n"}
+[1.840729] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.840887] (explore_lite) StdoutLine: {'line': b'6: --- include/explore/costmap_tools.h\n'}
+[1.841043] (explore_lite) StdoutLine: {'line': b'6: +++ include/explore/costmap_tools.h.uncrustify\n'}
+[1.841198] (explore_lite) StdoutLine: {'line': b'6: @@ -19,5 +19,6 @@\n'}
+[1.841356] (explore_lite) StdoutLine: {'line': b'6: -std::vector<unsigned int> nhood4(unsigned int idx,\n'}
+[1.841540] (explore_lite) StdoutLine: {'line': b'6: -                                 const nav2_costmap_2d::Costmap2D& costmap)\n'}
+[1.841706] (explore_lite) StdoutLine: {'line': b'6: -{\n'}
+[1.841859] (explore_lite) StdoutLine: {'line': b'6: -  // get 4-connected neighbourhood indexes, check for edge of map\n'}
+[1.842015] (explore_lite) StdoutLine: {'line': b'6: -  std::vector<unsigned int> out;\n'}
+[1.842189] (explore_lite) StdoutLine: {'line': b'6: +  std::vector < unsigned int > nhood4(\n'}
+[1.842345] (explore_lite) StdoutLine: {'line': b'6: +    unsigned int idx,\n'}
+[1.842525] (explore_lite) StdoutLine: {'line': b'6: +    const nav2_costmap_2d::Costmap2D & costmap)\n'}
+[1.842689] (explore_lite) StdoutLine: {'line': b'6: +  {\n'}
+[1.842847] (explore_lite) StdoutLine: {'line': b'6: +    // get 4-connected neighbourhood indexes, check for edge of map\n'}
+[1.843004] (explore_lite) StdoutLine: {'line': b'6: +    std::vector < unsigned int > out;\n'}
+[1.843158] (explore_lite) StdoutLine: {'line': b'6: @@ -25,2 +26,2 @@\n'}
+[1.843314] (explore_lite) StdoutLine: {'line': b'6: -  unsigned int size_x_ = costmap.getSizeInCellsX(),\n'}
+[1.843483] (explore_lite) StdoutLine: {'line': b'6: -               size_y_ = costmap.getSizeInCellsY();\n'}
+[1.843648] (explore_lite) StdoutLine: {'line': b'6: +    unsigned int size_x_ = costmap.getSizeInCellsX(),\n'}
+[1.843804] (explore_lite) StdoutLine: {'line': b'6: +      size_y_ = costmap.getSizeInCellsY();\n'}
+[1.843957] (explore_lite) StdoutLine: {'line': b'6: @@ -28,3 +29,19 @@\n'}
+[1.844111] (explore_lite) StdoutLine: {'line': b'6: -  if (idx > size_x_ * size_y_ - 1) {\n'}
+[1.844265] (explore_lite) StdoutLine: {'line': b'6: -    RCLCPP_WARN(rclcpp::get_logger("FrontierExploration"), "Evaluating nhood "\n'}
+[1.844431] (explore_lite) StdoutLine: {'line': b'6: -                                                           "for offmap point");\n'}
+[1.844599] (explore_lite) StdoutLine: {'line': b'6: +    if (idx > size_x_ * size_y_ - 1) {\n'}
+[1.844754] (explore_lite) StdoutLine: {'line': b'6: +      RCLCPP_WARN(\n'}
+[1.844923] (explore_lite) StdoutLine: {'line': b'6: +        rclcpp::get_logger("FrontierExploration"), "Evaluating nhood "\n'}
+[1.845080] (explore_lite) StdoutLine: {'line': b'6: +        "for offmap point");\n'}
+[1.845235] (explore_lite) StdoutLine: {'line': b'6: +      return out;\n'}
+[1.845409] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.845579] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.845734] (explore_lite) StdoutLine: {'line': b'6: +    if (idx % size_x_ > 0) {\n'}
+[1.845888] (explore_lite) StdoutLine: {'line': b'6: +      out.push_back(idx - 1);\n'}
+[1.846041] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.846215] (explore_lite) StdoutLine: {'line': b'6: +    if (idx % size_x_ < size_x_ - 1) {\n'}
+[1.846371] (explore_lite) StdoutLine: {'line': b'6: +      out.push_back(idx + 1);\n'}
+[1.846554] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.846711] (explore_lite) StdoutLine: {'line': b'6: +    if (idx >= size_x_) {\n'}
+[1.846867] (explore_lite) StdoutLine: {'line': b'6: +      out.push_back(idx - size_x_);\n'}
+[1.847021] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.847176] (explore_lite) StdoutLine: {'line': b'6: +    if (idx < size_x_ * (size_y_ - 1)) {\n'}
+[1.847339] (explore_lite) StdoutLine: {'line': b'6: +      out.push_back(idx + size_x_);\n'}
+[1.847522] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.847686] (explore_lite) StdoutLine: {'line': b'6: @@ -33,15 +49,0 @@\n'}
+[1.847846] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.848008] (explore_lite) StdoutLine: {'line': b'6: -  if (idx % size_x_ > 0) {\n'}
+[1.848164] (explore_lite) StdoutLine: {'line': b'6: -    out.push_back(idx - 1);\n'}
+[1.848321] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.848497] (explore_lite) StdoutLine: {'line': b'6: -  if (idx % size_x_ < size_x_ - 1) {\n'}
+[1.848661] (explore_lite) StdoutLine: {'line': b'6: -    out.push_back(idx + 1);\n'}
+[1.848818] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.848974] (explore_lite) StdoutLine: {'line': b'6: -  if (idx >= size_x_) {\n'}
+[1.849130] (explore_lite) StdoutLine: {'line': b'6: -    out.push_back(idx - size_x_);\n'}
+[1.849286] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.849461] (explore_lite) StdoutLine: {'line': b'6: -  if (idx < size_x_ * (size_y_ - 1)) {\n'}
+[1.849630] (explore_lite) StdoutLine: {'line': b'6: -    out.push_back(idx + size_x_);\n'}
+[1.849789] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.849958] (explore_lite) StdoutLine: {'line': b'6: -  return out;\n'}
+[1.850116] (explore_lite) StdoutLine: {'line': b'6: -}\n'}
+[1.850289] (explore_lite) StdoutLine: {'line': b'6: @@ -56,5 +58,6 @@\n'}
+[1.850468] (explore_lite) StdoutLine: {'line': b'6: -std::vector<unsigned int> nhood8(unsigned int idx,\n'}
+[1.850652] (explore_lite) StdoutLine: {'line': b'6: -                                 const nav2_costmap_2d::Costmap2D& costmap)\n'}
+[1.850818] (explore_lite) StdoutLine: {'line': b'6: -{\n'}
+[1.850982] (explore_lite) StdoutLine: {'line': b'6: -  // get 8-connected neighbourhood indexes, check for edge of map\n'}
+[1.851142] (explore_lite) StdoutLine: {'line': b'6: -  std::vector<unsigned int> out = nhood4(idx, costmap);\n'}
+[1.851301] (explore_lite) StdoutLine: {'line': b'6: +  std::vector < unsigned int > nhood8(\n'}
+[1.851481] (explore_lite) StdoutLine: {'line': b'6: +    unsigned int idx,\n'}
+[1.851649] (explore_lite) StdoutLine: {'line': b'6: +    const nav2_costmap_2d::Costmap2D & costmap)\n'}
+[1.851805] (explore_lite) StdoutLine: {'line': b'6: +  {\n'}
+[1.851960] (explore_lite) StdoutLine: {'line': b'6: +    // get 8-connected neighbourhood indexes, check for edge of map\n'}
+[1.852116] (explore_lite) StdoutLine: {'line': b'6: +    std::vector < unsigned int > out = nhood4(idx, costmap);\n'}
+[1.852275] (explore_lite) StdoutLine: {'line': b'6: @@ -62,2 +65,2 @@\n'}
+[1.852445] (explore_lite) StdoutLine: {'line': b'6: -  unsigned int size_x_ = costmap.getSizeInCellsX(),\n'}
+[1.852616] (explore_lite) StdoutLine: {'line': b'6: -               size_y_ = costmap.getSizeInCellsY();\n'}
+[1.852770] (explore_lite) StdoutLine: {'line': b'6: +    unsigned int size_x_ = costmap.getSizeInCellsX(),\n'}
+[1.852924] (explore_lite) StdoutLine: {'line': b'6: +      size_y_ = costmap.getSizeInCellsY();\n'}
+[1.853081] (explore_lite) StdoutLine: {'line': b'6: @@ -65 +68,17 @@\n'}
+[1.853239] (explore_lite) StdoutLine: {'line': b'6: -  if (idx > size_x_ * size_y_ - 1) {\n'}
+[1.853393] (explore_lite) StdoutLine: {'line': b'6: +    if (idx > size_x_ * size_y_ - 1) {\n'}
+[1.853567] (explore_lite) StdoutLine: {'line': b'6: +      return out;\n'}
+[1.853723] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.853875] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.854056] (explore_lite) StdoutLine: {'line': b'6: +    if (idx % size_x_ > 0 && idx >= size_x_) {\n'}
+[1.854216] (explore_lite) StdoutLine: {'line': b'6: +      out.push_back(idx - 1 - size_x_);\n'}
+[1.854372] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.854547] (explore_lite) StdoutLine: {'line': b'6: +    if (idx % size_x_ > 0 && idx < size_x_ * (size_y_ - 1)) {\n'}
+[1.854708] (explore_lite) StdoutLine: {'line': b'6: +      out.push_back(idx - 1 + size_x_);\n'}
+[1.854860] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.855012] (explore_lite) StdoutLine: {'line': b'6: +    if (idx % size_x_ < size_x_ - 1 && idx >= size_x_) {\n'}
+[1.855416] (explore_lite) StdoutLine: {'line': b'6: +      out.push_back(idx + 1 - size_x_);\n'}
+[1.855612] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.855771] (explore_lite) StdoutLine: {'line': b'6: +    if (idx % size_x_ < size_x_ - 1 && idx < size_x_ * (size_y_ - 1)) {\n'}
+[1.855927] (explore_lite) StdoutLine: {'line': b'6: +      out.push_back(idx + 1 + size_x_);\n'}
+[1.856089] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.856245] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.856407] (explore_lite) StdoutLine: {'line': b'6: @@ -68,16 +86,0 @@\n'}
+[1.856579] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.856734] (explore_lite) StdoutLine: {'line': b'6: -  if (idx % size_x_ > 0 && idx >= size_x_) {\n'}
+[1.856894] (explore_lite) StdoutLine: {'line': b'6: -    out.push_back(idx - 1 - size_x_);\n'}
+[1.857053] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.857208] (explore_lite) StdoutLine: {'line': b'6: -  if (idx % size_x_ > 0 && idx < size_x_ * (size_y_ - 1)) {\n'}
+[1.857364] (explore_lite) StdoutLine: {'line': b'6: -    out.push_back(idx - 1 + size_x_);\n'}
+[1.857553] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.857712] (explore_lite) StdoutLine: {'line': b'6: -  if (idx % size_x_ < size_x_ - 1 && idx >= size_x_) {\n'}
+[1.857864] (explore_lite) StdoutLine: {'line': b'6: -    out.push_back(idx + 1 - size_x_);\n'}
+[1.858015] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.858166] (explore_lite) StdoutLine: {'line': b'6: -  if (idx % size_x_ < size_x_ - 1 && idx < size_x_ * (size_y_ - 1)) {\n'}
+[1.858317] (explore_lite) StdoutLine: {'line': b'6: -    out.push_back(idx + 1 + size_x_);\n'}
+[1.858486] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.858645] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.858800] (explore_lite) StdoutLine: {'line': b'6: -  return out;\n'}
+[1.858949] (explore_lite) StdoutLine: {'line': b'6: -}\n'}
+[1.859101] (explore_lite) StdoutLine: {'line': b'6: @@ -93,6 +96,7 @@\n'}
+[1.859253] (explore_lite) StdoutLine: {'line': b'6: -bool nearestCell(unsigned int& result, unsigned int start, unsigned char val,\n'}
+[1.859423] (explore_lite) StdoutLine: {'line': b'6: -                 const nav2_costmap_2d::Costmap2D& costmap)\n'}
+[1.859592] (explore_lite) StdoutLine: {'line': b'6: -{\n'}
+[1.859746] (explore_lite) StdoutLine: {'line': b'6: -  const unsigned char* map = costmap.getCharMap();\n'}
+[1.859898] (explore_lite) StdoutLine: {'line': b'6: -  const unsigned int size_x = costmap.getSizeInCellsX(),\n'}
+[1.860052] (explore_lite) StdoutLine: {'line': b'6: -                     size_y = costmap.getSizeInCellsY();\n'}
+[1.860202] (explore_lite) StdoutLine: {'line': b'6: +  bool nearestCell(\n'}
+[1.860360] (explore_lite) StdoutLine: {'line': b'6: +    unsigned int & result, unsigned int start, unsigned char val,\n'}
+[1.860534] (explore_lite) StdoutLine: {'line': b'6: +    const nav2_costmap_2d::Costmap2D & costmap)\n'}
+[1.860709] (explore_lite) StdoutLine: {'line': b'6: +  {\n'}
+[1.860862] (explore_lite) StdoutLine: {'line': b'6: +    const unsigned char * map = costmap.getCharMap();\n'}
+[1.861017] (explore_lite) StdoutLine: {'line': b'6: +    const unsigned int size_x = costmap.getSizeInCellsX(),\n'}
+[1.861178] (explore_lite) StdoutLine: {'line': b'6: +      size_y = costmap.getSizeInCellsY();\n'}
+[1.861333] (explore_lite) StdoutLine: {'line': b'6: @@ -100 +104,32 @@\n'}
+[1.861514] (explore_lite) StdoutLine: {'line': b'6: -  if (start >= size_x * size_y) {\n'}
+[1.861674] (explore_lite) StdoutLine: {'line': b'6: +    if (start >= size_x * size_y) {\n'}
+[1.861826] (explore_lite) StdoutLine: {'line': b'6: +      return false;\n'}
+[1.861978] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.862132] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.862281] (explore_lite) StdoutLine: {'line': b'6: +    // initialize breadth first search\n'}
+[1.862442] (explore_lite) StdoutLine: {'line': b'6: +    std::queue < unsigned int > bfs;\n'}
+[1.862612] (explore_lite) StdoutLine: {'line': b'6: +    std::vector < bool > visited_flag(size_x * size_y, false);\n'}
+[1.862766] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.862920] (explore_lite) StdoutLine: {'line': b'6: +    // push initial cell\n'}
+[1.863071] (explore_lite) StdoutLine: {'line': b'6: +    bfs.push(start);\n'}
+[1.863221] (explore_lite) StdoutLine: {'line': b'6: +    visited_flag[start] = true;\n'}
+[1.863368] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.863544] (explore_lite) StdoutLine: {'line': b'6: +    // search for neighbouring cell matching value\n'}
+[1.863700] (explore_lite) StdoutLine: {'line': b'6: +    while (!bfs.empty()) {\n'}
+[1.863853] (explore_lite) StdoutLine: {'line': b'6: +      unsigned int idx = bfs.front();\n'}
+[1.864004] (explore_lite) StdoutLine: {'line': b'6: +      bfs.pop();\n'}
+[1.864156] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.864307] (explore_lite) StdoutLine: {'line': b'6: +      // return if cell of correct value is found\n'}
+[1.864479] (explore_lite) StdoutLine: {'line': b'6: +      if (map[idx] == val) {\n'}
+[1.864641] (explore_lite) StdoutLine: {'line': b'6: +        result = idx;\n'}
+[1.864790] (explore_lite) StdoutLine: {'line': b'6: +        return true;\n'}
+[1.864954] (explore_lite) StdoutLine: {'line': b'6: +      }\n'}
+[1.865107] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.865260] (explore_lite) StdoutLine: {'line': b'6: +      // iterate over all adjacent unvisited cells\n'}
+[1.865423] (explore_lite) StdoutLine: {'line': b'6: +      for (unsigned nbr : nhood8(idx, costmap)) {\n'}
+[1.865591] (explore_lite) StdoutLine: {'line': b'6: +        if (!visited_flag[nbr]) {\n'}
+[1.865744] (explore_lite) StdoutLine: {'line': b'6: +          bfs.push(nbr);\n'}
+[1.865895] (explore_lite) StdoutLine: {'line': b'6: +          visited_flag[nbr] = true;\n'}
+[1.866065] (explore_lite) StdoutLine: {'line': b'6: +        }\n'}
+[1.866218] (explore_lite) StdoutLine: {'line': b'6: +      }\n'}
+[1.866370] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.866545] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.866704] (explore_lite) StdoutLine: {'line': b'6: @@ -103,31 +137,0 @@\n'}
+[1.866856] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.867006] (explore_lite) StdoutLine: {'line': b'6: -  // initialize breadth first search\n'}
+[1.867163] (explore_lite) StdoutLine: {'line': b'6: -  std::queue<unsigned int> bfs;\n'}
+[1.867335] (explore_lite) StdoutLine: {'line': b'6: -  std::vector<bool> visited_flag(size_x * size_y, false);\n'}
+[1.867524] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.867691] (explore_lite) StdoutLine: {'line': b'6: -  // push initial cell\n'}
+[1.867853] (explore_lite) StdoutLine: {'line': b'6: -  bfs.push(start);\n'}
+[1.868013] (explore_lite) StdoutLine: {'line': b'6: -  visited_flag[start] = true;\n'}
+[1.868174] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.868337] (explore_lite) StdoutLine: {'line': b'6: -  // search for neighbouring cell matching value\n'}
+[1.868530] (explore_lite) StdoutLine: {'line': b'6: -  while (!bfs.empty()) {\n'}
+[1.868693] (explore_lite) StdoutLine: {'line': b'6: -    unsigned int idx = bfs.front();\n'}
+[1.868864] (explore_lite) StdoutLine: {'line': b'6: -    bfs.pop();\n'}
+[1.869024] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.869181] (explore_lite) StdoutLine: {'line': b'6: -    // return if cell of correct value is found\n'}
+[1.869335] (explore_lite) StdoutLine: {'line': b'6: -    if (map[idx] == val) {\n'}
+[1.869519] (explore_lite) StdoutLine: {'line': b'6: -      result = idx;\n'}
+[1.869681] (explore_lite) StdoutLine: {'line': b'6: -      return true;\n'}
+[1.869846] (explore_lite) StdoutLine: {'line': b'6: -    }\n'}
+[1.870006] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.870158] (explore_lite) StdoutLine: {'line': b'6: -    // iterate over all adjacent unvisited cells\n'}
+[1.870311] (explore_lite) StdoutLine: {'line': b'6: -    for (unsigned nbr : nhood8(idx, costmap)) {\n'}
+[1.870483] (explore_lite) StdoutLine: {'line': b'6: -      if (!visited_flag[nbr]) {\n'}
+[1.870644] (explore_lite) StdoutLine: {'line': b'6: -        bfs.push(nbr);\n'}
+[1.870798] (explore_lite) StdoutLine: {'line': b'6: -        visited_flag[nbr] = true;\n'}
+[1.870953] (explore_lite) StdoutLine: {'line': b'6: -      }\n'}
+[1.871105] (explore_lite) StdoutLine: {'line': b'6: -    }\n'}
+[1.871257] (explore_lite) StdoutLine: {'line': b'6: -  }\n'}
+[1.871424] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.871594] (explore_lite) StdoutLine: {'line': b'6: -  return false;\n'}
+[1.871745] (explore_lite) StdoutLine: {'line': b'6: -}\n'}
+[1.871898] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.872054] (explore_lite) StdoutLine: {'line': b"6: Code style divergence in file 'include/explore/explore.h':\n"}
+[1.872208] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.872362] (explore_lite) StdoutLine: {'line': b'6: --- include/explore/explore.h\n'}
+[1.872537] (explore_lite) StdoutLine: {'line': b'6: +++ include/explore/explore.h.uncrustify\n'}
+[1.872696] (explore_lite) StdoutLine: {'line': b'6: @@ -74,2 +74,2 @@\n'}
+[1.872846] (explore_lite) StdoutLine: {'line': b'6: -class Explore : public rclcpp::Node\n'}
+[1.873002] (explore_lite) StdoutLine: {'line': b'6: -{\n'}
+[1.873152] (explore_lite) StdoutLine: {'line': b'6: +  class Explore: public rclcpp::Node\n'}
+[1.873322] (explore_lite) StdoutLine: {'line': b'6: +  {\n'}
+[1.873493] (explore_lite) StdoutLine: {'line': b'6: @@ -77,2 +77,2 @@\n'}
+[1.873649] (explore_lite) StdoutLine: {'line': b'6: -  Explore();\n'}
+[1.873801] (explore_lite) StdoutLine: {'line': b'6: -  ~Explore();\n'}
+[1.873956] (explore_lite) StdoutLine: {'line': b'6: +    Explore();\n'}
+[1.874108] (explore_lite) StdoutLine: {'line': b'6: +    ~Explore();\n'}
+[1.874260] (explore_lite) StdoutLine: {'line': b'6: @@ -80,3 +80,3 @@\n'}
+[1.874424] (explore_lite) StdoutLine: {'line': b'6: -  void start();\n'}
+[1.874595] (explore_lite) StdoutLine: {'line': b'6: -  void stop(bool finished_exploring = false);\n'}
+[1.874748] (explore_lite) StdoutLine: {'line': b'6: -  void resume();\n'}
+[1.874902] (explore_lite) StdoutLine: {'line': b'6: +    void start();\n'}
+[1.875055] (explore_lite) StdoutLine: {'line': b'6: +    void stop(bool finished_exploring = false);\n'}
+[1.875208] (explore_lite) StdoutLine: {'line': b'6: +    void resume();\n'}
+[1.875360] (explore_lite) StdoutLine: {'line': b'6: @@ -84,3 +84,2 @@\n'}
+[1.875538] (explore_lite) StdoutLine: {'line': b'6: -  using NavigationGoalHandle =\n'}
+[1.875693] (explore_lite) StdoutLine: {'line': b'6: -      rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>;\n'}
+[1.875847] (explore_lite) StdoutLine: {'line': b'6: -      \n'}
+[1.875998] (explore_lite) StdoutLine: {'line': b'6: +    using NavigationGoalHandle =\n'}
+[1.876148] (explore_lite) StdoutLine: {'line': b'6: +      rclcpp_action::ClientGoalHandle < nav2_msgs::action::NavigateToPose >;\n'}
+[1.876306] (explore_lite) StdoutLine: {'line': b'6: @@ -89,4 +88,4 @@\n'}
+[1.876473] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.876634] (explore_lite) StdoutLine: {'line': b'6: -   * @brief  Make a global plan\n'}
+[1.876784] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.876935] (explore_lite) StdoutLine: {'line': b'6: -  void makePlan();\n'}
+[1.877086] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.877237] (explore_lite) StdoutLine: {'line': b'6: +     * @brief  Make a global plan\n'}
+[1.877385] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.877557] (explore_lite) StdoutLine: {'line': b'6: +    void makePlan();\n'}
+[1.877711] (explore_lite) StdoutLine: {'line': b'6: @@ -94,5 +93,5 @@\n'}
+[1.877862] (explore_lite) StdoutLine: {'line': b'6: -  // /**\n'}
+[1.878012] (explore_lite) StdoutLine: {'line': b'6: -  //  * @brief  Publish a frontiers as markers\n'}
+[1.878188] (explore_lite) StdoutLine: {'line': b'6: -  //  */\n'}
+[1.878340] (explore_lite) StdoutLine: {'line': b'6: -  void visualizeFrontiers(\n'}
+[1.878514] (explore_lite) StdoutLine: {'line': b'6: -      const std::vector<frontier_exploration::Frontier>& frontiers);\n'}
+[1.878672] (explore_lite) StdoutLine: {'line': b'6: +    // /**\n'}
+[1.878830] (explore_lite) StdoutLine: {'line': b'6: +    //  * @brief  Publish a frontiers as markers\n'}
+[1.878993] (explore_lite) StdoutLine: {'line': b'6: +    //  */\n'}
+[1.879151] (explore_lite) StdoutLine: {'line': b'6: +    void visualizeFrontiers(\n'}
+[1.879307] (explore_lite) StdoutLine: {'line': b'6: +      const std::vector < frontier_exploration::Frontier > & frontiers);\n'}
+[1.879485] (explore_lite) StdoutLine: {'line': b'6: @@ -100 +99 @@\n'}
+[1.879649] (explore_lite) StdoutLine: {'line': b'6: -  bool goalOnBlacklist(const geometry_msgs::msg::Point& goal);\n'}
+[1.879806] (explore_lite) StdoutLine: {'line': b'6: +    bool goalOnBlacklist(const geometry_msgs::msg::Point & goal);\n'}
+[1.879965] (explore_lite) StdoutLine: {'line': b'6: @@ -102,6 +101,7 @@\n'}
+[1.880124] (explore_lite) StdoutLine: {'line': b'6: -  NavigationGoalHandle::SharedPtr navigation_goal_handle_;\n'}
+[1.880279] (explore_lite) StdoutLine: {'line': b'6: -  // void\n'}
+[1.880448] (explore_lite) StdoutLine: {'line': b'6: -  // goal_response_callback(std::shared_future<NavigationGoalHandle::SharedPtr>\n'}
+[1.880624] (explore_lite) StdoutLine: {'line': b'6: -  // future);\n'}
+[1.880778] (explore_lite) StdoutLine: {'line': b'6: -  void reachedGoal(const NavigationGoalHandle::WrappedResult& result,\n'}
+[1.880947] (explore_lite) StdoutLine: {'line': b'6: -                   const geometry_msgs::msg::Point& frontier_goal);\n'}
+[1.881102] (explore_lite) StdoutLine: {'line': b'6: +    NavigationGoalHandle::SharedPtr navigation_goal_handle_;\n'}
+[1.881260] (explore_lite) StdoutLine: {'line': b'6: +    // void\n'}
+[1.881429] (explore_lite) StdoutLine: {'line': b'6: +    // goal_response_callback(std::shared_future<NavigationGoalHandle::SharedPtr>\n'}
+[1.881604] (explore_lite) StdoutLine: {'line': b'6: +    // future);\n'}
+[1.881758] (explore_lite) StdoutLine: {'line': b'6: +    void reachedGoal(\n'}
+[1.881911] (explore_lite) StdoutLine: {'line': b'6: +      const NavigationGoalHandle::WrappedResult & result,\n'}
+[1.882067] (explore_lite) StdoutLine: {'line': b'6: +      const geometry_msgs::msg::Point & frontier_goal);\n'}
+[1.882220] (explore_lite) StdoutLine: {'line': b'6: @@ -109,6 +109,6 @@\n'}
+[1.882376] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr\n'}
+[1.882553] (explore_lite) StdoutLine: {'line': b'6: -      marker_array_publisher_;\n'}
+[1.882711] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.882862] (explore_lite) StdoutLine: {'line': b'6: -    * @brief Publisher for exploration status updates (see ExploreStatus.msg for status values)\n'}
+[1.883034] (explore_lite) StdoutLine: {'line': b'6: -    */\n'}
+[1.883185] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp::Publisher<explore_lite_msgs::msg::ExploreStatus>::SharedPtr status_pub_;\n'}
+[1.883341] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp::Publisher < visualization_msgs::msg::MarkerArray > ::SharedPtr\n'}
+[1.883733] (explore_lite) StdoutLine: {'line': b'6: +    marker_array_publisher_;\n'}
+[1.883907] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.884038] (explore_lite) StdoutLine: {'line': b'6: +      * @brief Publisher for exploration status updates (see ExploreStatus.msg for status values)\n'}
+[1.884161] (explore_lite) StdoutLine: {'line': b'6: +      */\n'}
+[1.884275] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp::Publisher < explore_lite_msgs::msg::ExploreStatus > ::SharedPtr status_pub_;\n'}
+[1.884390] (explore_lite) StdoutLine: {'line': b'6: @@ -116,3 +116,3 @@\n'}
+[1.884508] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp::Logger logger_;\n'}
+[1.884600] (explore_lite) StdoutLine: {'line': b'6: -  tf2_ros::Buffer tf_buffer_;\n'}
+[1.884692] (explore_lite) StdoutLine: {'line': b'6: -  tf2_ros::TransformListener tf_listener_;\n'}
+[1.884801] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp::Logger logger_;\n'}
+[1.884895] (explore_lite) StdoutLine: {'line': b'6: +    tf2_ros::Buffer tf_buffer_;\n'}
+[1.884988] (explore_lite) StdoutLine: {'line': b'6: +    tf2_ros::TransformListener tf_listener_;\n'}
+[1.885083] (explore_lite) StdoutLine: {'line': b'6: @@ -120,3 +120,3 @@\n'}
+[1.885162] (explore_lite) StdoutLine: {'line': b'6: -  Costmap2DClient costmap_client_;\n'}
+[1.885254] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr\n'}
+[1.885332] (explore_lite) StdoutLine: {'line': b'6: -      move_base_client_;\n'}
+[1.885417] (explore_lite) StdoutLine: {'line': b'6: +    Costmap2DClient costmap_client_;\n'}
+[1.885507] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp_action::Client < nav2_msgs::action::NavigateToPose > ::SharedPtr\n'}
+[1.885585] (explore_lite) StdoutLine: {'line': b'6: +    move_base_client_;\n'}
+[1.885661] (explore_lite) StdoutLine: {'line': b'6: @@ -124,2 +124,2 @@\n'}
+[1.885736] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp_action::Client<nav2_msgs::action::Spin>::SharedPtr spin_client_;\n'}
+[1.885809] (explore_lite) StdoutLine: {'line': b'6: -  void executeSpin();\n'}
+[1.885880] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp_action::Client < nav2_msgs::action::Spin > ::SharedPtr spin_client_;\n'}
+[1.885954] (explore_lite) StdoutLine: {'line': b'6: +    void executeSpin();\n'}
+[1.886027] (explore_lite) StdoutLine: {'line': b'6: @@ -127,3 +127,3 @@\n'}
+[1.886102] (explore_lite) StdoutLine: {'line': b'6: -  frontier_exploration::FrontierSearch search_;\n'}
+[1.886173] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp::TimerBase::SharedPtr exploring_timer_;\n'}
+[1.886244] (explore_lite) StdoutLine: {'line': b'6: -  // rclcpp::TimerBase::SharedPtr oneshot_;\n'}
+[1.886313] (explore_lite) StdoutLine: {'line': b'6: +    frontier_exploration::FrontierSearch search_;\n'}
+[1.886382] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp::TimerBase::SharedPtr exploring_timer_;\n'}
+[1.886462] (explore_lite) StdoutLine: {'line': b'6: +    // rclcpp::TimerBase::SharedPtr oneshot_;\n'}
+[1.886536] (explore_lite) StdoutLine: {'line': b'6: @@ -131,2 +131,2 @@\n'}
+[1.886607] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr resume_subscription_;\n'}
+[1.886680] (explore_lite) StdoutLine: {'line': b'6: -  void resumeCallback(const std_msgs::msg::Bool::SharedPtr msg);\n'}
+[1.886753] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp::Subscription < std_msgs::msg::Bool > ::SharedPtr resume_subscription_;\n'}
+[1.886824] (explore_lite) StdoutLine: {'line': b'6: +    void resumeCallback(const std_msgs::msg::Bool::SharedPtr msg);\n'}
+[1.886893] (explore_lite) StdoutLine: {'line': b'6: @@ -134,5 +134,5 @@\n'}
+[1.886963] (explore_lite) StdoutLine: {'line': b'6: -  std::vector<geometry_msgs::msg::Point> frontier_blacklist_;\n'}
+[1.887027] (explore_lite) StdoutLine: {'line': b'6: -  geometry_msgs::msg::Point prev_goal_;\n'}
+[1.887092] (explore_lite) StdoutLine: {'line': b'6: -  double prev_distance_;\n'}
+[1.887162] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp::Time last_progress_;\n'}
+[1.887226] (explore_lite) StdoutLine: {'line': b'6: -  size_t last_markers_count_;\n'}
+[1.887290] (explore_lite) StdoutLine: {'line': b'6: +    std::vector < geometry_msgs::msg::Point > frontier_blacklist_;\n'}
+[1.887356] (explore_lite) StdoutLine: {'line': b'6: +    geometry_msgs::msg::Point prev_goal_;\n'}
+[1.887427] (explore_lite) StdoutLine: {'line': b'6: +    double prev_distance_;\n'}
+[1.887493] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp::Time last_progress_;\n'}
+[1.887556] (explore_lite) StdoutLine: {'line': b'6: +    size_t last_markers_count_;\n'}
+[1.887619] (explore_lite) StdoutLine: {'line': b'6: @@ -140,2 +140,2 @@\n'}
+[1.887680] (explore_lite) StdoutLine: {'line': b'6: -  geometry_msgs::msg::Pose initial_pose_;\n'}
+[1.887741] (explore_lite) StdoutLine: {'line': b'6: -  void returnToInitialPose(void);\n'}
+[1.887805] (explore_lite) StdoutLine: {'line': b'6: +    geometry_msgs::msg::Pose initial_pose_;\n'}
+[1.887865] (explore_lite) StdoutLine: {'line': b'6: +    void returnToInitialPose(void);\n'}
+[1.887928] (explore_lite) StdoutLine: {'line': b'6: @@ -143,9 +143,9 @@\n'}
+[1.887994] (explore_lite) StdoutLine: {'line': b'6: -  // parameters\n'}
+[1.888058] (explore_lite) StdoutLine: {'line': b'6: -  double planner_frequency_;\n'}
+[1.888122] (explore_lite) StdoutLine: {'line': b'6: -  double potential_scale_, orientation_scale_, gain_scale_;\n'}
+[1.888185] (explore_lite) StdoutLine: {'line': b'6: -  double progress_timeout_;\n'}
+[1.888246] (explore_lite) StdoutLine: {'line': b'6: -  bool visualize_;\n'}
+[1.888306] (explore_lite) StdoutLine: {'line': b'6: -  bool return_to_init_;\n'}
+[1.888366] (explore_lite) StdoutLine: {'line': b'6: -  std::string robot_base_frame_;\n'}
+[1.888434] (explore_lite) StdoutLine: {'line': b'6: -  bool resuming_ = false;\n'}
+[1.888496] (explore_lite) StdoutLine: {'line': b'6: -};\n'}
+[1.888559] (explore_lite) StdoutLine: {'line': b'6: +    // parameters\n'}
+[1.888617] (explore_lite) StdoutLine: {'line': b'6: +    double planner_frequency_;\n'}
+[1.888685] (explore_lite) StdoutLine: {'line': b'6: +    double potential_scale_, orientation_scale_, gain_scale_;\n'}
+[1.888747] (explore_lite) StdoutLine: {'line': b'6: +    double progress_timeout_;\n'}
+[1.888807] (explore_lite) StdoutLine: {'line': b'6: +    bool visualize_;\n'}
+[1.888866] (explore_lite) StdoutLine: {'line': b'6: +    bool return_to_init_;\n'}
+[1.888930] (explore_lite) StdoutLine: {'line': b'6: +    std::string robot_base_frame_;\n'}
+[1.888991] (explore_lite) StdoutLine: {'line': b'6: +    bool resuming_ = false;\n'}
+[1.889049] (explore_lite) StdoutLine: {'line': b'6: +  };\n'}
+[1.889109] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.889170] (explore_lite) StdoutLine: {'line': b"6: Code style divergence in file 'include/explore/frontier_search.h':\n"}
+[1.889232] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.889295] (explore_lite) StdoutLine: {'line': b'6: --- include/explore/frontier_search.h\n'}
+[1.889358] (explore_lite) StdoutLine: {'line': b'6: +++ include/explore/frontier_search.h.uncrustify\n'}
+[1.889428] (explore_lite) StdoutLine: {'line': b'6: @@ -6 +6 @@\n'}
+[1.889492] (explore_lite) StdoutLine: {'line': b'6: -#include <geometry_msgs/msg/pose.hpp> \n'}
+[1.889551] (explore_lite) StdoutLine: {'line': b'6: +#include <geometry_msgs/msg/pose.hpp>\n'}
+[1.889612] (explore_lite) StdoutLine: {'line': b'6: @@ -14,9 +14,10 @@\n'}
+[1.889681] (explore_lite) StdoutLine: {'line': b'6: -struct Frontier {\n'}
+[1.889777] (explore_lite) StdoutLine: {'line': b'6: -  std::uint32_t size;\n'}
+[1.889847] (explore_lite) StdoutLine: {'line': b'6: -  double min_distance;\n'}
+[1.889915] (explore_lite) StdoutLine: {'line': b'6: -  double cost;\n'}
+[1.889983] (explore_lite) StdoutLine: {'line': b'6: -  geometry_msgs::msg::Point initial;\n'}
+[1.890052] (explore_lite) StdoutLine: {'line': b'6: -  geometry_msgs::msg::Point centroid;\n'}
+[1.890116] (explore_lite) StdoutLine: {'line': b'6: -  geometry_msgs::msg::Point middle;\n'}
+[1.890185] (explore_lite) StdoutLine: {'line': b'6: -  std::vector<geometry_msgs::msg::Point> points;\n'}
+[1.890255] (explore_lite) StdoutLine: {'line': b'6: -};\n'}
+[1.890355] (explore_lite) StdoutLine: {'line': b'6: +  struct Frontier\n'}
+[1.890489] (explore_lite) StdoutLine: {'line': b'6: +  {\n'}
+[1.890615] (explore_lite) StdoutLine: {'line': b'6: +    std::uint32_t size;\n'}
+[1.890717] (explore_lite) StdoutLine: {'line': b'6: +    double min_distance;\n'}
+[1.890826] (explore_lite) StdoutLine: {'line': b'6: +    double cost;\n'}
+[1.890932] (explore_lite) StdoutLine: {'line': b'6: +    geometry_msgs::msg::Point initial;\n'}
+[1.891028] (explore_lite) StdoutLine: {'line': b'6: +    geometry_msgs::msg::Point centroid;\n'}
+[1.891126] (explore_lite) StdoutLine: {'line': b'6: +    geometry_msgs::msg::Point middle;\n'}
+[1.891223] (explore_lite) StdoutLine: {'line': b'6: +    std::vector < geometry_msgs::msg::Point > points;\n'}
+[1.891318] (explore_lite) StdoutLine: {'line': b'6: +  };\n'}
+[1.891430] (explore_lite) StdoutLine: {'line': b'6: @@ -28,2 +29,2 @@\n'}
+[1.891542] (explore_lite) StdoutLine: {'line': b'6: -class FrontierSearch\n'}
+[1.891636] (explore_lite) StdoutLine: {'line': b'6: -{\n'}
+[1.891746] (explore_lite) StdoutLine: {'line': b'6: +  class FrontierSearch\n'}
+[1.891848] (explore_lite) StdoutLine: {'line': b'6: +  {\n'}
+[1.891950] (explore_lite) StdoutLine: {'line': b'6: @@ -31 +32,2 @@\n'}
+[1.892049] (explore_lite) StdoutLine: {'line': b'6: -  FrontierSearch() : logger_(rclcpp::get_logger("frontier_search")) {} \n'}
+[1.892148] (explore_lite) StdoutLine: {'line': b'6: +    FrontierSearch() : logger_(rclcpp::get_logger("frontier_search")) {\n'}
+[1.892240] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.892337] (explore_lite) StdoutLine: {'line': b'6: @@ -33,7 +35,8 @@\n'}
+[1.892455] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.892552] (explore_lite) StdoutLine: {'line': b'6: -   * @brief Constructor for search task\n'}
+[1.892652] (explore_lite) StdoutLine: {'line': b'6: -   * @param costmap Reference to costmap data to search.\n'}
+[1.892751] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.892847] (explore_lite) StdoutLine: {'line': b'6: -  FrontierSearch(nav2_costmap_2d::Costmap2D* costmap, double potential_scale,\n'}
+[1.892944] (explore_lite) StdoutLine: {'line': b'6: -                 double gain_scale, double orientation_scale, // <-- ADDED: Pass the hysteresis weight\n'}
+[1.893045] (explore_lite) StdoutLine: {'line': b'6: -                 double min_frontier_size, rclcpp::Logger logger);\n'}
+[1.893156] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.893251] (explore_lite) StdoutLine: {'line': b'6: +     * @brief Constructor for search task\n'}
+[1.893348] (explore_lite) StdoutLine: {'line': b'6: +     * @param costmap Reference to costmap data to search.\n'}
+[1.893457] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.893553] (explore_lite) StdoutLine: {'line': b'6: +    FrontierSearch(\n'}
+[1.893645] (explore_lite) StdoutLine: {'line': b'6: +      nav2_costmap_2d::Costmap2D * costmap, double potential_scale,\n'}
+[1.893743] (explore_lite) StdoutLine: {'line': b'6: +      double gain_scale, double orientation_scale,            // <-- ADDED: Pass the hysteresis weight\n'}
+[1.893832] (explore_lite) StdoutLine: {'line': b'6: +      double min_frontier_size, rclcpp::Logger logger);\n'}
+[1.893921] (explore_lite) StdoutLine: {'line': b'6: @@ -41,6 +44,6 @@\n'}
+[1.894007] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.894098] (explore_lite) StdoutLine: {'line': b'6: -   * @brief Runs search implementation, outward from the start position\n'}
+[1.894188] (explore_lite) StdoutLine: {'line': b'6: -   * @param pose Initial pose to search from\n'}
+[1.894278] (explore_lite) StdoutLine: {'line': b'6: -   * @return List of frontiers, if any\n'}
+[1.894370] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.894476] (explore_lite) StdoutLine: {'line': b'6: -  std::vector<Frontier> searchFrom(geometry_msgs::msg::Pose pose); // <-- CHANGED: Accept full Pose instead of just Point\n'}
+[1.894595] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.894702] (explore_lite) StdoutLine: {'line': b'6: +     * @brief Runs search implementation, outward from the start position\n'}
+[1.894797] (explore_lite) StdoutLine: {'line': b'6: +     * @param pose Initial pose to search from\n'}
+[1.894894] (explore_lite) StdoutLine: {'line': b'6: +     * @return List of frontiers, if any\n'}
+[1.894978] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.895068] (explore_lite) StdoutLine: {'line': b'6: +    std::vector < Frontier > searchFrom(geometry_msgs::msg::Pose pose); // <-- CHANGED: Accept full Pose instead of just Point\n'}
+[1.895166] (explore_lite) StdoutLine: {'line': b'6: @@ -49,11 +52,12 @@\n'}
+[1.895263] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.895354] (explore_lite) StdoutLine: {'line': b'6: -   * @brief Starting from an initial cell, build a frontier from valid adjacent\n'}
+[1.895472] (explore_lite) StdoutLine: {'line': b'6: -   * cells\n'}
+[1.895631] (explore_lite) StdoutLine: {'line': b'6: -   * @param initial_cell Index of cell to start frontier building\n'}
+[1.895749] (explore_lite) StdoutLine: {'line': b'6: -   * @param reference Reference index to calculate position from\n'}
+[1.895851] (explore_lite) StdoutLine: {'line': b'6: -   * @param frontier_flag Flag vector indicating which cells are already marked\n'}
+[1.895947] (explore_lite) StdoutLine: {'line': b'6: -   * as frontiers\n'}
+[1.896045] (explore_lite) StdoutLine: {'line': b'6: -   * @return new frontier\n'}
+[1.896139] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.896235] (explore_lite) StdoutLine: {'line': b'6: -  Frontier buildNewFrontier(unsigned int initial_cell, unsigned int reference,\n'}
+[1.896330] (explore_lite) StdoutLine: {'line': b'6: -                            std::vector<bool>& frontier_flag);\n'}
+[1.896437] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.896540] (explore_lite) StdoutLine: {'line': b'6: +     * @brief Starting from an initial cell, build a frontier from valid adjacent\n'}
+[1.896635] (explore_lite) StdoutLine: {'line': b'6: +     * cells\n'}
+[1.896729] (explore_lite) StdoutLine: {'line': b'6: +     * @param initial_cell Index of cell to start frontier building\n'}
+[1.896820] (explore_lite) StdoutLine: {'line': b'6: +     * @param reference Reference index to calculate position from\n'}
+[1.896912] (explore_lite) StdoutLine: {'line': b'6: +     * @param frontier_flag Flag vector indicating which cells are already marked\n'}
+[1.897011] (explore_lite) StdoutLine: {'line': b'6: +     * as frontiers\n'}
+[1.897103] (explore_lite) StdoutLine: {'line': b'6: +     * @return new frontier\n'}
+[1.897200] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.897296] (explore_lite) StdoutLine: {'line': b'6: +    Frontier buildNewFrontier(\n'}
+[1.897401] (explore_lite) StdoutLine: {'line': b'6: +      unsigned int initial_cell, unsigned int reference,\n'}
+[1.898000] (explore_lite) StdoutLine: {'line': b'6: +      std::vector < bool > & frontier_flag);\n'}
+[1.898342] (explore_lite) StdoutLine: {'line': b'6: @@ -61,10 +65,11 @@\n'}
+[1.898637] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.898852] (explore_lite) StdoutLine: {'line': b'6: -   * @brief isNewFrontierCell Evaluate if candidate cell is a valid candidate\n'}
+[1.899039] (explore_lite) StdoutLine: {'line': b'6: -   * for a new frontier.\n'}
+[1.899218] (explore_lite) StdoutLine: {'line': b'6: -   * @param idx Index of candidate cell\n'}
+[1.899389] (explore_lite) StdoutLine: {'line': b'6: -   * @param frontier_flag Flag vector indicating which cells are already marked\n'}
+[1.899584] (explore_lite) StdoutLine: {'line': b'6: -   * as frontiers\n'}
+[1.899752] (explore_lite) StdoutLine: {'line': b'6: -   * @return true if the cell is frontier cell\n'}
+[1.899921] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.900088] (explore_lite) StdoutLine: {'line': b'6: -  bool isNewFrontierCell(unsigned int idx,\n'}
+[1.900253] (explore_lite) StdoutLine: {'line': b'6: -                         const std::vector<bool>& frontier_flag);\n'}
+[1.900443] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.901170] (explore_lite) StdoutLine: {'line': b'6: +     * @brief isNewFrontierCell Evaluate if candidate cell is a valid candidate\n'}
+[1.901611] (explore_lite) StdoutLine: {'line': b'6: +     * for a new frontier.\n'}
+[1.901852] (explore_lite) StdoutLine: {'line': b'6: +     * @param idx Index of candidate cell\n'}
+[1.902040] (explore_lite) StdoutLine: {'line': b'6: +     * @param frontier_flag Flag vector indicating which cells are already marked\n'}
+[1.902223] (explore_lite) StdoutLine: {'line': b'6: +     * as frontiers\n'}
+[1.902421] (explore_lite) StdoutLine: {'line': b'6: +     * @return true if the cell is frontier cell\n'}
+[1.902618] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.902787] (explore_lite) StdoutLine: {'line': b'6: +    bool isNewFrontierCell(\n'}
+[1.902956] (explore_lite) StdoutLine: {'line': b'6: +      unsigned int idx,\n'}
+[1.903130] (explore_lite) StdoutLine: {'line': b'6: +      const std::vector < bool > & frontier_flag);\n'}
+[1.903296] (explore_lite) StdoutLine: {'line': b'6: @@ -72,8 +77,8 @@\n'}
+[1.903490] (explore_lite) StdoutLine: {'line': b'6: -  /**\n'}
+[1.903671] (explore_lite) StdoutLine: {'line': b'6: -   * @brief computes frontier cost\n'}
+[1.903843] (explore_lite) StdoutLine: {'line': b'6: -   * @details cost function is defined by potential_scale and gain_scale\n'}
+[1.904009] (explore_lite) StdoutLine: {'line': b'6: -   *\n'}
+[1.904174] (explore_lite) StdoutLine: {'line': b'6: -   * @param frontier frontier for which compute the cost\n'}
+[1.904344] (explore_lite) StdoutLine: {'line': b'6: -   * @return cost of the frontier\n'}
+[1.904534] (explore_lite) StdoutLine: {'line': b'6: -   */\n'}
+[1.904700] (explore_lite) StdoutLine: {'line': b'6: -  double frontierCost(const Frontier& frontier);\n'}
+[1.904859] (explore_lite) StdoutLine: {'line': b'6: +    /**\n'}
+[1.905014] (explore_lite) StdoutLine: {'line': b'6: +     * @brief computes frontier cost\n'}
+[1.905176] (explore_lite) StdoutLine: {'line': b'6: +     * @details cost function is defined by potential_scale and gain_scale\n'}
+[1.905340] (explore_lite) StdoutLine: {'line': b'6: +     *\n'}
+[1.905518] (-) TimerEvent: {}
+[1.905766] (explore_lite) StdoutLine: {'line': b'6: +     * @param frontier frontier for which compute the cost\n'}
+[1.905983] (explore_lite) StdoutLine: {'line': b'6: +     * @return cost of the frontier\n'}
+[1.906159] (explore_lite) StdoutLine: {'line': b'6: +     */\n'}
+[1.906351] (explore_lite) StdoutLine: {'line': b'6: +    double frontierCost(const Frontier & frontier);\n'}
+[1.906552] (explore_lite) StdoutLine: {'line': b'6: @@ -82,12 +87,12 @@\n'}
+[1.906713] (explore_lite) StdoutLine: {'line': b'6: -  nav2_costmap_2d::Costmap2D* costmap_;\n'}
+[1.906867] (explore_lite) StdoutLine: {'line': b'6: -  unsigned char* map_;\n'}
+[1.907022] (explore_lite) StdoutLine: {'line': b'6: -  unsigned int size_x_, size_y_;\n'}
+[1.907176] (explore_lite) StdoutLine: {'line': b'6: -  \n'}
+[1.907330] (explore_lite) StdoutLine: {'line': b'6: -  // <-- CHANGED: Added orientation_scale_ to the existing scales\n'}
+[1.907505] (explore_lite) StdoutLine: {'line': b'6: -  double potential_scale_, gain_scale_, orientation_scale_; \n'}
+[1.907669] (explore_lite) StdoutLine: {'line': b'6: -  \n'}
+[1.907824] (explore_lite) StdoutLine: {'line': b'6: -  double min_frontier_size_;\n'}
+[1.907992] (explore_lite) StdoutLine: {'line': b'6: -  rclcpp::Logger logger_;\n'}
+[1.908147] (explore_lite) StdoutLine: {'line': b'6: -  \n'}
+[1.908298] (explore_lite) StdoutLine: {'line': b"6: -  geometry_msgs::msg::Pose robot_pose_; // <-- ADDED: Stores the robot's pose so frontierCost() can calculate Hysteresis (Yaw)\n"}
+[1.908492] (explore_lite) StdoutLine: {'line': b'6: -};\n'}
+[1.908653] (explore_lite) StdoutLine: {'line': b'6: +    nav2_costmap_2d::Costmap2D * costmap_;\n'}
+[1.908804] (explore_lite) StdoutLine: {'line': b'6: +    unsigned char * map_;\n'}
+[1.908954] (explore_lite) StdoutLine: {'line': b'6: +    unsigned int size_x_, size_y_;\n'}
+[1.909109] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.909261] (explore_lite) StdoutLine: {'line': b'6: +    // <-- CHANGED: Added orientation_scale_ to the existing scales\n'}
+[1.909426] (explore_lite) StdoutLine: {'line': b'6: +    double potential_scale_, gain_scale_, orientation_scale_;\n'}
+[1.909595] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.909747] (explore_lite) StdoutLine: {'line': b'6: +    double min_frontier_size_;\n'}
+[1.909902] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp::Logger logger_;\n'}
+[1.910054] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.910208] (explore_lite) StdoutLine: {'line': b"6: +    geometry_msgs::msg::Pose robot_pose_; // <-- ADDED: Stores the robot's pose so frontierCost() can calculate Hysteresis (Yaw)\n"}
+[1.910370] (explore_lite) StdoutLine: {'line': b'6: +  };\n'}
+[1.910539] (explore_lite) StdoutLine: {'line': b'6: @@ -95 +100 @@\n'}
+[1.910695] (explore_lite) StdoutLine: {'line': b'6: -#endif\n'}
+[1.910848] (explore_lite) StdoutLine: {'line': b'6: +#endif\n'}
+[1.911002] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.911156] (explore_lite) StdoutLine: {'line': b"6: Code style divergence in file 'src/costmap_client.cpp':\n"}
+[1.911312] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.911482] (explore_lite) StdoutLine: {'line': b'6: --- src/costmap_client.cpp\n'}
+[1.911654] (explore_lite) StdoutLine: {'line': b'6: +++ src/costmap_client.cpp.uncrustify\n'}
+[1.911816] (explore_lite) StdoutLine: {'line': b'6: @@ -50,4 +50,4 @@\n'}
+[1.911970] (explore_lite) StdoutLine: {'line': b'6: -    init_translation_table();\n'}
+[1.912125] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.912284] (explore_lite) StdoutLine: {'line': b'6: -Costmap2DClient::Costmap2DClient(rclcpp::Node& node, const tf2_ros::Buffer* tf)\n'}
+[1.912528] (explore_lite) StdoutLine: {'line': b'6: -  : tf_(tf), node_(node)\n'}
+[1.912751] (explore_lite) StdoutLine: {'line': b'6: +  init_translation_table();\n'}
+[1.912921] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.913085] (explore_lite) StdoutLine: {'line': b'6: +Costmap2DClient::Costmap2DClient(rclcpp::Node & node, const tf2_ros::Buffer * tf)\n'}
+[1.913240] (explore_lite) StdoutLine: {'line': b'6: +: tf_(tf), node_(node)\n'}
+[1.913392] (explore_lite) StdoutLine: {'line': b'6: @@ -59,4 +59,7 @@\n'}
+[1.913567] (explore_lite) StdoutLine: {'line': b'6: -  node_.declare_parameter<std::string>("costmap_updates_topic",\n'}
+[1.913720] (explore_lite) StdoutLine: {'line': b'6: -                                       std::string("costmap_updates"));\n'}
+[1.913891] (explore_lite) StdoutLine: {'line': b'6: -  node_.declare_parameter<std::string>("robot_base_frame", std::string("base_"\n'}
+[1.914058] (explore_lite) StdoutLine: {'line': b'6: -                                                                       "link"));\n'}
+[1.914220] (explore_lite) StdoutLine: {'line': b'6: +  node_.declare_parameter<std::string>(\n'}
+[1.914379] (explore_lite) StdoutLine: {'line': b'6: +    "costmap_updates_topic",\n'}
+[1.914563] (explore_lite) StdoutLine: {'line': b'6: +    std::string("costmap_updates"));\n'}
+[1.914723] (explore_lite) StdoutLine: {'line': b'6: +  node_.declare_parameter<std::string>(\n'}
+[1.914875] (explore_lite) StdoutLine: {'line': b'6: +    "robot_base_frame", std::string(\n'}
+[1.915029] (explore_lite) StdoutLine: {'line': b'6: +      "base_"\n'}
+[1.915180] (explore_lite) StdoutLine: {'line': b'6: +      "link"));\n'}
+[1.915330] (explore_lite) StdoutLine: {'line': b'6: @@ -73,5 +76,5 @@\n'}
+[1.915503] (explore_lite) StdoutLine: {'line': b'6: -      costmap_topic, 1000,\n'}
+[1.915662] (explore_lite) StdoutLine: {'line': b'6: -      [this](const nav_msgs::msg::OccupancyGrid::SharedPtr msg) {\n'}
+[1.915814] (explore_lite) StdoutLine: {'line': b'6: -        costmap_received_ = true;\n'}
+[1.915965] (explore_lite) StdoutLine: {'line': b'6: -        updateFullMap(msg);\n'}
+[1.916114] (explore_lite) StdoutLine: {'line': b'6: -      });\n'}
+[1.916266] (explore_lite) StdoutLine: {'line': b'6: +    costmap_topic, 1000,\n'}
+[1.916427] (explore_lite) StdoutLine: {'line': b'6: +    [this](const nav_msgs::msg::OccupancyGrid::SharedPtr msg) {\n'}
+[1.916595] (explore_lite) StdoutLine: {'line': b'6: +      costmap_received_ = true;\n'}
+[1.916754] (explore_lite) StdoutLine: {'line': b'6: +      updateFullMap(msg);\n'}
+[1.916921] (explore_lite) StdoutLine: {'line': b'6: +    });\n'}
+[1.917077] (explore_lite) StdoutLine: {'line': b'6: @@ -86,3 +89,4 @@\n'}
+[1.917235] (explore_lite) StdoutLine: {'line': b'6: -  RCLCPP_INFO(node_.get_logger(),\n'}
+[1.917403] (explore_lite) StdoutLine: {'line': b'6: -              "Waiting for costmap to become available, topic: %s",\n'}
+[1.917586] (explore_lite) StdoutLine: {'line': b'6: -              costmap_topic.c_str());\n'}
+[1.917744] (explore_lite) StdoutLine: {'line': b'6: +  RCLCPP_INFO(\n'}
+[1.917901] (explore_lite) StdoutLine: {'line': b'6: +    node_.get_logger(),\n'}
+[1.918058] (explore_lite) StdoutLine: {'line': b'6: +    "Waiting for costmap to become available, topic: %s",\n'}
+[1.918216] (explore_lite) StdoutLine: {'line': b'6: +    costmap_topic.c_str());\n'}
+[1.918373] (explore_lite) StdoutLine: {'line': b'6: @@ -99,5 +103,5 @@\n'}
+[1.918553] (explore_lite) StdoutLine: {'line': b'6: -      node_.create_subscription<map_msgs::msg::OccupancyGridUpdate>(\n'}
+[1.918712] (explore_lite) StdoutLine: {'line': b'6: -          costmap_updates_topic, 1000,\n'}
+[1.918867] (explore_lite) StdoutLine: {'line': b'6: -          [this](const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg) {\n'}
+[1.919046] (explore_lite) StdoutLine: {'line': b'6: -            updatePartialMap(msg);\n'}
+[1.919218] (explore_lite) StdoutLine: {'line': b'6: -          });\n'}
+[1.919393] (explore_lite) StdoutLine: {'line': b'6: +    node_.create_subscription<map_msgs::msg::OccupancyGridUpdate>(\n'}
+[1.919602] (explore_lite) StdoutLine: {'line': b'6: +    costmap_updates_topic, 1000,\n'}
+[1.919763] (explore_lite) StdoutLine: {'line': b'6: +    [this](const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg) {\n'}
+[1.919932] (explore_lite) StdoutLine: {'line': b'6: +      updatePartialMap(msg);\n'}
+[1.920099] (explore_lite) StdoutLine: {'line': b'6: +    });\n'}
+[1.920256] (explore_lite) StdoutLine: {'line': b'6: @@ -121,3 +125,5 @@\n'}
+[1.920424] (explore_lite) StdoutLine: {'line': b'6: -         !tf_->canTransform(global_frame_, robot_base_frame_,\n'}
+[1.920602] (explore_lite) StdoutLine: {'line': b'6: -                            tf2::TimePointZero, tf2::durationFromSec(0.1),\n'}
+[1.920759] (explore_lite) StdoutLine: {'line': b'6: -                            &tf_error)) {\n'}
+[1.920930] (explore_lite) StdoutLine: {'line': b'6: +    !tf_->canTransform(\n'}
+[1.921083] (explore_lite) StdoutLine: {'line': b'6: +      global_frame_, robot_base_frame_,\n'}
+[1.921234] (explore_lite) StdoutLine: {'line': b'6: +      tf2::TimePointZero, tf2::durationFromSec(0.1),\n'}
+[1.921392] (explore_lite) StdoutLine: {'line': b'6: +      &tf_error))\n'}
+[1.921571] (explore_lite) StdoutLine: {'line': b'6: +  {\n'}
+[1.921725] (explore_lite) StdoutLine: {'line': b'6: @@ -126,6 +132,7 @@\n'}
+[1.921896] (explore_lite) StdoutLine: {'line': b'6: -      RCLCPP_WARN(node_.get_logger(),\n'}
+[1.922051] (explore_lite) StdoutLine: {'line': b'6: -                  "Timed out waiting for transform from %s to %s to become "\n'}
+[1.922208] (explore_lite) StdoutLine: {'line': b'6: -                  "available "\n'}
+[1.922359] (explore_lite) StdoutLine: {'line': b'6: -                  "before subscribing to costmap, tf error: %s",\n'}
+[1.922532] (explore_lite) StdoutLine: {'line': b'6: -                  robot_base_frame_.c_str(), global_frame_.c_str(),\n'}
+[1.922692] (explore_lite) StdoutLine: {'line': b'6: -                  tf_error.c_str());\n'}
+[1.922845] (explore_lite) StdoutLine: {'line': b'6: +      RCLCPP_WARN(\n'}
+[1.922998] (explore_lite) StdoutLine: {'line': b'6: +        node_.get_logger(),\n'}
+[1.923166] (explore_lite) StdoutLine: {'line': b'6: +        "Timed out waiting for transform from %s to %s to become "\n'}
+[1.923327] (explore_lite) StdoutLine: {'line': b'6: +        "available "\n'}
+[1.923518] (explore_lite) StdoutLine: {'line': b'6: +        "before subscribing to costmap, tf error: %s",\n'}
+[1.923693] (explore_lite) StdoutLine: {'line': b'6: +        robot_base_frame_.c_str(), global_frame_.c_str(),\n'}
+[1.923852] (explore_lite) StdoutLine: {'line': b'6: +        tf_error.c_str());\n'}
+[1.924007] (explore_lite) StdoutLine: {'line': b'6: @@ -133 +139,0 @@\n'}
+[1.924160] (explore_lite) StdoutLine: {'line': b'6: -      ;\n'}
+[1.924309] (explore_lite) StdoutLine: {'line': b'6: @@ -144 +150 @@\n'}
+[1.924476] (explore_lite) StdoutLine: {'line': b'6: -    const nav_msgs::msg::OccupancyGrid::SharedPtr msg)\n'}
+[1.924637] (explore_lite) StdoutLine: {'line': b'6: +  const nav_msgs::msg::OccupancyGrid::SharedPtr msg)\n'}
+[1.924801] (explore_lite) StdoutLine: {'line': b'6: @@ -154,4 +160,6 @@\n'}
+[1.924960] (explore_lite) StdoutLine: {'line': b'6: -  RCLCPP_DEBUG(node_.get_logger(), "received full new map, resizing to: %d, %d",\n'}
+[1.925118] (explore_lite) StdoutLine: {'line': b'6: -               size_in_cells_x, size_in_cells_y);\n'}
+[1.925290] (explore_lite) StdoutLine: {'line': b'6: -  costmap_.resizeMap(size_in_cells_x, size_in_cells_y, resolution, origin_x,\n'}
+[1.925459] (explore_lite) StdoutLine: {'line': b'6: -                     origin_y);\n'}
+[1.925620] (explore_lite) StdoutLine: {'line': b'6: +  RCLCPP_DEBUG(\n'}
+[1.925770] (explore_lite) StdoutLine: {'line': b'6: +    node_.get_logger(), "received full new map, resizing to: %d, %d",\n'}
+[1.925922] (explore_lite) StdoutLine: {'line': b'6: +    size_in_cells_x, size_in_cells_y);\n'}
+[1.926074] (explore_lite) StdoutLine: {'line': b'6: +  costmap_.resizeMap(\n'}
+[1.926228] (explore_lite) StdoutLine: {'line': b'6: +    size_in_cells_x, size_in_cells_y, resolution, origin_x,\n'}
+[1.926382] (explore_lite) StdoutLine: {'line': b'6: +    origin_y);\n'}
+[1.926552] (explore_lite) StdoutLine: {'line': b'6: @@ -160 +168 @@\n'}
+[1.926709] (explore_lite) StdoutLine: {'line': b'6: -  auto* mutex = costmap_.getMutex();\n'}
+[1.926862] (explore_lite) StdoutLine: {'line': b'6: +  auto * mutex = costmap_.getMutex();\n'}
+[1.927015] (explore_lite) StdoutLine: {'line': b'6: @@ -164 +172 @@\n'}
+[1.927170] (explore_lite) StdoutLine: {'line': b'6: -  unsigned char* costmap_data = costmap_.getCharMap();\n'}
+[1.927323] (explore_lite) StdoutLine: {'line': b'6: +  unsigned char * costmap_data = costmap_.getCharMap();\n'}
+[1.927497] (explore_lite) StdoutLine: {'line': b'6: @@ -171,2 +179,3 @@\n'}
+[1.927660] (explore_lite) StdoutLine: {'line': b'6: -  RCLCPP_DEBUG(node_.get_logger(), "map updated, written %lu values",\n'}
+[1.927824] (explore_lite) StdoutLine: {'line': b'6: -               costmap_size);\n'}
+[1.927975] (explore_lite) StdoutLine: {'line': b'6: +  RCLCPP_DEBUG(\n'}
+[1.928124] (explore_lite) StdoutLine: {'line': b'6: +    node_.get_logger(), "map updated, written %lu values",\n'}
+[1.928276] (explore_lite) StdoutLine: {'line': b'6: +    costmap_size);\n'}
+[1.928432] (explore_lite) StdoutLine: {'line': b'6: @@ -176 +185 @@\n'}
+[1.928596] (explore_lite) StdoutLine: {'line': b'6: -    const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg)\n'}
+[1.928746] (explore_lite) StdoutLine: {'line': b'6: +  const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg)\n'}
+[1.928893] (explore_lite) StdoutLine: {'line': b'6: @@ -182,3 +191,4 @@\n'}
+[1.929041] (explore_lite) StdoutLine: {'line': b'6: -    RCLCPP_DEBUG(node_.get_logger(),\n'}
+[1.929188] (explore_lite) StdoutLine: {'line': b'6: -                 "negative coordinates, invalid update. x: %d, y: %d", msg->x,\n'}
+[1.929339] (explore_lite) StdoutLine: {'line': b'6: -                 msg->y);\n'}
+[1.929509] (explore_lite) StdoutLine: {'line': b'6: +    RCLCPP_DEBUG(\n'}
+[1.929665] (explore_lite) StdoutLine: {'line': b'6: +      node_.get_logger(),\n'}
+[1.929815] (explore_lite) StdoutLine: {'line': b'6: +      "negative coordinates, invalid update. x: %d, y: %d", msg->x,\n'}
+[1.929967] (explore_lite) StdoutLine: {'line': b'6: +      msg->y);\n'}
+[1.930118] (explore_lite) StdoutLine: {'line': b'6: @@ -194 +204 @@\n'}
+[1.930269] (explore_lite) StdoutLine: {'line': b'6: -  auto* mutex = costmap_.getMutex();\n'}
+[1.930426] (explore_lite) StdoutLine: {'line': b'6: +  auto * mutex = costmap_.getMutex();\n'}
+[1.930593] (explore_lite) StdoutLine: {'line': b'6: @@ -201,6 +211,8 @@\n'}
+[1.930745] (explore_lite) StdoutLine: {'line': b'6: -      y0 > costmap_yn) {\n'}
+[1.930897] (explore_lite) StdoutLine: {'line': b'6: -    RCLCPP_WARN(node_.get_logger(),\n'}
+[1.931061] (explore_lite) StdoutLine: {'line': b'6: -                "received update doesn\'t fully fit into existing map, "\n'}
+[1.931217] (explore_lite) StdoutLine: {'line': b'6: -                "only part will be copied. received: [%lu, %lu], [%lu, %lu] "\n'}
+[1.931371] (explore_lite) StdoutLine: {'line': b'6: -                "map is: [0, %lu], [0, %lu]",\n'}
+[1.931546] (explore_lite) StdoutLine: {'line': b'6: -                x0, xn, y0, yn, costmap_xn, costmap_yn);\n'}
+[1.931700] (explore_lite) StdoutLine: {'line': b'6: +    y0 > costmap_yn)\n'}
+[1.931849] (explore_lite) StdoutLine: {'line': b'6: +  {\n'}
+[1.932001] (explore_lite) StdoutLine: {'line': b'6: +    RCLCPP_WARN(\n'}
+[1.932151] (explore_lite) StdoutLine: {'line': b'6: +      node_.get_logger(),\n'}
+[1.932314] (explore_lite) StdoutLine: {'line': b'6: +      "received update doesn\'t fully fit into existing map, "\n'}
+[1.932490] (explore_lite) StdoutLine: {'line': b'6: +      "only part will be copied. received: [%lu, %lu], [%lu, %lu] "\n'}
+[1.932650] (explore_lite) StdoutLine: {'line': b'6: +      "map is: [0, %lu], [0, %lu]",\n'}
+[1.932804] (explore_lite) StdoutLine: {'line': b'6: +      x0, xn, y0, yn, costmap_xn, costmap_yn);\n'}
+[1.932966] (explore_lite) StdoutLine: {'line': b'6: @@ -210 +222 @@\n'}
+[1.933137] (explore_lite) StdoutLine: {'line': b'6: -  unsigned char* costmap_data = costmap_.getCharMap();\n'}
+[1.933299] (explore_lite) StdoutLine: {'line': b'6: +  unsigned char * costmap_data = costmap_.getCharMap();\n'}
+[1.933504] (explore_lite) StdoutLine: {'line': b'6: @@ -229 +241 @@\n'}
+[1.933681] (explore_lite) StdoutLine: {'line': b'6: -  auto& clk = *node_.get_clock();\n'}
+[1.933840] (explore_lite) StdoutLine: {'line': b'6: +  auto & clk = *node_.get_clock();\n'}
+[1.933993] (explore_lite) StdoutLine: {'line': b'6: @@ -233,21 +245,26 @@\n'}
+[1.934155] (explore_lite) StdoutLine: {'line': b'6: -    robot_pose = tf_->transform(robot_pose, global_frame_,\n'}
+[1.934328] (explore_lite) StdoutLine: {'line': b'6: -                                tf2::durationFromSec(transform_tolerance_));\n'}
+[1.934513] (explore_lite) StdoutLine: {'line': b'6: -  } catch (tf2::LookupException& ex) {\n'}
+[1.934669] (explore_lite) StdoutLine: {'line': b'6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000,\n'}
+[1.934825] (explore_lite) StdoutLine: {'line': b'6: -                          "No Transform available Error looking up robot pose: "\n'}
+[1.934992] (explore_lite) StdoutLine: {'line': b'6: -                          "%s\\n",\n'}
+[1.935160] (explore_lite) StdoutLine: {'line': b'6: -                          ex.what());\n'}
+[1.935317] (explore_lite) StdoutLine: {'line': b'6: -    return empty_pose;\n'}
+[1.935490] (explore_lite) StdoutLine: {'line': b'6: -  } catch (tf2::ConnectivityException& ex) {\n'}
+[1.935651] (explore_lite) StdoutLine: {'line': b'6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000,\n'}
+[1.935806] (explore_lite) StdoutLine: {'line': b'6: -                          "Connectivity Error looking up robot pose: %s\\n",\n'}
+[1.935965] (explore_lite) StdoutLine: {'line': b'6: -                          ex.what());\n'}
+[1.936121] (explore_lite) StdoutLine: {'line': b'6: -    return empty_pose;\n'}
+[1.936276] (explore_lite) StdoutLine: {'line': b'6: -  } catch (tf2::ExtrapolationException& ex) {\n'}
+[1.936445] (explore_lite) StdoutLine: {'line': b'6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000,\n'}
+[1.936624] (explore_lite) StdoutLine: {'line': b'6: -                          "Extrapolation Error looking up robot pose: %s\\n",\n'}
+[1.936786] (explore_lite) StdoutLine: {'line': b'6: -                          ex.what());\n'}
+[1.936945] (explore_lite) StdoutLine: {'line': b'6: -    return empty_pose;\n'}
+[1.937100] (explore_lite) StdoutLine: {'line': b'6: -  } catch (tf2::TransformException& ex) {\n'}
+[1.937257] (explore_lite) StdoutLine: {'line': b'6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000, "Other error: %s\\n",\n'}
+[1.937428] (explore_lite) StdoutLine: {'line': b'6: -                          ex.what());\n'}
+[1.937610] (explore_lite) StdoutLine: {'line': b'6: +    robot_pose = tf_->transform(\n'}
+[1.937774] (explore_lite) StdoutLine: {'line': b'6: +      robot_pose, global_frame_,\n'}
+[1.937934] (explore_lite) StdoutLine: {'line': b'6: +      tf2::durationFromSec(transform_tolerance_));\n'}
+[1.938094] (explore_lite) StdoutLine: {'line': b'6: +  } catch (tf2::LookupException & ex) {\n'}
+[1.938250] (explore_lite) StdoutLine: {'line': b'6: +    RCLCPP_ERROR_THROTTLE(\n'}
+[1.938419] (explore_lite) StdoutLine: {'line': b'6: +      node_.get_logger(), clk, 1000,\n'}
+[1.938593] (explore_lite) StdoutLine: {'line': b'6: +      "No Transform available Error looking up robot pose: "\n'}
+[1.938756] (explore_lite) StdoutLine: {'line': b'6: +      "%s\\n",\n'}
+[1.938917] (explore_lite) StdoutLine: {'line': b'6: +      ex.what());\n'}
+[1.939084] (explore_lite) StdoutLine: {'line': b'6: +    return empty_pose;\n'}
+[1.939249] (explore_lite) StdoutLine: {'line': b'6: +  } catch (tf2::ConnectivityException & ex) {\n'}
+[1.939431] (explore_lite) StdoutLine: {'line': b'6: +    RCLCPP_ERROR_THROTTLE(\n'}
+[1.939632] (explore_lite) StdoutLine: {'line': b'6: +      node_.get_logger(), clk, 1000,\n'}
+[1.939799] (explore_lite) StdoutLine: {'line': b'6: +      "Connectivity Error looking up robot pose: %s\\n",\n'}
+[1.939967] (explore_lite) StdoutLine: {'line': b'6: +      ex.what());\n'}
+[1.940162] (explore_lite) StdoutLine: {'line': b'6: +    return empty_pose;\n'}
+[1.940322] (explore_lite) StdoutLine: {'line': b'6: +  } catch (tf2::ExtrapolationException & ex) {\n'}
+[1.940496] (explore_lite) StdoutLine: {'line': b'6: +    RCLCPP_ERROR_THROTTLE(\n'}
+[1.940657] (explore_lite) StdoutLine: {'line': b'6: +      node_.get_logger(), clk, 1000,\n'}
+[1.940812] (explore_lite) StdoutLine: {'line': b'6: +      "Extrapolation Error looking up robot pose: %s\\n",\n'}
+[1.940964] (explore_lite) StdoutLine: {'line': b'6: +      ex.what());\n'}
+[1.941114] (explore_lite) StdoutLine: {'line': b'6: +    return empty_pose;\n'}
+[1.941265] (explore_lite) StdoutLine: {'line': b'6: +  } catch (tf2::TransformException & ex) {\n'}
+[1.941439] (explore_lite) StdoutLine: {'line': b'6: +    RCLCPP_ERROR_THROTTLE(\n'}
+[1.941608] (explore_lite) StdoutLine: {'line': b'6: +      node_.get_logger(), clk, 1000, "Other error: %s\\n",\n'}
+[1.941767] (explore_lite) StdoutLine: {'line': b'6: +      ex.what());\n'}
+[1.941933] (explore_lite) StdoutLine: {'line': b'6: @@ -267 +284 @@\n'}
+[1.942104] (explore_lite) StdoutLine: {'line': b'6: -        static_cast<unsigned char>(1 + (251 * (i - 1)) / 97);\n'}
+[1.942262] (explore_lite) StdoutLine: {'line': b'6: +      static_cast<unsigned char>(1 + (251 * (i - 1)) / 97);\n'}
+[1.942424] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.942595] (explore_lite) StdoutLine: {'line': b"6: Code style divergence in file 'src/explore.cpp':\n"}
+[1.942756] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.942915] (explore_lite) StdoutLine: {'line': b'6: --- src/explore.cpp\n'}
+[1.943076] (explore_lite) StdoutLine: {'line': b'6: +++ src/explore.cpp.uncrustify\n'}
+[1.943235] (explore_lite) StdoutLine: {'line': b'6: @@ -43,2 +43,3 @@\n'}
+[1.943407] (explore_lite) StdoutLine: {'line': b'6: -inline static bool same_point(const geometry_msgs::msg::Point& one,\n'}
+[1.943585] (explore_lite) StdoutLine: {'line': b'6: -                              const geometry_msgs::msg::Point& two)\n'}
+[1.943740] (explore_lite) StdoutLine: {'line': b'6: +inline static bool same_point(\n'}
+[1.943897] (explore_lite) StdoutLine: {'line': b'6: +  const geometry_msgs::msg::Point & one,\n'}
+[1.944053] (explore_lite) StdoutLine: {'line': b'6: +  const geometry_msgs::msg::Point & two)\n'}
+[1.944207] (explore_lite) StdoutLine: {'line': b'6: @@ -55 +56 @@\n'}
+[1.944361] (explore_lite) StdoutLine: {'line': b'6: -  : Node("explore_node")\n'}
+[1.944537] (explore_lite) StdoutLine: {'line': b'6: +: Node("explore_node")\n'}
+[1.944696] (explore_lite) StdoutLine: {'line': b'6: @@ -86,2 +87,2 @@\n'}
+[1.944859] (explore_lite) StdoutLine: {'line': b'6: -      rclcpp_action::create_client<nav2_msgs::action::NavigateToPose>(\n'}
+[1.945024] (explore_lite) StdoutLine: {'line': b'6: -          this, ACTION_NAME);\n'}
+[1.945179] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp_action::create_client<nav2_msgs::action::NavigateToPose>(\n'}
+[1.945329] (explore_lite) StdoutLine: {'line': b'6: +    this, ACTION_NAME);\n'}
+[1.945498] (explore_lite) StdoutLine: {'line': b'6: @@ -91,4 +92,5 @@\n'}
+[1.945657] (explore_lite) StdoutLine: {'line': b'6: -  search_ = frontier_exploration::FrontierSearch(costmap_client_.getCostmap(),\n'}
+[1.945813] (explore_lite) StdoutLine: {'line': b'6: -                                                 potential_scale_, gain_scale_,\n'}
+[1.945967] (explore_lite) StdoutLine: {'line': b'6: -                                                 orientation_scale_,\n'}
+[1.946120] (explore_lite) StdoutLine: {'line': b'6: -                                                 min_frontier_size, logger_);\n'}
+[1.946274] (explore_lite) StdoutLine: {'line': b'6: +  search_ = frontier_exploration::FrontierSearch(\n'}
+[1.946434] (explore_lite) StdoutLine: {'line': b'6: +    costmap_client_.getCostmap(),\n'}
+[1.946599] (explore_lite) StdoutLine: {'line': b'6: +    potential_scale_, gain_scale_,\n'}
+[1.946751] (explore_lite) StdoutLine: {'line': b'6: +    orientation_scale_,\n'}
+[1.946918] (explore_lite) StdoutLine: {'line': b'6: +    min_frontier_size, logger_);\n'}
+[1.947075] (explore_lite) StdoutLine: {'line': b'6: @@ -98,4 +100,5 @@\n'}
+[1.947229] (explore_lite) StdoutLine: {'line': b'6: -        this->create_publisher<visualization_msgs::msg::MarkerArray>("explore/"\n'}
+[1.947383] (explore_lite) StdoutLine: {'line': b'6: -                                                                     "frontier"\n'}
+[1.947560] (explore_lite) StdoutLine: {'line': b'6: -                                                                     "s",\n'}
+[1.947717] (explore_lite) StdoutLine: {'line': b'6: -                                                                     10);\n'}
+[1.947867] (explore_lite) StdoutLine: {'line': b'6: +      this->create_publisher<visualization_msgs::msg::MarkerArray>(\n'}
+[1.948027] (explore_lite) StdoutLine: {'line': b'6: +      "explore/"\n'}
+[1.948181] (explore_lite) StdoutLine: {'line': b'6: +      "frontier"\n'}
+[1.948341] (explore_lite) StdoutLine: {'line': b'6: +      "s",\n'}
+[1.948517] (explore_lite) StdoutLine: {'line': b'6: +      10);\n'}
+[1.948673] (explore_lite) StdoutLine: {'line': b'6: @@ -107 +110,3 @@\n'}
+[1.948826] (explore_lite) StdoutLine: {'line': b'6: -  status_pub_ = this->create_publisher<explore_lite_msgs::msg::ExploreStatus>("explore/status", status_qos);\n'}
+[1.948988] (explore_lite) StdoutLine: {'line': b'6: +  status_pub_ = this->create_publisher<explore_lite_msgs::msg::ExploreStatus>(\n'}
+[1.949153] (explore_lite) StdoutLine: {'line': b'6: +    "explore/status",\n'}
+[1.949323] (explore_lite) StdoutLine: {'line': b'6: +    status_qos);\n'}
+[1.949517] (explore_lite) StdoutLine: {'line': b'6: @@ -111,2 +116,2 @@\n'}
+[1.949694] (explore_lite) StdoutLine: {'line': b'6: -      "explore/resume", 10,\n'}
+[1.949859] (explore_lite) StdoutLine: {'line': b'6: -      std::bind(&Explore::resumeCallback, this, std::placeholders::_1));\n'}
+[1.950027] (explore_lite) StdoutLine: {'line': b'6: +    "explore/resume", 10,\n'}
+[1.950189] (explore_lite) StdoutLine: {'line': b'6: +    std::bind(&Explore::resumeCallback, this, std::placeholders::_1));\n'}
+[1.950354] (explore_lite) StdoutLine: {'line': b'6: @@ -124 +129 @@\n'}
+[1.950540] (explore_lite) StdoutLine: {'line': b'6: -          map_frame, robot_base_frame_, tf2::TimePointZero);\n'}
+[1.950706] (explore_lite) StdoutLine: {'line': b'6: +        map_frame, robot_base_frame_, tf2::TimePointZero);\n'}
+[1.950870] (explore_lite) StdoutLine: {'line': b'6: @@ -128,3 +133,4 @@\n'}
+[1.951033] (explore_lite) StdoutLine: {'line': b'6: -    } catch (tf2::TransformException& ex) {\n'}
+[1.951196] (explore_lite) StdoutLine: {'line': b'6: -      RCLCPP_ERROR(logger_, "Couldn\'t find transform from %s to %s: %s",\n'}
+[1.951361] (explore_lite) StdoutLine: {'line': b'6: -                   map_frame.c_str(), robot_base_frame_.c_str(), ex.what());\n'}
+[1.951548] (explore_lite) StdoutLine: {'line': b'6: +    } catch (tf2::TransformException & ex) {\n'}
+[1.951719] (explore_lite) StdoutLine: {'line': b'6: +      RCLCPP_ERROR(\n'}
+[1.951931] (explore_lite) StdoutLine: {'line': b'6: +        logger_, "Couldn\'t find transform from %s to %s: %s",\n'}
+[1.952113] (explore_lite) StdoutLine: {'line': b'6: +        map_frame.c_str(), robot_base_frame_.c_str(), ex.what());\n'}
+[1.952277] (explore_lite) StdoutLine: {'line': b'6: @@ -136,2 +142,2 @@\n'}
+[1.952447] (explore_lite) StdoutLine: {'line': b'6: -      std::chrono::milliseconds((uint16_t)(1000.0 / planner_frequency_)),\n'}
+[1.952627] (explore_lite) StdoutLine: {'line': b'6: -      [this]() { makePlan(); });\n'}
+[1.952793] (explore_lite) StdoutLine: {'line': b'6: +    std::chrono::milliseconds((uint16_t)(1000.0 / planner_frequency_)),\n'}
+[1.952953] (explore_lite) StdoutLine: {'line': b'6: +    [this]() {makePlan();});\n'}
+[1.953108] (explore_lite) StdoutLine: {'line': b'6: @@ -139 +145 @@\n'}
+[1.953265] (explore_lite) StdoutLine: {'line': b'6: -  auto status_msg = explore_lite_msgs::msg::ExploreStatus(); \n'}
+[1.953437] (explore_lite) StdoutLine: {'line': b'6: +  auto status_msg = explore_lite_msgs::msg::ExploreStatus();\n'}
+[1.953612] (explore_lite) StdoutLine: {'line': b'6: @@ -141 +147 @@\n'}
+[1.953775] (explore_lite) StdoutLine: {'line': b'6: -  status_pub_->publish(status_msg);   \n'}
+[1.953942] (explore_lite) StdoutLine: {'line': b'6: +  status_pub_->publish(status_msg);\n'}
+[1.954107] (explore_lite) StdoutLine: {'line': b'6: @@ -160 +166 @@\n'}
+[1.954262] (explore_lite) StdoutLine: {'line': b'6: -    const std::vector<frontier_exploration::Frontier>& frontiers)\n'}
+[1.954429] (explore_lite) StdoutLine: {'line': b'6: +  const std::vector<frontier_exploration::Frontier> & frontiers)\n'}
+[1.954600] (explore_lite) StdoutLine: {'line': b'6: @@ -180 +186 @@\n'}
+[1.954753] (explore_lite) StdoutLine: {'line': b'6: -  std::vector<visualization_msgs::msg::Marker>& markers = markers_msg.markers;\n'}
+[1.954949] (explore_lite) StdoutLine: {'line': b'6: +  std::vector<visualization_msgs::msg::Marker> & markers = markers_msg.markers;\n'}
+[1.955136] (explore_lite) StdoutLine: {'line': b'6: @@ -210 +216 @@\n'}
+[1.955295] (explore_lite) StdoutLine: {'line': b'6: -  for (auto& frontier : frontiers) {\n'}
+[1.955471] (explore_lite) StdoutLine: {'line': b'6: +  for (auto & frontier : frontiers) {\n'}
+[1.955642] (explore_lite) StdoutLine: {'line': b'6: @@ -278,4 +284,5 @@\n'}
+[1.955806] (explore_lite) StdoutLine: {'line': b'6: -      std::find_if_not(frontiers.begin(), frontiers.end(),\n'}
+[1.955974] (explore_lite) StdoutLine: {'line': b'6: -                       [this](const frontier_exploration::Frontier& f) {\n'}
+[1.956136] (explore_lite) StdoutLine: {'line': b'6: -                         return goalOnBlacklist(f.centroid);\n'}
+[1.956289] (explore_lite) StdoutLine: {'line': b'6: -                       });\n'}
+[1.956462] (explore_lite) StdoutLine: {'line': b'6: +    std::find_if_not(\n'}
+[1.956626] (explore_lite) StdoutLine: {'line': b'6: +    frontiers.begin(), frontiers.end(),\n'}
+[1.956781] (explore_lite) StdoutLine: {'line': b'6: +    [this](const frontier_exploration::Frontier & f) {\n'}
+[1.956937] (explore_lite) StdoutLine: {'line': b'6: +      return goalOnBlacklist(f.centroid);\n'}
+[1.957088] (explore_lite) StdoutLine: {'line': b'6: +    });\n'}
+[1.957238] (explore_lite) StdoutLine: {'line': b'6: @@ -303 +310,2 @@\n'}
+[1.957389] (explore_lite) StdoutLine: {'line': b'6: -      tf2::durationFromSec(progress_timeout_)) && !resuming_) {\n'}
+[1.957565] (explore_lite) StdoutLine: {'line': b'6: +    tf2::durationFromSec(progress_timeout_)) && !resuming_)\n'}
+[1.957720] (explore_lite) StdoutLine: {'line': b'6: +  {\n'}
+[1.957872] (explore_lite) StdoutLine: {'line': b'6: @@ -324 +332,2 @@\n'}
+[1.958023] (explore_lite) StdoutLine: {'line': b'6: -  auto send_goal_options = rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();\n'}
+[1.958179] (explore_lite) StdoutLine: {'line': b'6: +  auto send_goal_options =\n'}
+[1.958330] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();\n'}
+[1.958504] (explore_lite) StdoutLine: {'line': b'6: @@ -326,4 +335,4 @@\n'}
+[1.958686] (explore_lite) StdoutLine: {'line': b'6: -      [this,\n'}
+[1.958838] (explore_lite) StdoutLine: {'line': b'6: -       target_position](const NavigationGoalHandle::WrappedResult& result) {\n'}
+[1.958990] (explore_lite) StdoutLine: {'line': b'6: -        reachedGoal(result, target_position);\n'}
+[1.959139] (explore_lite) StdoutLine: {'line': b'6: -      };\n'}
+[1.959288] (explore_lite) StdoutLine: {'line': b'6: +    [this,\n'}
+[1.959447] (explore_lite) StdoutLine: {'line': b'6: +      target_position](const NavigationGoalHandle::WrappedResult & result) {\n'}
+[1.959612] (explore_lite) StdoutLine: {'line': b'6: +      reachedGoal(result, target_position);\n'}
+[1.959763] (explore_lite) StdoutLine: {'line': b'6: +    };\n'}
+[1.959922] (explore_lite) StdoutLine: {'line': b'6: @@ -342 +351 @@\n'}
+[1.960077] (explore_lite) StdoutLine: {'line': b'6: -  \n'}
+[1.960229] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.960383] (explore_lite) StdoutLine: {'line': b'6: @@ -350,10 +359,10 @@\n'}
+[1.960568] (explore_lite) StdoutLine: {'line': b'6: -      rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();\n'}
+[1.960728] (explore_lite) StdoutLine: {'line': b'6: -  send_goal_options.result_callback = \n'}
+[1.960888] (explore_lite) StdoutLine: {'line': b'6: -      [this](const NavigationGoalHandle::WrappedResult& result) {\n'}
+[1.961058] (explore_lite) StdoutLine: {'line': b'6: -        if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {\n'}
+[1.961219] (explore_lite) StdoutLine: {'line': b'6: -          auto status_msg = explore_lite_msgs::msg::ExploreStatus();\n'}
+[1.961374] (explore_lite) StdoutLine: {'line': b'6: -          status_msg.status = explore_lite_msgs::msg::ExploreStatus::RETURNED_TO_ORIGIN;\n'}
+[1.961565] (explore_lite) StdoutLine: {'line': b'6: -          status_pub_->publish(status_msg);\n'}
+[1.961731] (explore_lite) StdoutLine: {'line': b'6: -          RCLCPP_INFO(logger_, "Successfully returned to initial pose.");\n'}
+[1.961884] (explore_lite) StdoutLine: {'line': b'6: -        }\n'}
+[1.962037] (explore_lite) StdoutLine: {'line': b'6: -      };\n'}
+[1.962186] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();\n'}
+[1.962339] (explore_lite) StdoutLine: {'line': b'6: +  send_goal_options.result_callback =\n'}
+[1.962516] (explore_lite) StdoutLine: {'line': b'6: +    [this](const NavigationGoalHandle::WrappedResult & result) {\n'}
+[1.962677] (explore_lite) StdoutLine: {'line': b'6: +      if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {\n'}
+[1.962831] (explore_lite) StdoutLine: {'line': b'6: +        auto status_msg = explore_lite_msgs::msg::ExploreStatus();\n'}
+[1.962981] (explore_lite) StdoutLine: {'line': b'6: +        status_msg.status = explore_lite_msgs::msg::ExploreStatus::RETURNED_TO_ORIGIN;\n'}
+[1.963133] (explore_lite) StdoutLine: {'line': b'6: +        status_pub_->publish(status_msg);\n'}
+[1.963282] (explore_lite) StdoutLine: {'line': b'6: +        RCLCPP_INFO(logger_, "Successfully returned to initial pose.");\n'}
+[1.963444] (explore_lite) StdoutLine: {'line': b'6: +      }\n'}
+[1.963611] (explore_lite) StdoutLine: {'line': b'6: +    };\n'}
+[1.963762] (explore_lite) StdoutLine: {'line': b'6: @@ -362 +371 @@\n'}
+[1.963909] (explore_lite) StdoutLine: {'line': b'6: -bool Explore::goalOnBlacklist(const geometry_msgs::msg::Point& goal)\n'}
+[1.964059] (explore_lite) StdoutLine: {'line': b'6: +bool Explore::goalOnBlacklist(const geometry_msgs::msg::Point & goal)\n'}
+[1.964210] (explore_lite) StdoutLine: {'line': b'6: @@ -365 +374 @@\n'}
+[1.964358] (explore_lite) StdoutLine: {'line': b'6: -  nav2_costmap_2d::Costmap2D* costmap2d = costmap_client_.getCostmap();\n'}
+[1.964528] (explore_lite) StdoutLine: {'line': b'6: +  nav2_costmap_2d::Costmap2D * costmap2d = costmap_client_.getCostmap();\n'}
+[1.964682] (explore_lite) StdoutLine: {'line': b'6: @@ -368 +377 @@\n'}
+[1.964828] (explore_lite) StdoutLine: {'line': b'6: -  for (auto& frontier_goal : frontier_blacklist_) {\n'}
+[1.964986] (explore_lite) StdoutLine: {'line': b'6: +  for (auto & frontier_goal : frontier_blacklist_) {\n'}
+[1.965136] (explore_lite) StdoutLine: {'line': b'6: @@ -373 +382,2 @@\n'}
+[1.965287] (explore_lite) StdoutLine: {'line': b'6: -        y_diff < tolerace * costmap2d->getResolution())\n'}
+[1.965443] (explore_lite) StdoutLine: {'line': b'6: +      y_diff < tolerace * costmap2d->getResolution())\n'}
+[1.965611] (explore_lite) StdoutLine: {'line': b'6: +    {\n'}
+[1.965770] (explore_lite) StdoutLine: {'line': b'6: @@ -374,0 +385 @@\n'}
+[1.965933] (explore_lite) StdoutLine: {'line': b'6: +    }\n'}
+[1.966101] (explore_lite) StdoutLine: {'line': b'6: @@ -379,2 +390,3 @@\n'}
+[1.966257] (explore_lite) StdoutLine: {'line': b'6: -void Explore::reachedGoal(const NavigationGoalHandle::WrappedResult& result,\n'}
+[1.966423] (explore_lite) StdoutLine: {'line': b'6: -                          const geometry_msgs::msg::Point& frontier_goal)\n'}
+[1.966599] (explore_lite) StdoutLine: {'line': b'6: +void Explore::reachedGoal(\n'}
+[1.966762] (explore_lite) StdoutLine: {'line': b'6: +  const NavigationGoalHandle::WrappedResult & result,\n'}
+[1.966917] (explore_lite) StdoutLine: {'line': b'6: +  const geometry_msgs::msg::Point & frontier_goal)\n'}
+[1.967064] (explore_lite) StdoutLine: {'line': b'6: @@ -399 +411 @@\n'}
+[1.967209] (explore_lite) StdoutLine: {'line': b'6: -  \n'}
+[1.967358] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.967543] (explore_lite) StdoutLine: {'line': b'6: @@ -417 +429 @@\n'}
+[1.967711] (explore_lite) StdoutLine: {'line': b'6: -  \n'}
+[1.967871] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.968030] (explore_lite) StdoutLine: {'line': b'6: @@ -424 +436 @@\n'}
+[1.968183] (explore_lite) StdoutLine: {'line': b'6: -  \n'}
+[1.968342] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.968542] (explore_lite) StdoutLine: {'line': b'6: @@ -450 +462,3 @@\n'}
+[1.968708] (explore_lite) StdoutLine: {'line': b'6: -    RCLCPP_WARN(logger_, "Spin action server not available, skipping spin and finding next frontier.");\n'}
+[1.968871] (explore_lite) StdoutLine: {'line': b'6: +    RCLCPP_WARN(\n'}
+[1.969025] (explore_lite) StdoutLine: {'line': b'6: +      logger_,\n'}
+[1.969182] (explore_lite) StdoutLine: {'line': b'6: +      "Spin action server not available, skipping spin and finding next frontier.");\n'}
+[1.969355] (explore_lite) StdoutLine: {'line': b'6: @@ -460 +474 @@\n'}
+[1.969544] (explore_lite) StdoutLine: {'line': b'6: -  spin_goal.target_yaw = 6.28; \n'}
+[1.969701] (explore_lite) StdoutLine: {'line': b'6: +  spin_goal.target_yaw = 6.28;\n'}
+[1.969850] (explore_lite) StdoutLine: {'line': b'6: @@ -463,2 +477,2 @@\n'}
+[1.970021] (explore_lite) StdoutLine: {'line': b'6: -      rclcpp_action::Client<nav2_msgs::action::Spin>::SendGoalOptions();\n'}
+[1.970174] (explore_lite) StdoutLine: {'line': b'6: -      \n'}
+[1.970325] (explore_lite) StdoutLine: {'line': b'6: +    rclcpp_action::Client<nav2_msgs::action::Spin>::SendGoalOptions();\n'}
+[1.970497] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.970653] (explore_lite) StdoutLine: {'line': b'6: @@ -467,11 +481,11 @@\n'}
+[1.970804] (explore_lite) StdoutLine: {'line': b'6: -      [this](const rclcpp_action::ClientGoalHandle<nav2_msgs::action::Spin>::WrappedResult& result) {\n'}
+[1.970966] (explore_lite) StdoutLine: {'line': b'6: -        if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {\n'}
+[1.971115] (explore_lite) StdoutLine: {'line': b'6: -          RCLCPP_INFO(logger_, "Spin complete. Finding next frontier.");\n'}
+[1.971275] (explore_lite) StdoutLine: {'line': b'6: -        } else {\n'}
+[1.971432] (explore_lite) StdoutLine: {'line': b'6: -          RCLCPP_WARN(logger_, "Spin failed or was canceled. Moving on.");\n'}
+[1.971606] (explore_lite) StdoutLine: {'line': b'6: -        }\n'}
+[1.971758] (explore_lite) StdoutLine: {'line': b'6: -\n'}
+[1.971911] (explore_lite) StdoutLine: {'line': b'6: -        exploring_timer_->reset();\n'}
+[1.972061] (explore_lite) StdoutLine: {'line': b'6: -        // Now that the spin is done, we finally look for the next frontier\n'}
+[1.972215] (explore_lite) StdoutLine: {'line': b'6: -        makePlan(); \n'}
+[1.972363] (explore_lite) StdoutLine: {'line': b'6: -      };\n'}
+[1.972535] (explore_lite) StdoutLine: {'line': b'6: +    [this](const rclcpp_action::ClientGoalHandle<nav2_msgs::action::Spin>::WrappedResult & result) {\n'}
+[1.972691] (explore_lite) StdoutLine: {'line': b'6: +      if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {\n'}
+[1.972841] (explore_lite) StdoutLine: {'line': b'6: +        RCLCPP_INFO(logger_, "Spin complete. Finding next frontier.");\n'}
+[1.972991] (explore_lite) StdoutLine: {'line': b'6: +      } else {\n'}
+[1.973138] (explore_lite) StdoutLine: {'line': b'6: +        RCLCPP_WARN(logger_, "Spin failed or was canceled. Moving on.");\n'}
+[1.973284] (explore_lite) StdoutLine: {'line': b'6: +      }\n'}
+[1.973440] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.973605] (explore_lite) StdoutLine: {'line': b'6: +      exploring_timer_->reset();\n'}
+[1.973752] (explore_lite) StdoutLine: {'line': b'6: +      // Now that the spin is done, we finally look for the next frontier\n'}
+[1.973902] (explore_lite) StdoutLine: {'line': b'6: +      makePlan();\n'}
+[1.974047] (explore_lite) StdoutLine: {'line': b'6: +    };\n'}
+[1.974190] (explore_lite) StdoutLine: {'line': b'6: @@ -485 +499 @@\n'}
+[1.974334] (explore_lite) StdoutLine: {'line': b'6: -int main(int argc, char** argv)\n'}
+[1.974498] (explore_lite) StdoutLine: {'line': b'6: +int main(int argc, char ** argv)\n'}
+[1.974650] (explore_lite) StdoutLine: {'line': b'6: @@ -495 +509 @@\n'}
+[1.974795] (explore_lite) StdoutLine: {'line': b'6: -      std::make_shared<explore::Explore>());  // std::move(std::make_unique)?\n'}
+[1.974940] (explore_lite) StdoutLine: {'line': b'6: +    std::make_shared<explore::Explore>());    // std::move(std::make_unique)?\n'}
+[1.975097] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.975242] (explore_lite) StdoutLine: {'line': b"6: Code style divergence in file 'src/frontier_search.cpp':\n"}
+[1.975390] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.975556] (explore_lite) StdoutLine: {'line': b'6: --- src/frontier_search.cpp\n'}
+[1.975705] (explore_lite) StdoutLine: {'line': b'6: +++ src/frontier_search.cpp.uncrustify\n'}
+[1.975857] (explore_lite) StdoutLine: {'line': b'6: @@ -17,5 +17,6 @@\n'}
+[1.976013] (explore_lite) StdoutLine: {'line': b'6: -FrontierSearch::FrontierSearch(nav2_costmap_2d::Costmap2D* costmap,\n'}
+[1.976164] (explore_lite) StdoutLine: {'line': b'6: -                               double potential_scale, double gain_scale,\n'}
+[1.976319] (explore_lite) StdoutLine: {'line': b'6: -                               double orientation_scale,\n'}
+[1.976490] (explore_lite) StdoutLine: {'line': b'6: -                               double min_frontier_size, rclcpp::Logger logger)\n'}
+[1.976657] (explore_lite) StdoutLine: {'line': b'6: -  : costmap_(costmap)\n'}
+[1.976812] (explore_lite) StdoutLine: {'line': b'6: +FrontierSearch::FrontierSearch(\n'}
+[1.976958] (explore_lite) StdoutLine: {'line': b'6: +  nav2_costmap_2d::Costmap2D * costmap,\n'}
+[1.977104] (explore_lite) StdoutLine: {'line': b'6: +  double potential_scale, double gain_scale,\n'}
+[1.977253] (explore_lite) StdoutLine: {'line': b'6: +  double orientation_scale,\n'}
+[1.977410] (explore_lite) StdoutLine: {'line': b'6: +  double min_frontier_size, rclcpp::Logger logger)\n'}
+[1.977570] (explore_lite) StdoutLine: {'line': b'6: +: costmap_(costmap)\n'}
+[1.977718] (explore_lite) StdoutLine: {'line': b'6: @@ -34 +35 @@\n'}
+[1.977864] (explore_lite) StdoutLine: {'line': b'6: -  robot_pose_ = pose; \n'}
+[1.978009] (explore_lite) StdoutLine: {'line': b'6: +  robot_pose_ = pose;\n'}
+[1.978152] (explore_lite) StdoutLine: {'line': b'6: @@ -42 +43,3 @@\n'}
+[1.978299] (explore_lite) StdoutLine: {'line': b'6: -    RCLCPP_ERROR(logger_, "[FrontierSearch] Robot out of costmap bounds, cannot search for frontiers");\n'}
+[1.978463] (explore_lite) StdoutLine: {'line': b'6: +    RCLCPP_ERROR(\n'}
+[1.978620] (explore_lite) StdoutLine: {'line': b'6: +      logger_,\n'}
+[1.978766] (explore_lite) StdoutLine: {'line': b'6: +      "[FrontierSearch] Robot out of costmap bounds, cannot search for frontiers");\n'}
+[1.978913] (explore_lite) StdoutLine: {'line': b'6: @@ -48 +51 @@\n'}
+[1.979058] (explore_lite) StdoutLine: {'line': b'6: -      *(costmap_->getMutex()));\n'}
+[1.979204] (explore_lite) StdoutLine: {'line': b'6: +    *(costmap_->getMutex()));\n'}
+[1.979350] (explore_lite) StdoutLine: {'line': b'6: @@ -88 +91,2 @@\n'}
+[1.979517] (explore_lite) StdoutLine: {'line': b'6: -            min_frontier_size_) {\n'}
+[1.979665] (explore_lite) StdoutLine: {'line': b'6: +          min_frontier_size_)\n'}
+[1.979810] (explore_lite) StdoutLine: {'line': b'6: +        {\n'}
+[1.979954] (explore_lite) StdoutLine: {'line': b'6: @@ -96 +100 @@\n'}
+[1.980098] (explore_lite) StdoutLine: {'line': b'6: -  for (auto& frontier : frontier_list) {\n'}
+[1.980244] (explore_lite) StdoutLine: {'line': b'6: +  for (auto & frontier : frontier_list) {\n'}
+[1.980389] (explore_lite) StdoutLine: {'line': b'6: @@ -100,2 +104,2 @@\n'}
+[1.980555] (explore_lite) StdoutLine: {'line': b'6: -      frontier_list.begin(), frontier_list.end(),\n'}
+[1.980704] (explore_lite) StdoutLine: {'line': b'6: -      [](const Frontier& f1, const Frontier& f2) { return f1.cost < f2.cost; });\n'}
+[1.980856] (explore_lite) StdoutLine: {'line': b'6: +    frontier_list.begin(), frontier_list.end(),\n'}
+[1.981014] (explore_lite) StdoutLine: {'line': b'6: +    [](const Frontier & f1, const Frontier & f2) {return f1.cost < f2.cost;});\n'}
+[1.981163] (explore_lite) StdoutLine: {'line': b'6: @@ -106,3 +110,4 @@\n'}
+[1.981306] (explore_lite) StdoutLine: {'line': b'6: -Frontier FrontierSearch::buildNewFrontier(unsigned int initial_cell,\n'}
+[1.981466] (explore_lite) StdoutLine: {'line': b'6: -                                          unsigned int reference,\n'}
+[1.981636] (explore_lite) StdoutLine: {'line': b'6: -                                          std::vector<bool>& frontier_flag)\n'}
+[1.981783] (explore_lite) StdoutLine: {'line': b'6: +Frontier FrontierSearch::buildNewFrontier(\n'}
+[1.981929] (explore_lite) StdoutLine: {'line': b'6: +  unsigned int initial_cell,\n'}
+[1.982080] (explore_lite) StdoutLine: {'line': b'6: +  unsigned int reference,\n'}
+[1.982226] (explore_lite) StdoutLine: {'line': b'6: +  std::vector<bool> & frontier_flag)\n'}
+[1.982372] (explore_lite) StdoutLine: {'line': b'6: @@ -161,2 +166,3 @@\n'}
+[1.982534] (explore_lite) StdoutLine: {'line': b'6: -        double distance = sqrt(pow((double(reference_x) - double(wx)), 2.0) +\n'}
+[1.982684] (explore_lite) StdoutLine: {'line': b'6: -                               pow((double(reference_y) - double(wy)), 2.0));\n'}
+[1.982831] (explore_lite) StdoutLine: {'line': b'6: +        double distance = sqrt(\n'}
+[1.982976] (explore_lite) StdoutLine: {'line': b'6: +          pow((double(reference_x) - double(wx)), 2.0) +\n'}
+[1.983130] (explore_lite) StdoutLine: {'line': b'6: +          pow((double(reference_y) - double(wy)), 2.0));\n'}
+[1.983278] (explore_lite) StdoutLine: {'line': b'6: @@ -181,2 +187,3 @@\n'}
+[1.983439] (explore_lite) StdoutLine: {'line': b'6: -bool FrontierSearch::isNewFrontierCell(unsigned int idx,\n'}
+[1.983612] (explore_lite) StdoutLine: {'line': b'6: -                                       const std::vector<bool>& frontier_flag)\n'}
+[1.983767] (explore_lite) StdoutLine: {'line': b'6: +bool FrontierSearch::isNewFrontierCell(\n'}
+[1.983936] (explore_lite) StdoutLine: {'line': b'6: +  unsigned int idx,\n'}
+[1.984080] (explore_lite) StdoutLine: {'line': b'6: +  const std::vector<bool> & frontier_flag)\n'}
+[1.984230] (explore_lite) StdoutLine: {'line': b'6: @@ -200 +207 @@\n'}
+[1.984383] (explore_lite) StdoutLine: {'line': b'6: -double FrontierSearch::frontierCost(const Frontier& frontier)\n'}
+[1.984567] (explore_lite) StdoutLine: {'line': b'6: +double FrontierSearch::frontierCost(const Frontier & frontier)\n'}
+[1.984730] (explore_lite) StdoutLine: {'line': b'6: @@ -212 +219 @@\n'}
+[1.984880] (explore_lite) StdoutLine: {'line': b'6: -  \n'}
+[1.985034] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.985185] (explore_lite) StdoutLine: {'line': b'6: @@ -214,3 +221,4 @@\n'}
+[1.985338] (explore_lite) StdoutLine: {'line': b'6: -  double target_yaw = std::atan2(frontier.centroid.y - robot_pose_.position.y,\n'}
+[1.985511] (explore_lite) StdoutLine: {'line': b'6: -                                 frontier.centroid.x - robot_pose_.position.x);\n'}
+[1.985664] (explore_lite) StdoutLine: {'line': b'6: -  \n'}
+[1.985808] (explore_lite) StdoutLine: {'line': b'6: +  double target_yaw = std::atan2(\n'}
+[1.985951] (explore_lite) StdoutLine: {'line': b'6: +    frontier.centroid.y - robot_pose_.position.y,\n'}
+[1.986097] (explore_lite) StdoutLine: {'line': b'6: +    frontier.centroid.x - robot_pose_.position.x);\n'}
+[1.986243] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.986388] (explore_lite) StdoutLine: {'line': b'6: @@ -219,3 +227,3 @@\n'}
+[1.986551] (explore_lite) StdoutLine: {'line': b'6: -  while (angle_diff > M_PI) angle_diff -= 2.0 * M_PI;\n'}
+[1.986699] (explore_lite) StdoutLine: {'line': b'6: -  while (angle_diff < -M_PI) angle_diff += 2.0 * M_PI;\n'}
+[1.986848] (explore_lite) StdoutLine: {'line': b'6: -  \n'}
+[1.987007] (explore_lite) StdoutLine: {'line': b'6: +  while (angle_diff > M_PI) {angle_diff -= 2.0 * M_PI;}\n'}
+[1.987161] (explore_lite) StdoutLine: {'line': b'6: +  while (angle_diff < -M_PI) {angle_diff += 2.0 * M_PI;}\n'}
+[1.987312] (explore_lite) StdoutLine: {'line': b'6: +\n'}
+[1.987475] (explore_lite) StdoutLine: {'line': b'6: @@ -226,3 +234,3 @@\n'}
+[1.987639] (explore_lite) StdoutLine: {'line': b'6: -  double utility = (potential_scale_ * C_d) + \n'}
+[1.987795] (explore_lite) StdoutLine: {'line': b'6: -                   (gain_scale_ * C_i) + \n'}
+[1.987959] (explore_lite) StdoutLine: {'line': b'6: -                   (orientation_scale_ * C_h);\n'}
+[1.988139] (explore_lite) StdoutLine: {'line': b'6: +  double utility = (potential_scale_ * C_d) +\n'}
+[1.988293] (explore_lite) StdoutLine: {'line': b'6: +    (gain_scale_ * C_i) +\n'}
+[1.988455] (explore_lite) StdoutLine: {'line': b'6: +    (orientation_scale_ * C_h);\n'}
+[1.988613] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.988764] (explore_lite) StdoutLine: {'line': b"6: Code style divergence in file 'test/test_explore.cpp':\n"}
+[1.988918] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.989078] (explore_lite) StdoutLine: {'line': b'6: --- test/test_explore.cpp\n'}
+[1.989237] (explore_lite) StdoutLine: {'line': b'6: +++ test/test_explore.cpp.uncrustify\n'}
+[1.989382] (explore_lite) StdoutLine: {'line': b'6: @@ -43,2 +43,3 @@\n'}
+[1.989552] (explore_lite) StdoutLine: {'line': b'6: -inline static bool same_point(const geometry_msgs::msg::Point& one,\n'}
+[1.989701] (explore_lite) StdoutLine: {'line': b'6: -                              const geometry_msgs::msg::Point& two)\n'}
+[1.989846] (explore_lite) StdoutLine: {'line': b'6: +inline static bool same_point(\n'}
+[1.989991] (explore_lite) StdoutLine: {'line': b'6: +  const geometry_msgs::msg::Point & one,\n'}
+[1.990136] (explore_lite) StdoutLine: {'line': b'6: +  const geometry_msgs::msg::Point & two)\n'}
+[1.990279] (explore_lite) StdoutLine: {'line': b'6: @@ -54,6 +55,6 @@\n'}
+[1.990430] (explore_lite) StdoutLine: {'line': b'6: -    geometry_msgs::msg::Point goal1;\n'}
+[1.990588] (explore_lite) StdoutLine: {'line': b'6: -    geometry_msgs::msg::Point goal2;\n'}
+[1.990745] (explore_lite) StdoutLine: {'line': b'6: -    // Populate the goal with known values\n'}
+[1.990904] (explore_lite) StdoutLine: {'line': b'6: -    goal1.x = 1.0;\n'}
+[1.991074] (explore_lite) StdoutLine: {'line': b'6: -    goal1.y = 2.0;\n'}
+[1.991227] (explore_lite) StdoutLine: {'line': b'6: -    goal1.z = 3.0;\n'}
+[1.991388] (explore_lite) StdoutLine: {'line': b'6: +  geometry_msgs::msg::Point goal1;\n'}
+[1.991611] (explore_lite) StdoutLine: {'line': b'6: +  geometry_msgs::msg::Point goal2;\n'}
+[1.991756] (explore_lite) StdoutLine: {'line': b'6: +  // Populate the goal with known values\n'}
+[1.991902] (explore_lite) StdoutLine: {'line': b'6: +  goal1.x = 1.0;\n'}
+[1.992053] (explore_lite) StdoutLine: {'line': b'6: +  goal1.y = 2.0;\n'}
+[1.992197] (explore_lite) StdoutLine: {'line': b'6: +  goal1.z = 3.0;\n'}
+[1.992340] (explore_lite) StdoutLine: {'line': b'6: @@ -61,10 +62,10 @@\n'}
+[1.992505] (explore_lite) StdoutLine: {'line': b'6: -    goal2.x = 0.0;\n'}
+[1.992653] (explore_lite) StdoutLine: {'line': b'6: -    goal2.y = 0.0;\n'}
+[1.992800] (explore_lite) StdoutLine: {'line': b'6: -    goal2.z = 0.0;\n'}
+[1.992952] (explore_lite) StdoutLine: {'line': b'6: -    auto same_goal = same_point(goal1, goal2);\n'}
+[1.993114] (explore_lite) StdoutLine: {'line': b'6: -    EXPECT_FALSE(same_goal);\n'}
+[1.993275] (explore_lite) StdoutLine: {'line': b'6: -    goal2.x = goal1.x;\n'}
+[1.993431] (explore_lite) StdoutLine: {'line': b'6: -    goal2.y = goal1.y;\n'}
+[1.993592] (explore_lite) StdoutLine: {'line': b'6: -    goal2.z = goal1.z;\n'}
+[1.993736] (explore_lite) StdoutLine: {'line': b'6: -    same_goal = same_point(goal1, goal2);\n'}
+[1.994158] (explore_lite) StdoutLine: {'line': b'6: -    EXPECT_TRUE(same_goal);\n'}
+[1.994473] (explore_lite) StdoutLine: {'line': b'6: +  goal2.x = 0.0;\n'}
+[1.994683] (explore_lite) StdoutLine: {'line': b'6: +  goal2.y = 0.0;\n'}
+[1.994850] (explore_lite) StdoutLine: {'line': b'6: +  goal2.z = 0.0;\n'}
+[1.995026] (explore_lite) StdoutLine: {'line': b'6: +  auto same_goal = same_point(goal1, goal2);\n'}
+[1.995199] (explore_lite) StdoutLine: {'line': b'6: +  EXPECT_FALSE(same_goal);\n'}
+[1.995363] (explore_lite) StdoutLine: {'line': b'6: +  goal2.x = goal1.x;\n'}
+[1.995545] (explore_lite) StdoutLine: {'line': b'6: +  goal2.y = goal1.y;\n'}
+[1.995702] (explore_lite) StdoutLine: {'line': b'6: +  goal2.z = goal1.z;\n'}
+[1.995876] (explore_lite) StdoutLine: {'line': b'6: +  same_goal = same_point(goal1, goal2);\n'}
+[1.996034] (explore_lite) StdoutLine: {'line': b'6: +  EXPECT_TRUE(same_goal);\n'}
+[1.996207] (explore_lite) StdoutLine: {'line': b'6: @@ -73 +74 @@\n'}
+[1.996362] (explore_lite) StdoutLine: {'line': b'6: -int main(int argc, char** argv)\n'}
+[1.996535] (explore_lite) StdoutLine: {'line': b'6: +int main(int argc, char ** argv)\n'}
+[1.996689] (explore_lite) StdoutLine: {'line': b'6: \n'}
+[1.996836] (explore_lite) StdoutLine: {'line': b'6: 8 files with code style divergence\n'}
+[1.996983] (explore_lite) StdoutLine: {'line': b'6: -- run_test.py: return code 1\n'}
+[1.997128] (explore_lite) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml'\n"}
+[1.997281] (explore_lite) StdoutLine: {'line': b'6/7 Test #6: uncrustify .......................***Failed    0.38 sec\n'}
+[1.997452] (explore_lite) StdoutLine: {'line': b'test 7\n'}
+[1.997615] (explore_lite) StdoutLine: {'line': b'    Start 7: xmllint\n'}
+[1.997765] (explore_lite) StdoutLine: {'line': b'\n'}
+[1.997928] (explore_lite) StdoutLine: {'line': b'7: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml"\n'}
+[1.998111] (explore_lite) StdoutLine: {'line': b'7: Test timeout computed to be: 60\n'}
+[1.998262] (explore_lite) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':\n"}
+[1.998422] (explore_lite) StdoutLine: {'line': b'7:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml\n'}
+[2.005686] (-) TimerEvent: {}
+[2.106297] (-) TimerEvent: {}
+[2.207087] (-) TimerEvent: {}
+[2.307885] (-) TimerEvent: {}
+[2.408736] (-) TimerEvent: {}
+[2.509458] (-) TimerEvent: {}
+[2.610157] (-) TimerEvent: {}
+[2.687226] (explore_lite) StdoutLine: {'line': b"7: File 'package.xml' is valid\n"}
+[2.687585] (explore_lite) StdoutLine: {'line': b'7: \n'}
+[2.687707] (explore_lite) StdoutLine: {'line': b'7: No problems found\n'}
+[2.704857] (explore_lite) StdoutLine: {'line': b'7: -- run_test.py: return code 0\n'}
+[2.705369] (explore_lite) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml'\n"}
+[2.710260] (-) TimerEvent: {}
+[2.719434] (explore_lite) StdoutLine: {'line': b'7/7 Test #7: xmllint ..........................   Passed    0.86 sec\n'}
+[2.720107] (explore_lite) StdoutLine: {'line': b'\n'}
+[2.720455] (explore_lite) StdoutLine: {'line': b'71% tests passed\x1b[0;0m, \x1b[0;31m2 tests failed\x1b[0;0m out of 7\n'}
+[2.720669] (explore_lite) StdoutLine: {'line': b'\n'}
+[2.720835] (explore_lite) StdoutLine: {'line': b'Label Time Summary:\n'}
+[2.720992] (explore_lite) StdoutLine: {'line': b'cppcheck      =   0.27 sec*proc (1 test)\n'}
+[2.721146] (explore_lite) StdoutLine: {'line': b'flake8        =   0.40 sec*proc (1 test)\n'}
+[2.721300] (explore_lite) StdoutLine: {'line': b'gtest         =   0.12 sec*proc (1 test)\n'}
+[2.721472] (explore_lite) StdoutLine: {'line': b'lint_cmake    =   0.29 sec*proc (1 test)\n'}
+[2.721636] (explore_lite) StdoutLine: {'line': b'linter        =   2.52 sec*proc (6 tests)\n'}
+[2.721781] (explore_lite) StdoutLine: {'line': b'pep257        =   0.32 sec*proc (1 test)\n'}
+[2.721929] (explore_lite) StdoutLine: {'line': b'uncrustify    =   0.38 sec*proc (1 test)\n'}
+[2.722077] (explore_lite) StdoutLine: {'line': b'xmllint       =   0.86 sec*proc (1 test)\n'}
+[2.722223] (explore_lite) StdoutLine: {'line': b'\n'}
+[2.722370] (explore_lite) StdoutLine: {'line': b'Total Test time (real) =   2.65 sec\n'}
+[2.722559] (explore_lite) StdoutLine: {'line': b'\n'}
+[2.722710] (explore_lite) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[2.722855] (explore_lite) StdoutLine: {'line': b'\t\x1b[0;31m  3 - flake8 (Failed)\x1b[0;0m\n'}
+[2.723006] (explore_lite) StdoutLine: {'line': b'\t\x1b[0;31m  6 - uncrustify (Failed)\x1b[0;0m\n'}
+[2.726420] (explore_lite) StderrLine: {'line': b'Errors while running CTest\n'}
+[2.726760] (explore_lite) StderrLine: {'line': b'Output from these tests are in: /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/Testing/Temporary/LastTest.log\n'}
+[2.726954] (explore_lite) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[2.730041] (explore_lite) CommandEnded: {'returncode': 8}
+[2.731346] (explore_lite) TestFailure: {'identifier': 'explore_lite'}
+[2.731486] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 0}
+[2.732641] (-) EventReactorShutdown: {}

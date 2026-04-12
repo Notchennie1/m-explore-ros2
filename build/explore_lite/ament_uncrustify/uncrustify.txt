@@ -1,0 +1,24 @@
+-- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml
+
+No code style divergence in file 'include/explore/costmap_client.h'
+
+No code style divergence in file 'include/explore/costmap_tools.h'
+
+No code style divergence in file 'include/explore/explore.h'
+
+No code style divergence in file 'include/explore/frontier_search.h'
+
+No code style divergence in file 'src/costmap_client.cpp'
+
+No code style divergence in file 'src/explore.cpp'
+
+No code style divergence in file 'src/frontier_search.cpp'
+
+No code style divergence in file 'test/test_explore.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml'

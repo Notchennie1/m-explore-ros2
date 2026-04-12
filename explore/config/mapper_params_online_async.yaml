@@ -14,6 +14,12 @@ slam_toolbox:
     map_frame: map
     base_frame: base_footprint
     scan_topic: /scan
+    qos_overrides:
+      /scan:
+        publisher:
+          reliability: best_effort
+        subscription:
+          reliability: best_effort
     use_map_saver: true
     mode: mapping #localization
 

@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml
+
+checking ./launch/explore.launch.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml'

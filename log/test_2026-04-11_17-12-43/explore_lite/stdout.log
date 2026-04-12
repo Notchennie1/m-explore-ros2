@@ -1,0 +1,1309 @@
+UpdateCTestConfiguration  from :/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini
+Parse Config file:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini
+   Site: CX-Swift-SFG14-73
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260411-0912 - Experimental
+UpdateCTestConfiguration  from :/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini
+Parse Config file:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/CTestConfiguration.ini
+Test project /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_explore
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_cmake_gtest/test_explore.txt" "--command" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_explore" "--gtest_output=xml:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite':
+1:  - /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_explore --gtest_output=xml:/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml
+1: [==========] Running 1 test from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 1 test from Explore
+1: [ RUN      ] Explore.testSameGoal
+1: [       OK ] Explore.testSameGoal (0 ms)
+1: [----------] 1 test from Explore (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 1 test from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 1 test.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml'
+1: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/test_explore.gtest.xml'
+1/7 Test #1: test_explore .....................   Passed    0.12 sec
+test 2
+    Start 2: cppcheck
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml" "--include_dirs" "/home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include" "/home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include"
+2: Test timeout computed to be: 300
+2: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml --include_dirs /home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include /home/notch/turtlebot3_ws/src/m-explore-ros2/explore/include
+2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/cppcheck.xunit.xml'
+2/7 Test #2: cppcheck .........................   Passed    0.29 sec
+test 3
+    Start 3: flake8
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml"
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+3:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml
+3: 
+3: 1 files checked
+3: No problems found
+3: 
+3: Checked files:
+3: 
+3: * ./launch/explore.launch.py
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/flake8.xunit.xml'
+3/7 Test #3: flake8 ...........................   Passed    0.40 sec
+test 4
+    Start 4: lint_cmake
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml'
+4/7 Test #4: lint_cmake .......................   Passed    0.24 sec
+test 5
+    Start 5: pep257
+
+5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+5:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml
+5: checking ./launch/explore.launch.py
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/pep257.xunit.xml'
+5/7 Test #5: pep257 ...........................   Passed    0.31 sec
+test 6
+    Start 6: uncrustify
+
+6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml"
+6: Test timeout computed to be: 60
+6: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+6:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml
+6: Code style divergence in file 'include/explore/costmap_client.h':
+6: 
+6: --- include/explore/costmap_client.h
+6: +++ include/explore/costmap_client.h.uncrustify
+6: @@ -54,2 +54,2 @@
+6: -class Costmap2DClient
+6: -{
+6: +  class Costmap2DClient
+6: +  {
+6: @@ -57,15 +57,15 @@
+6: -  /**
+6: -   * @brief Constructs client and start listening
+6: -   * @details Constructor will block until first map update is received and
+6: -   * map is ready to use, also will block before transformation
+6: -   * robot_base_frame <-> global_frame is available.
+6: -   *
+6: -   * @param node node handle to retrieve parameters from
+6: -   * @param tf_listener Will be used for transformation of robot pose.
+6: -   */
+6: -  Costmap2DClient(rclcpp::Node& node, const tf2_ros::Buffer* tf_listener);
+6: -  /**
+6: -   * @brief Get the pose of the robot in the global frame of the costmap
+6: -   * @return pose of the robot in the global frame of the costmap
+6: -   */
+6: -  geometry_msgs::msg::Pose getRobotPose() const;
+6: +    /**
+6: +     * @brief Constructs client and start listening
+6: +     * @details Constructor will block until first map update is received and
+6: +     * map is ready to use, also will block before transformation
+6: +     * robot_base_frame <-> global_frame is available.
+6: +     *
+6: +     * @param node node handle to retrieve parameters from
+6: +     * @param tf_listener Will be used for transformation of robot pose.
+6: +     */
+6: +    Costmap2DClient(rclcpp::Node & node, const tf2_ros::Buffer * tf_listener);
+6: +    /**
+6: +     * @brief Get the pose of the robot in the global frame of the costmap
+6: +     * @return pose of the robot in the global frame of the costmap
+6: +     */
+6: +    geometry_msgs::msg::Pose getRobotPose() const;
+6: @@ -73,10 +73,10 @@
+6: -  /**
+6: -   * @brief Return a pointer to the "master" costmap which receives updates from
+6: -   * all the layers.
+6: -   *
+6: -   * This pointer will stay the same for the lifetime of Costmap2DClient object.
+6: -   */
+6: -  nav2_costmap_2d::Costmap2D* getCostmap()
+6: -  {
+6: -    return &costmap_;
+6: -  }
+6: +    /**
+6: +     * @brief Return a pointer to the "master" costmap which receives updates from
+6: +     * all the layers.
+6: +     *
+6: +     * This pointer will stay the same for the lifetime of Costmap2DClient object.
+6: +     */
+6: +    nav2_costmap_2d::Costmap2D * getCostmap()
+6: +    {
+6: +      return &costmap_;
+6: +    }
+6: @@ -84,10 +84,10 @@
+6: -  /**
+6: -   * @brief Return a pointer to the "master" costmap which receives updates from
+6: -   * all the layers.
+6: -   *
+6: -   * This pointer will stay the same for the lifetime of Costmap2DClient object.
+6: -   */
+6: -  const nav2_costmap_2d::Costmap2D* getCostmap() const
+6: -  {
+6: -    return &costmap_;
+6: -  }
+6: +    /**
+6: +     * @brief Return a pointer to the "master" costmap which receives updates from
+6: +     * all the layers.
+6: +     *
+6: +     * This pointer will stay the same for the lifetime of Costmap2DClient object.
+6: +     */
+6: +    const nav2_costmap_2d::Costmap2D * getCostmap() const
+6: +    {
+6: +      return &costmap_;
+6: +    }
+6: @@ -95,8 +95,8 @@
+6: -  /**
+6: -   * @brief  Returns the global frame of the costmap
+6: -   * @return The global frame of the costmap
+6: -   */
+6: -  const std::string& getGlobalFrameID() const
+6: -  {
+6: -    return global_frame_;
+6: -  }
+6: +    /**
+6: +     * @brief  Returns the global frame of the costmap
+6: +     * @return The global frame of the costmap
+6: +     */
+6: +    const std::string & getGlobalFrameID() const
+6: +    {
+6: +      return global_frame_;
+6: +    }
+6: @@ -104,8 +104,8 @@
+6: -  /**
+6: -   * @brief  Returns the local frame of the costmap
+6: -   * @return The local frame of the costmap
+6: -   */
+6: -  const std::string& getBaseFrameID() const
+6: -  {
+6: -    return robot_base_frame_;
+6: -  }
+6: +    /**
+6: +     * @brief  Returns the local frame of the costmap
+6: +     * @return The local frame of the costmap
+6: +     */
+6: +    const std::string & getBaseFrameID() const
+6: +    {
+6: +      return robot_base_frame_;
+6: +    }
+6: @@ -114,2 +114,2 @@
+6: -  void updateFullMap(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);
+6: -  void updatePartialMap(const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg);
+6: +    void updateFullMap(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);
+6: +    void updatePartialMap(const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg);
+6: @@ -117,3 +117,3 @@
+6: -  nav2_costmap_2d::Costmap2D costmap_;
+6: -  bool costmap_received_ = false;  ///< @brief Flag indicating whether costmap
+6: -                                   ///< callback has been called
+6: +    nav2_costmap_2d::Costmap2D costmap_;
+6: +    bool costmap_received_ = false; ///< @brief Flag indicating whether costmap
+6: +                                    ///< callback has been called
+6: @@ -121,6 +121,6 @@
+6: -  const tf2_ros::Buffer* const tf_;  ///< @brief Used for transforming
+6: -                                     /// point clouds
+6: -  rclcpp::Node& node_;
+6: -  std::string global_frame_;      ///< @brief The global frame for the costmap
+6: -  std::string robot_base_frame_;  ///< @brief The frame_id of the robot base
+6: -  double transform_tolerance_;    ///< timeout before transform errors
+6: +    const tf2_ros::Buffer * const tf_; ///< @brief Used for transforming
+6: +                                       /// point clouds
+6: +    rclcpp::Node & node_;
+6: +    std::string global_frame_;    ///< @brief The global frame for the costmap
+6: +    std::string robot_base_frame_; ///< @brief The frame_id of the robot base
+6: +    double transform_tolerance_;  ///< timeout before transform errors
+6: @@ -129,5 +129,5 @@
+6: -  // will be unsubscribed at destruction
+6: -  rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>::SharedPtr costmap_sub_;
+6: -  rclcpp::Subscription<map_msgs::msg::OccupancyGridUpdate>::SharedPtr
+6: -      costmap_updates_sub_;
+6: -};
+6: +    // will be unsubscribed at destruction
+6: +    rclcpp::Subscription < nav_msgs::msg::OccupancyGrid > ::SharedPtr costmap_sub_;
+6: +    rclcpp::Subscription < map_msgs::msg::OccupancyGridUpdate > ::SharedPtr
+6: +    costmap_updates_sub_;
+6: +  };
+6: 
+6: Code style divergence in file 'include/explore/costmap_tools.h':
+6: 
+6: --- include/explore/costmap_tools.h
+6: +++ include/explore/costmap_tools.h.uncrustify
+6: @@ -19,5 +19,6 @@
+6: -std::vector<unsigned int> nhood4(unsigned int idx,
+6: -                                 const nav2_costmap_2d::Costmap2D& costmap)
+6: -{
+6: -  // get 4-connected neighbourhood indexes, check for edge of map
+6: -  std::vector<unsigned int> out;
+6: +  std::vector < unsigned int > nhood4(
+6: +    unsigned int idx,
+6: +    const nav2_costmap_2d::Costmap2D & costmap)
+6: +  {
+6: +    // get 4-connected neighbourhood indexes, check for edge of map
+6: +    std::vector < unsigned int > out;
+6: @@ -25,2 +26,2 @@
+6: -  unsigned int size_x_ = costmap.getSizeInCellsX(),
+6: -               size_y_ = costmap.getSizeInCellsY();
+6: +    unsigned int size_x_ = costmap.getSizeInCellsX(),
+6: +      size_y_ = costmap.getSizeInCellsY();
+6: @@ -28,3 +29,19 @@
+6: -  if (idx > size_x_ * size_y_ - 1) {
+6: -    RCLCPP_WARN(rclcpp::get_logger("FrontierExploration"), "Evaluating nhood "
+6: -                                                           "for offmap point");
+6: +    if (idx > size_x_ * size_y_ - 1) {
+6: +      RCLCPP_WARN(
+6: +        rclcpp::get_logger("FrontierExploration"), "Evaluating nhood "
+6: +        "for offmap point");
+6: +      return out;
+6: +    }
+6: +
+6: +    if (idx % size_x_ > 0) {
+6: +      out.push_back(idx - 1);
+6: +    }
+6: +    if (idx % size_x_ < size_x_ - 1) {
+6: +      out.push_back(idx + 1);
+6: +    }
+6: +    if (idx >= size_x_) {
+6: +      out.push_back(idx - size_x_);
+6: +    }
+6: +    if (idx < size_x_ * (size_y_ - 1)) {
+6: +      out.push_back(idx + size_x_);
+6: +    }
+6: @@ -33,15 +49,0 @@
+6: -
+6: -  if (idx % size_x_ > 0) {
+6: -    out.push_back(idx - 1);
+6: -  }
+6: -  if (idx % size_x_ < size_x_ - 1) {
+6: -    out.push_back(idx + 1);
+6: -  }
+6: -  if (idx >= size_x_) {
+6: -    out.push_back(idx - size_x_);
+6: -  }
+6: -  if (idx < size_x_ * (size_y_ - 1)) {
+6: -    out.push_back(idx + size_x_);
+6: -  }
+6: -  return out;
+6: -}
+6: @@ -56,5 +58,6 @@
+6: -std::vector<unsigned int> nhood8(unsigned int idx,
+6: -                                 const nav2_costmap_2d::Costmap2D& costmap)
+6: -{
+6: -  // get 8-connected neighbourhood indexes, check for edge of map
+6: -  std::vector<unsigned int> out = nhood4(idx, costmap);
+6: +  std::vector < unsigned int > nhood8(
+6: +    unsigned int idx,
+6: +    const nav2_costmap_2d::Costmap2D & costmap)
+6: +  {
+6: +    // get 8-connected neighbourhood indexes, check for edge of map
+6: +    std::vector < unsigned int > out = nhood4(idx, costmap);
+6: @@ -62,2 +65,2 @@
+6: -  unsigned int size_x_ = costmap.getSizeInCellsX(),
+6: -               size_y_ = costmap.getSizeInCellsY();
+6: +    unsigned int size_x_ = costmap.getSizeInCellsX(),
+6: +      size_y_ = costmap.getSizeInCellsY();
+6: @@ -65 +68,17 @@
+6: -  if (idx > size_x_ * size_y_ - 1) {
+6: +    if (idx > size_x_ * size_y_ - 1) {
+6: +      return out;
+6: +    }
+6: +
+6: +    if (idx % size_x_ > 0 && idx >= size_x_) {
+6: +      out.push_back(idx - 1 - size_x_);
+6: +    }
+6: +    if (idx % size_x_ > 0 && idx < size_x_ * (size_y_ - 1)) {
+6: +      out.push_back(idx - 1 + size_x_);
+6: +    }
+6: +    if (idx % size_x_ < size_x_ - 1 && idx >= size_x_) {
+6: +      out.push_back(idx + 1 - size_x_);
+6: +    }
+6: +    if (idx % size_x_ < size_x_ - 1 && idx < size_x_ * (size_y_ - 1)) {
+6: +      out.push_back(idx + 1 + size_x_);
+6: +    }
+6: +
+6: @@ -68,16 +86,0 @@
+6: -
+6: -  if (idx % size_x_ > 0 && idx >= size_x_) {
+6: -    out.push_back(idx - 1 - size_x_);
+6: -  }
+6: -  if (idx % size_x_ > 0 && idx < size_x_ * (size_y_ - 1)) {
+6: -    out.push_back(idx - 1 + size_x_);
+6: -  }
+6: -  if (idx % size_x_ < size_x_ - 1 && idx >= size_x_) {
+6: -    out.push_back(idx + 1 - size_x_);
+6: -  }
+6: -  if (idx % size_x_ < size_x_ - 1 && idx < size_x_ * (size_y_ - 1)) {
+6: -    out.push_back(idx + 1 + size_x_);
+6: -  }
+6: -
+6: -  return out;
+6: -}
+6: @@ -93,6 +96,7 @@
+6: -bool nearestCell(unsigned int& result, unsigned int start, unsigned char val,
+6: -                 const nav2_costmap_2d::Costmap2D& costmap)
+6: -{
+6: -  const unsigned char* map = costmap.getCharMap();
+6: -  const unsigned int size_x = costmap.getSizeInCellsX(),
+6: -                     size_y = costmap.getSizeInCellsY();
+6: +  bool nearestCell(
+6: +    unsigned int & result, unsigned int start, unsigned char val,
+6: +    const nav2_costmap_2d::Costmap2D & costmap)
+6: +  {
+6: +    const unsigned char * map = costmap.getCharMap();
+6: +    const unsigned int size_x = costmap.getSizeInCellsX(),
+6: +      size_y = costmap.getSizeInCellsY();
+6: @@ -100 +104,32 @@
+6: -  if (start >= size_x * size_y) {
+6: +    if (start >= size_x * size_y) {
+6: +      return false;
+6: +    }
+6: +
+6: +    // initialize breadth first search
+6: +    std::queue < unsigned int > bfs;
+6: +    std::vector < bool > visited_flag(size_x * size_y, false);
+6: +
+6: +    // push initial cell
+6: +    bfs.push(start);
+6: +    visited_flag[start] = true;
+6: +
+6: +    // search for neighbouring cell matching value
+6: +    while (!bfs.empty()) {
+6: +      unsigned int idx = bfs.front();
+6: +      bfs.pop();
+6: +
+6: +      // return if cell of correct value is found
+6: +      if (map[idx] == val) {
+6: +        result = idx;
+6: +        return true;
+6: +      }
+6: +
+6: +      // iterate over all adjacent unvisited cells
+6: +      for (unsigned nbr : nhood8(idx, costmap)) {
+6: +        if (!visited_flag[nbr]) {
+6: +          bfs.push(nbr);
+6: +          visited_flag[nbr] = true;
+6: +        }
+6: +      }
+6: +    }
+6: +
+6: @@ -103,31 +137,0 @@
+6: -
+6: -  // initialize breadth first search
+6: -  std::queue<unsigned int> bfs;
+6: -  std::vector<bool> visited_flag(size_x * size_y, false);
+6: -
+6: -  // push initial cell
+6: -  bfs.push(start);
+6: -  visited_flag[start] = true;
+6: -
+6: -  // search for neighbouring cell matching value
+6: -  while (!bfs.empty()) {
+6: -    unsigned int idx = bfs.front();
+6: -    bfs.pop();
+6: -
+6: -    // return if cell of correct value is found
+6: -    if (map[idx] == val) {
+6: -      result = idx;
+6: -      return true;
+6: -    }
+6: -
+6: -    // iterate over all adjacent unvisited cells
+6: -    for (unsigned nbr : nhood8(idx, costmap)) {
+6: -      if (!visited_flag[nbr]) {
+6: -        bfs.push(nbr);
+6: -        visited_flag[nbr] = true;
+6: -      }
+6: -    }
+6: -  }
+6: -
+6: -  return false;
+6: -}
+6: 
+6: Code style divergence in file 'include/explore/explore.h':
+6: 
+6: --- include/explore/explore.h
+6: +++ include/explore/explore.h.uncrustify
+6: @@ -74,2 +74,2 @@
+6: -class Explore : public rclcpp::Node
+6: -{
+6: +  class Explore: public rclcpp::Node
+6: +  {
+6: @@ -77,2 +77,2 @@
+6: -  Explore();
+6: -  ~Explore();
+6: +    Explore();
+6: +    ~Explore();
+6: @@ -80,3 +80,3 @@
+6: -  void start();
+6: -  void stop(bool finished_exploring = false);
+6: -  void resume();
+6: +    void start();
+6: +    void stop(bool finished_exploring = false);
+6: +    void resume();
+6: @@ -84,3 +84,2 @@
+6: -  using NavigationGoalHandle =
+6: -      rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>;
+6: -      
+6: +    using NavigationGoalHandle =
+6: +      rclcpp_action::ClientGoalHandle < nav2_msgs::action::NavigateToPose >;
+6: @@ -89,4 +88,4 @@
+6: -  /**
+6: -   * @brief  Make a global plan
+6: -   */
+6: -  void makePlan();
+6: +    /**
+6: +     * @brief  Make a global plan
+6: +     */
+6: +    void makePlan();
+6: @@ -94,5 +93,5 @@
+6: -  // /**
+6: -  //  * @brief  Publish a frontiers as markers
+6: -  //  */
+6: -  void visualizeFrontiers(
+6: -      const std::vector<frontier_exploration::Frontier>& frontiers);
+6: +    // /**
+6: +    //  * @brief  Publish a frontiers as markers
+6: +    //  */
+6: +    void visualizeFrontiers(
+6: +      const std::vector < frontier_exploration::Frontier > & frontiers);
+6: @@ -100 +99 @@
+6: -  bool goalOnBlacklist(const geometry_msgs::msg::Point& goal);
+6: +    bool goalOnBlacklist(const geometry_msgs::msg::Point & goal);
+6: @@ -102,6 +101,7 @@
+6: -  NavigationGoalHandle::SharedPtr navigation_goal_handle_;
+6: -  // void
+6: -  // goal_response_callback(std::shared_future<NavigationGoalHandle::SharedPtr>
+6: -  // future);
+6: -  void reachedGoal(const NavigationGoalHandle::WrappedResult& result,
+6: -                   const geometry_msgs::msg::Point& frontier_goal);
+6: +    NavigationGoalHandle::SharedPtr navigation_goal_handle_;
+6: +    // void
+6: +    // goal_response_callback(std::shared_future<NavigationGoalHandle::SharedPtr>
+6: +    // future);
+6: +    void reachedGoal(
+6: +      const NavigationGoalHandle::WrappedResult & result,
+6: +      const geometry_msgs::msg::Point & frontier_goal);
+6: @@ -109,6 +109,6 @@
+6: -  rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr
+6: -      marker_array_publisher_;
+6: -  /**
+6: -    * @brief Publisher for exploration status updates (see ExploreStatus.msg for status values)
+6: -    */
+6: -  rclcpp::Publisher<explore_lite_msgs::msg::ExploreStatus>::SharedPtr status_pub_;
+6: +    rclcpp::Publisher < visualization_msgs::msg::MarkerArray > ::SharedPtr
+6: +    marker_array_publisher_;
+6: +    /**
+6: +      * @brief Publisher for exploration status updates (see ExploreStatus.msg for status values)
+6: +      */
+6: +    rclcpp::Publisher < explore_lite_msgs::msg::ExploreStatus > ::SharedPtr status_pub_;
+6: @@ -116,3 +116,3 @@
+6: -  rclcpp::Logger logger_;
+6: -  tf2_ros::Buffer tf_buffer_;
+6: -  tf2_ros::TransformListener tf_listener_;
+6: +    rclcpp::Logger logger_;
+6: +    tf2_ros::Buffer tf_buffer_;
+6: +    tf2_ros::TransformListener tf_listener_;
+6: @@ -120,3 +120,3 @@
+6: -  Costmap2DClient costmap_client_;
+6: -  rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr
+6: -      move_base_client_;
+6: +    Costmap2DClient costmap_client_;
+6: +    rclcpp_action::Client < nav2_msgs::action::NavigateToPose > ::SharedPtr
+6: +    move_base_client_;
+6: @@ -124,2 +124,2 @@
+6: -  rclcpp_action::Client<nav2_msgs::action::Spin>::SharedPtr spin_client_;
+6: -  void executeSpin();
+6: +    rclcpp_action::Client < nav2_msgs::action::Spin > ::SharedPtr spin_client_;
+6: +    void executeSpin();
+6: @@ -127,3 +127,3 @@
+6: -  frontier_exploration::FrontierSearch search_;
+6: -  rclcpp::TimerBase::SharedPtr exploring_timer_;
+6: -  // rclcpp::TimerBase::SharedPtr oneshot_;
+6: +    frontier_exploration::FrontierSearch search_;
+6: +    rclcpp::TimerBase::SharedPtr exploring_timer_;
+6: +    // rclcpp::TimerBase::SharedPtr oneshot_;
+6: @@ -131,2 +131,2 @@
+6: -  rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr resume_subscription_;
+6: -  void resumeCallback(const std_msgs::msg::Bool::SharedPtr msg);
+6: +    rclcpp::Subscription < std_msgs::msg::Bool > ::SharedPtr resume_subscription_;
+6: +    void resumeCallback(const std_msgs::msg::Bool::SharedPtr msg);
+6: @@ -134,5 +134,5 @@
+6: -  std::vector<geometry_msgs::msg::Point> frontier_blacklist_;
+6: -  geometry_msgs::msg::Point prev_goal_;
+6: -  double prev_distance_;
+6: -  rclcpp::Time last_progress_;
+6: -  size_t last_markers_count_;
+6: +    std::vector < geometry_msgs::msg::Point > frontier_blacklist_;
+6: +    geometry_msgs::msg::Point prev_goal_;
+6: +    double prev_distance_;
+6: +    rclcpp::Time last_progress_;
+6: +    size_t last_markers_count_;
+6: @@ -140,2 +140,2 @@
+6: -  geometry_msgs::msg::Pose initial_pose_;
+6: -  void returnToInitialPose(void);
+6: +    geometry_msgs::msg::Pose initial_pose_;
+6: +    void returnToInitialPose(void);
+6: @@ -143,9 +143,9 @@
+6: -  // parameters
+6: -  double planner_frequency_;
+6: -  double potential_scale_, orientation_scale_, gain_scale_;
+6: -  double progress_timeout_;
+6: -  bool visualize_;
+6: -  bool return_to_init_;
+6: -  std::string robot_base_frame_;
+6: -  bool resuming_ = false;
+6: -};
+6: +    // parameters
+6: +    double planner_frequency_;
+6: +    double potential_scale_, orientation_scale_, gain_scale_;
+6: +    double progress_timeout_;
+6: +    bool visualize_;
+6: +    bool return_to_init_;
+6: +    std::string robot_base_frame_;
+6: +    bool resuming_ = false;
+6: +  };
+6: 
+6: Code style divergence in file 'include/explore/frontier_search.h':
+6: 
+6: --- include/explore/frontier_search.h
+6: +++ include/explore/frontier_search.h.uncrustify
+6: @@ -6 +6 @@
+6: -#include <geometry_msgs/msg/pose.hpp> 
+6: +#include <geometry_msgs/msg/pose.hpp>
+6: @@ -14,9 +14,10 @@
+6: -struct Frontier {
+6: -  std::uint32_t size;
+6: -  double min_distance;
+6: -  double cost;
+6: -  geometry_msgs::msg::Point initial;
+6: -  geometry_msgs::msg::Point centroid;
+6: -  geometry_msgs::msg::Point middle;
+6: -  std::vector<geometry_msgs::msg::Point> points;
+6: -};
+6: +  struct Frontier
+6: +  {
+6: +    std::uint32_t size;
+6: +    double min_distance;
+6: +    double cost;
+6: +    geometry_msgs::msg::Point initial;
+6: +    geometry_msgs::msg::Point centroid;
+6: +    geometry_msgs::msg::Point middle;
+6: +    std::vector < geometry_msgs::msg::Point > points;
+6: +  };
+6: @@ -28,2 +29,2 @@
+6: -class FrontierSearch
+6: -{
+6: +  class FrontierSearch
+6: +  {
+6: @@ -31 +32,2 @@
+6: -  FrontierSearch() : logger_(rclcpp::get_logger("frontier_search")) {} 
+6: +    FrontierSearch() : logger_(rclcpp::get_logger("frontier_search")) {
+6: +    }
+6: @@ -33,7 +35,8 @@
+6: -  /**
+6: -   * @brief Constructor for search task
+6: -   * @param costmap Reference to costmap data to search.
+6: -   */
+6: -  FrontierSearch(nav2_costmap_2d::Costmap2D* costmap, double potential_scale,
+6: -                 double gain_scale, double orientation_scale, // <-- ADDED: Pass the hysteresis weight
+6: -                 double min_frontier_size, rclcpp::Logger logger);
+6: +    /**
+6: +     * @brief Constructor for search task
+6: +     * @param costmap Reference to costmap data to search.
+6: +     */
+6: +    FrontierSearch(
+6: +      nav2_costmap_2d::Costmap2D * costmap, double potential_scale,
+6: +      double gain_scale, double orientation_scale,            // <-- ADDED: Pass the hysteresis weight
+6: +      double min_frontier_size, rclcpp::Logger logger);
+6: @@ -41,6 +44,6 @@
+6: -  /**
+6: -   * @brief Runs search implementation, outward from the start position
+6: -   * @param pose Initial pose to search from
+6: -   * @return List of frontiers, if any
+6: -   */
+6: -  std::vector<Frontier> searchFrom(geometry_msgs::msg::Pose pose); // <-- CHANGED: Accept full Pose instead of just Point
+6: +    /**
+6: +     * @brief Runs search implementation, outward from the start position
+6: +     * @param pose Initial pose to search from
+6: +     * @return List of frontiers, if any
+6: +     */
+6: +    std::vector < Frontier > searchFrom(geometry_msgs::msg::Pose pose); // <-- CHANGED: Accept full Pose instead of just Point
+6: @@ -49,11 +52,12 @@
+6: -  /**
+6: -   * @brief Starting from an initial cell, build a frontier from valid adjacent
+6: -   * cells
+6: -   * @param initial_cell Index of cell to start frontier building
+6: -   * @param reference Reference index to calculate position from
+6: -   * @param frontier_flag Flag vector indicating which cells are already marked
+6: -   * as frontiers
+6: -   * @return new frontier
+6: -   */
+6: -  Frontier buildNewFrontier(unsigned int initial_cell, unsigned int reference,
+6: -                            std::vector<bool>& frontier_flag);
+6: +    /**
+6: +     * @brief Starting from an initial cell, build a frontier from valid adjacent
+6: +     * cells
+6: +     * @param initial_cell Index of cell to start frontier building
+6: +     * @param reference Reference index to calculate position from
+6: +     * @param frontier_flag Flag vector indicating which cells are already marked
+6: +     * as frontiers
+6: +     * @return new frontier
+6: +     */
+6: +    Frontier buildNewFrontier(
+6: +      unsigned int initial_cell, unsigned int reference,
+6: +      std::vector < bool > & frontier_flag);
+6: @@ -61,10 +65,11 @@
+6: -  /**
+6: -   * @brief isNewFrontierCell Evaluate if candidate cell is a valid candidate
+6: -   * for a new frontier.
+6: -   * @param idx Index of candidate cell
+6: -   * @param frontier_flag Flag vector indicating which cells are already marked
+6: -   * as frontiers
+6: -   * @return true if the cell is frontier cell
+6: -   */
+6: -  bool isNewFrontierCell(unsigned int idx,
+6: -                         const std::vector<bool>& frontier_flag);
+6: +    /**
+6: +     * @brief isNewFrontierCell Evaluate if candidate cell is a valid candidate
+6: +     * for a new frontier.
+6: +     * @param idx Index of candidate cell
+6: +     * @param frontier_flag Flag vector indicating which cells are already marked
+6: +     * as frontiers
+6: +     * @return true if the cell is frontier cell
+6: +     */
+6: +    bool isNewFrontierCell(
+6: +      unsigned int idx,
+6: +      const std::vector < bool > & frontier_flag);
+6: @@ -72,8 +77,8 @@
+6: -  /**
+6: -   * @brief computes frontier cost
+6: -   * @details cost function is defined by potential_scale and gain_scale
+6: -   *
+6: -   * @param frontier frontier for which compute the cost
+6: -   * @return cost of the frontier
+6: -   */
+6: -  double frontierCost(const Frontier& frontier);
+6: +    /**
+6: +     * @brief computes frontier cost
+6: +     * @details cost function is defined by potential_scale and gain_scale
+6: +     *
+6: +     * @param frontier frontier for which compute the cost
+6: +     * @return cost of the frontier
+6: +     */
+6: +    double frontierCost(const Frontier & frontier);
+6: @@ -82,12 +87,12 @@
+6: -  nav2_costmap_2d::Costmap2D* costmap_;
+6: -  unsigned char* map_;
+6: -  unsigned int size_x_, size_y_;
+6: -  
+6: -  // <-- CHANGED: Added orientation_scale_ to the existing scales
+6: -  double potential_scale_, gain_scale_, orientation_scale_; 
+6: -  
+6: -  double min_frontier_size_;
+6: -  rclcpp::Logger logger_;
+6: -  
+6: -  geometry_msgs::msg::Pose robot_pose_; // <-- ADDED: Stores the robot's pose so frontierCost() can calculate Hysteresis (Yaw)
+6: -};
+6: +    nav2_costmap_2d::Costmap2D * costmap_;
+6: +    unsigned char * map_;
+6: +    unsigned int size_x_, size_y_;
+6: +
+6: +    // <-- CHANGED: Added orientation_scale_ to the existing scales
+6: +    double potential_scale_, gain_scale_, orientation_scale_;
+6: +
+6: +    double min_frontier_size_;
+6: +    rclcpp::Logger logger_;
+6: +
+6: +    geometry_msgs::msg::Pose robot_pose_; // <-- ADDED: Stores the robot's pose so frontierCost() can calculate Hysteresis (Yaw)
+6: +  };
+6: @@ -95 +100 @@
+6: -#endif
+6: +#endif
+6: 
+6: Code style divergence in file 'src/costmap_client.cpp':
+6: 
+6: --- src/costmap_client.cpp
+6: +++ src/costmap_client.cpp.uncrustify
+6: @@ -50,4 +50,4 @@
+6: -    init_translation_table();
+6: -
+6: -Costmap2DClient::Costmap2DClient(rclcpp::Node& node, const tf2_ros::Buffer* tf)
+6: -  : tf_(tf), node_(node)
+6: +  init_translation_table();
+6: +
+6: +Costmap2DClient::Costmap2DClient(rclcpp::Node & node, const tf2_ros::Buffer * tf)
+6: +: tf_(tf), node_(node)
+6: @@ -59,4 +59,7 @@
+6: -  node_.declare_parameter<std::string>("costmap_updates_topic",
+6: -                                       std::string("costmap_updates"));
+6: -  node_.declare_parameter<std::string>("robot_base_frame", std::string("base_"
+6: -                                                                       "link"));
+6: +  node_.declare_parameter<std::string>(
+6: +    "costmap_updates_topic",
+6: +    std::string("costmap_updates"));
+6: +  node_.declare_parameter<std::string>(
+6: +    "robot_base_frame", std::string(
+6: +      "base_"
+6: +      "link"));
+6: @@ -73,5 +76,5 @@
+6: -      costmap_topic, 1000,
+6: -      [this](const nav_msgs::msg::OccupancyGrid::SharedPtr msg) {
+6: -        costmap_received_ = true;
+6: -        updateFullMap(msg);
+6: -      });
+6: +    costmap_topic, 1000,
+6: +    [this](const nav_msgs::msg::OccupancyGrid::SharedPtr msg) {
+6: +      costmap_received_ = true;
+6: +      updateFullMap(msg);
+6: +    });
+6: @@ -86,3 +89,4 @@
+6: -  RCLCPP_INFO(node_.get_logger(),
+6: -              "Waiting for costmap to become available, topic: %s",
+6: -              costmap_topic.c_str());
+6: +  RCLCPP_INFO(
+6: +    node_.get_logger(),
+6: +    "Waiting for costmap to become available, topic: %s",
+6: +    costmap_topic.c_str());
+6: @@ -99,5 +103,5 @@
+6: -      node_.create_subscription<map_msgs::msg::OccupancyGridUpdate>(
+6: -          costmap_updates_topic, 1000,
+6: -          [this](const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg) {
+6: -            updatePartialMap(msg);
+6: -          });
+6: +    node_.create_subscription<map_msgs::msg::OccupancyGridUpdate>(
+6: +    costmap_updates_topic, 1000,
+6: +    [this](const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg) {
+6: +      updatePartialMap(msg);
+6: +    });
+6: @@ -121,3 +125,5 @@
+6: -         !tf_->canTransform(global_frame_, robot_base_frame_,
+6: -                            tf2::TimePointZero, tf2::durationFromSec(0.1),
+6: -                            &tf_error)) {
+6: +    !tf_->canTransform(
+6: +      global_frame_, robot_base_frame_,
+6: +      tf2::TimePointZero, tf2::durationFromSec(0.1),
+6: +      &tf_error))
+6: +  {
+6: @@ -126,6 +132,7 @@
+6: -      RCLCPP_WARN(node_.get_logger(),
+6: -                  "Timed out waiting for transform from %s to %s to become "
+6: -                  "available "
+6: -                  "before subscribing to costmap, tf error: %s",
+6: -                  robot_base_frame_.c_str(), global_frame_.c_str(),
+6: -                  tf_error.c_str());
+6: +      RCLCPP_WARN(
+6: +        node_.get_logger(),
+6: +        "Timed out waiting for transform from %s to %s to become "
+6: +        "available "
+6: +        "before subscribing to costmap, tf error: %s",
+6: +        robot_base_frame_.c_str(), global_frame_.c_str(),
+6: +        tf_error.c_str());
+6: @@ -133 +139,0 @@
+6: -      ;
+6: @@ -144 +150 @@
+6: -    const nav_msgs::msg::OccupancyGrid::SharedPtr msg)
+6: +  const nav_msgs::msg::OccupancyGrid::SharedPtr msg)
+6: @@ -154,4 +160,6 @@
+6: -  RCLCPP_DEBUG(node_.get_logger(), "received full new map, resizing to: %d, %d",
+6: -               size_in_cells_x, size_in_cells_y);
+6: -  costmap_.resizeMap(size_in_cells_x, size_in_cells_y, resolution, origin_x,
+6: -                     origin_y);
+6: +  RCLCPP_DEBUG(
+6: +    node_.get_logger(), "received full new map, resizing to: %d, %d",
+6: +    size_in_cells_x, size_in_cells_y);
+6: +  costmap_.resizeMap(
+6: +    size_in_cells_x, size_in_cells_y, resolution, origin_x,
+6: +    origin_y);
+6: @@ -160 +168 @@
+6: -  auto* mutex = costmap_.getMutex();
+6: +  auto * mutex = costmap_.getMutex();
+6: @@ -164 +172 @@
+6: -  unsigned char* costmap_data = costmap_.getCharMap();
+6: +  unsigned char * costmap_data = costmap_.getCharMap();
+6: @@ -171,2 +179,3 @@
+6: -  RCLCPP_DEBUG(node_.get_logger(), "map updated, written %lu values",
+6: -               costmap_size);
+6: +  RCLCPP_DEBUG(
+6: +    node_.get_logger(), "map updated, written %lu values",
+6: +    costmap_size);
+6: @@ -176 +185 @@
+6: -    const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg)
+6: +  const map_msgs::msg::OccupancyGridUpdate::SharedPtr msg)
+6: @@ -182,3 +191,4 @@
+6: -    RCLCPP_DEBUG(node_.get_logger(),
+6: -                 "negative coordinates, invalid update. x: %d, y: %d", msg->x,
+6: -                 msg->y);
+6: +    RCLCPP_DEBUG(
+6: +      node_.get_logger(),
+6: +      "negative coordinates, invalid update. x: %d, y: %d", msg->x,
+6: +      msg->y);
+6: @@ -194 +204 @@
+6: -  auto* mutex = costmap_.getMutex();
+6: +  auto * mutex = costmap_.getMutex();
+6: @@ -201,6 +211,8 @@
+6: -      y0 > costmap_yn) {
+6: -    RCLCPP_WARN(node_.get_logger(),
+6: -                "received update doesn't fully fit into existing map, "
+6: -                "only part will be copied. received: [%lu, %lu], [%lu, %lu] "
+6: -                "map is: [0, %lu], [0, %lu]",
+6: -                x0, xn, y0, yn, costmap_xn, costmap_yn);
+6: +    y0 > costmap_yn)
+6: +  {
+6: +    RCLCPP_WARN(
+6: +      node_.get_logger(),
+6: +      "received update doesn't fully fit into existing map, "
+6: +      "only part will be copied. received: [%lu, %lu], [%lu, %lu] "
+6: +      "map is: [0, %lu], [0, %lu]",
+6: +      x0, xn, y0, yn, costmap_xn, costmap_yn);
+6: @@ -210 +222 @@
+6: -  unsigned char* costmap_data = costmap_.getCharMap();
+6: +  unsigned char * costmap_data = costmap_.getCharMap();
+6: @@ -229 +241 @@
+6: -  auto& clk = *node_.get_clock();
+6: +  auto & clk = *node_.get_clock();
+6: @@ -233,21 +245,26 @@
+6: -    robot_pose = tf_->transform(robot_pose, global_frame_,
+6: -                                tf2::durationFromSec(transform_tolerance_));
+6: -  } catch (tf2::LookupException& ex) {
+6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000,
+6: -                          "No Transform available Error looking up robot pose: "
+6: -                          "%s\n",
+6: -                          ex.what());
+6: -    return empty_pose;
+6: -  } catch (tf2::ConnectivityException& ex) {
+6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000,
+6: -                          "Connectivity Error looking up robot pose: %s\n",
+6: -                          ex.what());
+6: -    return empty_pose;
+6: -  } catch (tf2::ExtrapolationException& ex) {
+6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000,
+6: -                          "Extrapolation Error looking up robot pose: %s\n",
+6: -                          ex.what());
+6: -    return empty_pose;
+6: -  } catch (tf2::TransformException& ex) {
+6: -    RCLCPP_ERROR_THROTTLE(node_.get_logger(), clk, 1000, "Other error: %s\n",
+6: -                          ex.what());
+6: +    robot_pose = tf_->transform(
+6: +      robot_pose, global_frame_,
+6: +      tf2::durationFromSec(transform_tolerance_));
+6: +  } catch (tf2::LookupException & ex) {
+6: +    RCLCPP_ERROR_THROTTLE(
+6: +      node_.get_logger(), clk, 1000,
+6: +      "No Transform available Error looking up robot pose: "
+6: +      "%s\n",
+6: +      ex.what());
+6: +    return empty_pose;
+6: +  } catch (tf2::ConnectivityException & ex) {
+6: +    RCLCPP_ERROR_THROTTLE(
+6: +      node_.get_logger(), clk, 1000,
+6: +      "Connectivity Error looking up robot pose: %s\n",
+6: +      ex.what());
+6: +    return empty_pose;
+6: +  } catch (tf2::ExtrapolationException & ex) {
+6: +    RCLCPP_ERROR_THROTTLE(
+6: +      node_.get_logger(), clk, 1000,
+6: +      "Extrapolation Error looking up robot pose: %s\n",
+6: +      ex.what());
+6: +    return empty_pose;
+6: +  } catch (tf2::TransformException & ex) {
+6: +    RCLCPP_ERROR_THROTTLE(
+6: +      node_.get_logger(), clk, 1000, "Other error: %s\n",
+6: +      ex.what());
+6: @@ -267 +284 @@
+6: -        static_cast<unsigned char>(1 + (251 * (i - 1)) / 97);
+6: +      static_cast<unsigned char>(1 + (251 * (i - 1)) / 97);
+6: 
+6: Code style divergence in file 'src/explore.cpp':
+6: 
+6: --- src/explore.cpp
+6: +++ src/explore.cpp.uncrustify
+6: @@ -43,2 +43,3 @@
+6: -inline static bool same_point(const geometry_msgs::msg::Point& one,
+6: -                              const geometry_msgs::msg::Point& two)
+6: +inline static bool same_point(
+6: +  const geometry_msgs::msg::Point & one,
+6: +  const geometry_msgs::msg::Point & two)
+6: @@ -55 +56 @@
+6: -  : Node("explore_node")
+6: +: Node("explore_node")
+6: @@ -86,2 +87,2 @@
+6: -      rclcpp_action::create_client<nav2_msgs::action::NavigateToPose>(
+6: -          this, ACTION_NAME);
+6: +    rclcpp_action::create_client<nav2_msgs::action::NavigateToPose>(
+6: +    this, ACTION_NAME);
+6: @@ -91,4 +92,5 @@
+6: -  search_ = frontier_exploration::FrontierSearch(costmap_client_.getCostmap(),
+6: -                                                 potential_scale_, gain_scale_,
+6: -                                                 orientation_scale_,
+6: -                                                 min_frontier_size, logger_);
+6: +  search_ = frontier_exploration::FrontierSearch(
+6: +    costmap_client_.getCostmap(),
+6: +    potential_scale_, gain_scale_,
+6: +    orientation_scale_,
+6: +    min_frontier_size, logger_);
+6: @@ -98,4 +100,5 @@
+6: -        this->create_publisher<visualization_msgs::msg::MarkerArray>("explore/"
+6: -                                                                     "frontier"
+6: -                                                                     "s",
+6: -                                                                     10);
+6: +      this->create_publisher<visualization_msgs::msg::MarkerArray>(
+6: +      "explore/"
+6: +      "frontier"
+6: +      "s",
+6: +      10);
+6: @@ -107 +110,3 @@
+6: -  status_pub_ = this->create_publisher<explore_lite_msgs::msg::ExploreStatus>("explore/status", status_qos);
+6: +  status_pub_ = this->create_publisher<explore_lite_msgs::msg::ExploreStatus>(
+6: +    "explore/status",
+6: +    status_qos);
+6: @@ -111,2 +116,2 @@
+6: -      "explore/resume", 10,
+6: -      std::bind(&Explore::resumeCallback, this, std::placeholders::_1));
+6: +    "explore/resume", 10,
+6: +    std::bind(&Explore::resumeCallback, this, std::placeholders::_1));
+6: @@ -124 +129 @@
+6: -          map_frame, robot_base_frame_, tf2::TimePointZero);
+6: +        map_frame, robot_base_frame_, tf2::TimePointZero);
+6: @@ -128,3 +133,4 @@
+6: -    } catch (tf2::TransformException& ex) {
+6: -      RCLCPP_ERROR(logger_, "Couldn't find transform from %s to %s: %s",
+6: -                   map_frame.c_str(), robot_base_frame_.c_str(), ex.what());
+6: +    } catch (tf2::TransformException & ex) {
+6: +      RCLCPP_ERROR(
+6: +        logger_, "Couldn't find transform from %s to %s: %s",
+6: +        map_frame.c_str(), robot_base_frame_.c_str(), ex.what());
+6: @@ -136,2 +142,2 @@
+6: -      std::chrono::milliseconds((uint16_t)(1000.0 / planner_frequency_)),
+6: -      [this]() { makePlan(); });
+6: +    std::chrono::milliseconds((uint16_t)(1000.0 / planner_frequency_)),
+6: +    [this]() {makePlan();});
+6: @@ -139 +145 @@
+6: -  auto status_msg = explore_lite_msgs::msg::ExploreStatus(); 
+6: +  auto status_msg = explore_lite_msgs::msg::ExploreStatus();
+6: @@ -141 +147 @@
+6: -  status_pub_->publish(status_msg);   
+6: +  status_pub_->publish(status_msg);
+6: @@ -160 +166 @@
+6: -    const std::vector<frontier_exploration::Frontier>& frontiers)
+6: +  const std::vector<frontier_exploration::Frontier> & frontiers)
+6: @@ -180 +186 @@
+6: -  std::vector<visualization_msgs::msg::Marker>& markers = markers_msg.markers;
+6: +  std::vector<visualization_msgs::msg::Marker> & markers = markers_msg.markers;
+6: @@ -210 +216 @@
+6: -  for (auto& frontier : frontiers) {
+6: +  for (auto & frontier : frontiers) {
+6: @@ -278,4 +284,5 @@
+6: -      std::find_if_not(frontiers.begin(), frontiers.end(),
+6: -                       [this](const frontier_exploration::Frontier& f) {
+6: -                         return goalOnBlacklist(f.centroid);
+6: -                       });
+6: +    std::find_if_not(
+6: +    frontiers.begin(), frontiers.end(),
+6: +    [this](const frontier_exploration::Frontier & f) {
+6: +      return goalOnBlacklist(f.centroid);
+6: +    });
+6: @@ -303 +310,2 @@
+6: -      tf2::durationFromSec(progress_timeout_)) && !resuming_) {
+6: +    tf2::durationFromSec(progress_timeout_)) && !resuming_)
+6: +  {
+6: @@ -324 +332,2 @@
+6: -  auto send_goal_options = rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();
+6: +  auto send_goal_options =
+6: +    rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();
+6: @@ -326,4 +335,4 @@
+6: -      [this,
+6: -       target_position](const NavigationGoalHandle::WrappedResult& result) {
+6: -        reachedGoal(result, target_position);
+6: -      };
+6: +    [this,
+6: +      target_position](const NavigationGoalHandle::WrappedResult & result) {
+6: +      reachedGoal(result, target_position);
+6: +    };
+6: @@ -342 +351 @@
+6: -  
+6: +
+6: @@ -350,10 +359,10 @@
+6: -      rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();
+6: -  send_goal_options.result_callback = 
+6: -      [this](const NavigationGoalHandle::WrappedResult& result) {
+6: -        if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {
+6: -          auto status_msg = explore_lite_msgs::msg::ExploreStatus();
+6: -          status_msg.status = explore_lite_msgs::msg::ExploreStatus::RETURNED_TO_ORIGIN;
+6: -          status_pub_->publish(status_msg);
+6: -          RCLCPP_INFO(logger_, "Successfully returned to initial pose.");
+6: -        }
+6: -      };
+6: +    rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SendGoalOptions();
+6: +  send_goal_options.result_callback =
+6: +    [this](const NavigationGoalHandle::WrappedResult & result) {
+6: +      if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {
+6: +        auto status_msg = explore_lite_msgs::msg::ExploreStatus();
+6: +        status_msg.status = explore_lite_msgs::msg::ExploreStatus::RETURNED_TO_ORIGIN;
+6: +        status_pub_->publish(status_msg);
+6: +        RCLCPP_INFO(logger_, "Successfully returned to initial pose.");
+6: +      }
+6: +    };
+6: @@ -362 +371 @@
+6: -bool Explore::goalOnBlacklist(const geometry_msgs::msg::Point& goal)
+6: +bool Explore::goalOnBlacklist(const geometry_msgs::msg::Point & goal)
+6: @@ -365 +374 @@
+6: -  nav2_costmap_2d::Costmap2D* costmap2d = costmap_client_.getCostmap();
+6: +  nav2_costmap_2d::Costmap2D * costmap2d = costmap_client_.getCostmap();
+6: @@ -368 +377 @@
+6: -  for (auto& frontier_goal : frontier_blacklist_) {
+6: +  for (auto & frontier_goal : frontier_blacklist_) {
+6: @@ -373 +382,2 @@
+6: -        y_diff < tolerace * costmap2d->getResolution())
+6: +      y_diff < tolerace * costmap2d->getResolution())
+6: +    {
+6: @@ -374,0 +385 @@
+6: +    }
+6: @@ -379,2 +390,3 @@
+6: -void Explore::reachedGoal(const NavigationGoalHandle::WrappedResult& result,
+6: -                          const geometry_msgs::msg::Point& frontier_goal)
+6: +void Explore::reachedGoal(
+6: +  const NavigationGoalHandle::WrappedResult & result,
+6: +  const geometry_msgs::msg::Point & frontier_goal)
+6: @@ -399 +411 @@
+6: -  
+6: +
+6: @@ -417 +429 @@
+6: -  
+6: +
+6: @@ -424 +436 @@
+6: -  
+6: +
+6: @@ -450 +462,3 @@
+6: -    RCLCPP_WARN(logger_, "Spin action server not available, skipping spin and finding next frontier.");
+6: +    RCLCPP_WARN(
+6: +      logger_,
+6: +      "Spin action server not available, skipping spin and finding next frontier.");
+6: @@ -460 +474 @@
+6: -  spin_goal.target_yaw = 6.28; 
+6: +  spin_goal.target_yaw = 6.28;
+6: @@ -463,2 +477,2 @@
+6: -      rclcpp_action::Client<nav2_msgs::action::Spin>::SendGoalOptions();
+6: -      
+6: +    rclcpp_action::Client<nav2_msgs::action::Spin>::SendGoalOptions();
+6: +
+6: @@ -467,11 +481,11 @@
+6: -      [this](const rclcpp_action::ClientGoalHandle<nav2_msgs::action::Spin>::WrappedResult& result) {
+6: -        if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {
+6: -          RCLCPP_INFO(logger_, "Spin complete. Finding next frontier.");
+6: -        } else {
+6: -          RCLCPP_WARN(logger_, "Spin failed or was canceled. Moving on.");
+6: -        }
+6: -
+6: -        exploring_timer_->reset();
+6: -        // Now that the spin is done, we finally look for the next frontier
+6: -        makePlan(); 
+6: -      };
+6: +    [this](const rclcpp_action::ClientGoalHandle<nav2_msgs::action::Spin>::WrappedResult & result) {
+6: +      if (result.code == rclcpp_action::ResultCode::SUCCEEDED) {
+6: +        RCLCPP_INFO(logger_, "Spin complete. Finding next frontier.");
+6: +      } else {
+6: +        RCLCPP_WARN(logger_, "Spin failed or was canceled. Moving on.");
+6: +      }
+6: +
+6: +      exploring_timer_->reset();
+6: +      // Now that the spin is done, we finally look for the next frontier
+6: +      makePlan();
+6: +    };
+6: @@ -485 +499 @@
+6: -int main(int argc, char** argv)
+6: +int main(int argc, char ** argv)
+6: @@ -495 +509 @@
+6: -      std::make_shared<explore::Explore>());  // std::move(std::make_unique)?
+6: +    std::make_shared<explore::Explore>());    // std::move(std::make_unique)?
+6: 
+6: Code style divergence in file 'src/frontier_search.cpp':
+6: 
+6: --- src/frontier_search.cpp
+6: +++ src/frontier_search.cpp.uncrustify
+6: @@ -17,5 +17,6 @@
+6: -FrontierSearch::FrontierSearch(nav2_costmap_2d::Costmap2D* costmap,
+6: -                               double potential_scale, double gain_scale,
+6: -                               double orientation_scale,
+6: -                               double min_frontier_size, rclcpp::Logger logger)
+6: -  : costmap_(costmap)
+6: +FrontierSearch::FrontierSearch(
+6: +  nav2_costmap_2d::Costmap2D * costmap,
+6: +  double potential_scale, double gain_scale,
+6: +  double orientation_scale,
+6: +  double min_frontier_size, rclcpp::Logger logger)
+6: +: costmap_(costmap)
+6: @@ -34 +35 @@
+6: -  robot_pose_ = pose; 
+6: +  robot_pose_ = pose;
+6: @@ -42 +43,3 @@
+6: -    RCLCPP_ERROR(logger_, "[FrontierSearch] Robot out of costmap bounds, cannot search for frontiers");
+6: +    RCLCPP_ERROR(
+6: +      logger_,
+6: +      "[FrontierSearch] Robot out of costmap bounds, cannot search for frontiers");
+6: @@ -48 +51 @@
+6: -      *(costmap_->getMutex()));
+6: +    *(costmap_->getMutex()));
+6: @@ -88 +91,2 @@
+6: -            min_frontier_size_) {
+6: +          min_frontier_size_)
+6: +        {
+6: @@ -96 +100 @@
+6: -  for (auto& frontier : frontier_list) {
+6: +  for (auto & frontier : frontier_list) {
+6: @@ -100,2 +104,2 @@
+6: -      frontier_list.begin(), frontier_list.end(),
+6: -      [](const Frontier& f1, const Frontier& f2) { return f1.cost < f2.cost; });
+6: +    frontier_list.begin(), frontier_list.end(),
+6: +    [](const Frontier & f1, const Frontier & f2) {return f1.cost < f2.cost;});
+6: @@ -106,3 +110,4 @@
+6: -Frontier FrontierSearch::buildNewFrontier(unsigned int initial_cell,
+6: -                                          unsigned int reference,
+6: -                                          std::vector<bool>& frontier_flag)
+6: +Frontier FrontierSearch::buildNewFrontier(
+6: +  unsigned int initial_cell,
+6: +  unsigned int reference,
+6: +  std::vector<bool> & frontier_flag)
+6: @@ -161,2 +166,3 @@
+6: -        double distance = sqrt(pow((double(reference_x) - double(wx)), 2.0) +
+6: -                               pow((double(reference_y) - double(wy)), 2.0));
+6: +        double distance = sqrt(
+6: +          pow((double(reference_x) - double(wx)), 2.0) +
+6: +          pow((double(reference_y) - double(wy)), 2.0));
+6: @@ -181,2 +187,3 @@
+6: -bool FrontierSearch::isNewFrontierCell(unsigned int idx,
+6: -                                       const std::vector<bool>& frontier_flag)
+6: +bool FrontierSearch::isNewFrontierCell(
+6: +  unsigned int idx,
+6: +  const std::vector<bool> & frontier_flag)
+6: @@ -200 +207 @@
+6: -double FrontierSearch::frontierCost(const Frontier& frontier)
+6: +double FrontierSearch::frontierCost(const Frontier & frontier)
+6: @@ -212 +219 @@
+6: -  
+6: +
+6: @@ -214,3 +221,4 @@
+6: -  double target_yaw = std::atan2(frontier.centroid.y - robot_pose_.position.y,
+6: -                                 frontier.centroid.x - robot_pose_.position.x);
+6: -  
+6: +  double target_yaw = std::atan2(
+6: +    frontier.centroid.y - robot_pose_.position.y,
+6: +    frontier.centroid.x - robot_pose_.position.x);
+6: +
+6: @@ -219,3 +227,3 @@
+6: -  while (angle_diff > M_PI) angle_diff -= 2.0 * M_PI;
+6: -  while (angle_diff < -M_PI) angle_diff += 2.0 * M_PI;
+6: -  
+6: +  while (angle_diff > M_PI) {angle_diff -= 2.0 * M_PI;}
+6: +  while (angle_diff < -M_PI) {angle_diff += 2.0 * M_PI;}
+6: +
+6: @@ -226,3 +234,3 @@
+6: -  double utility = (potential_scale_ * C_d) + 
+6: -                   (gain_scale_ * C_i) + 
+6: -                   (orientation_scale_ * C_h);
+6: +  double utility = (potential_scale_ * C_d) +
+6: +    (gain_scale_ * C_i) +
+6: +    (orientation_scale_ * C_h);
+6: 
+6: Code style divergence in file 'test/test_explore.cpp':
+6: 
+6: --- test/test_explore.cpp
+6: +++ test/test_explore.cpp.uncrustify
+6: @@ -43,2 +43,3 @@
+6: -inline static bool same_point(const geometry_msgs::msg::Point& one,
+6: -                              const geometry_msgs::msg::Point& two)
+6: +inline static bool same_point(
+6: +  const geometry_msgs::msg::Point & one,
+6: +  const geometry_msgs::msg::Point & two)
+6: @@ -54,6 +55,6 @@
+6: -    geometry_msgs::msg::Point goal1;
+6: -    geometry_msgs::msg::Point goal2;
+6: -    // Populate the goal with known values
+6: -    goal1.x = 1.0;
+6: -    goal1.y = 2.0;
+6: -    goal1.z = 3.0;
+6: +  geometry_msgs::msg::Point goal1;
+6: +  geometry_msgs::msg::Point goal2;
+6: +  // Populate the goal with known values
+6: +  goal1.x = 1.0;
+6: +  goal1.y = 2.0;
+6: +  goal1.z = 3.0;
+6: @@ -61,10 +62,10 @@
+6: -    goal2.x = 0.0;
+6: -    goal2.y = 0.0;
+6: -    goal2.z = 0.0;
+6: -    auto same_goal = same_point(goal1, goal2);
+6: -    EXPECT_FALSE(same_goal);
+6: -    goal2.x = goal1.x;
+6: -    goal2.y = goal1.y;
+6: -    goal2.z = goal1.z;
+6: -    same_goal = same_point(goal1, goal2);
+6: -    EXPECT_TRUE(same_goal);
+6: +  goal2.x = 0.0;
+6: +  goal2.y = 0.0;
+6: +  goal2.z = 0.0;
+6: +  auto same_goal = same_point(goal1, goal2);
+6: +  EXPECT_FALSE(same_goal);
+6: +  goal2.x = goal1.x;
+6: +  goal2.y = goal1.y;
+6: +  goal2.z = goal1.z;
+6: +  same_goal = same_point(goal1, goal2);
+6: +  EXPECT_TRUE(same_goal);
+6: @@ -73 +74 @@
+6: -int main(int argc, char** argv)
+6: +int main(int argc, char ** argv)
+6: 
+6: 8 files with code style divergence
+6: -- run_test.py: return code 1
+6: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/uncrustify.xunit.xml'
+6/7 Test #6: uncrustify .......................***Failed    0.37 sec
+test 7
+    Start 7: xmllint
+
+7: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml" "--package-name" "explore_lite" "--output-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml"
+7: Test timeout computed to be: 60
+7: -- run_test.py: invoking following command in '/home/notch/turtlebot3_ws/src/m-explore-ros2/explore':
+7:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml
+7: File 'package.xml' is valid
+7: 
+7: No problems found
+7: -- run_test.py: return code 0
+7: -- run_test.py: verify result file '/home/notch/turtlebot3_ws/src/m-explore-ros2/build/explore_lite/test_results/explore_lite/xmllint.xunit.xml'
+7/7 Test #7: xmllint ..........................   Passed    0.84 sec
+
+86% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 7
+
+Label Time Summary:
+cppcheck      =   0.29 sec*proc (1 test)
+flake8        =   0.40 sec*proc (1 test)
+gtest         =   0.12 sec*proc (1 test)
+lint_cmake    =   0.24 sec*proc (1 test)
+linter        =   2.45 sec*proc (6 tests)
+pep257        =   0.31 sec*proc (1 test)
+uncrustify    =   0.37 sec*proc (1 test)
+xmllint       =   0.84 sec*proc (1 test)
+
+Total Test time (real) =   2.57 sec
+
+The following tests FAILED:
+	[0;31m  6 - uncrustify (Failed)[0;0m
